@@ -7,7 +7,6 @@ viewport:
 - width=device-width, initial-scale=1
 - width=device-width, initial-scale=1
 ---
-
 ::: {#pst-skip-link .skip-link .d-print-none}
 [Skip to main content](#main-content)
 :::
@@ -48,109 +47,110 @@ Back to top
 
 ::: sidebar-primary-item
 ::: {.bd-toc-item .navbar-nav .active}
--   [Preface](../intro/pref.html){.reference .internal}
+
+- [Preface](../intro/pref.html){.reference .internal}
 
 [Getting started]{.caption-text}
 
--   [1. Introduction](../intro/intro.html){.reference .internal}
--   [2. Purpose of operating systems](../intro/purpose.html){.reference .internal}
--   [3. Operating System Structure & Unix/Linux](../intro/structure.html){.reference .internal}
--   [4. Operating System Abstractions](../intro/abstractions.html){.reference .internal}
--   [5. What you should know](../intro/tools.html){.reference .internal}
-    []{.toctree-toggle role="presentation"}
-    -   [5.1. The C Programming Language](../intro/tools-c.html){.reference .internal}
-    -   [5.2. Shell](../intro/tools-shell.html){.reference .internal}
-    -   [5.3. Editors](../intro/tools-editors.html){.reference .internal}
-    -   [5.4. Make](../intro/tools-make.html){.reference .internal}
-    -   [5.5. Testing](../intro/tools-testing.html){.reference .internal}
-    -   [5.6. Git Basics](../intro/tools-git.html){.reference .internal}
-    -   [5.7. GDB](../intro/tools-gdb.html){.reference .internal}
+- [1. Introduction](../intro/intro.html){.reference .internal}
+- [2. Purpose of operating systems](../intro/purpose.html){.reference .internal}
+- [3. Operating System Structure & Unix/Linux](../intro/structure.html){.reference .internal}
+- [4. Operating System Abstractions](../intro/abstractions.html){.reference .internal}
+- [5. What you should know](../intro/tools.html){.reference .internal}
+  []{.toctree-toggle role="presentation"}
+  - [5.1. The C Programming Language](../intro/tools-c.html){.reference .internal}
+  - [5.2. Shell](../intro/tools-shell.html){.reference .internal}
+  - [5.3. Editors](../intro/tools-editors.html){.reference .internal}
+  - [5.4. Make](../intro/tools-make.html){.reference .internal}
+  - [5.5. Testing](../intro/tools-testing.html){.reference .internal}
+  - [5.6. Git Basics](../intro/tools-git.html){.reference .internal}
+  - [5.7. GDB](../intro/tools-gdb.html){.reference .internal}
 
 [Virtual Processor]{.caption-text}
 
--   [6. Introduction](../scheduling/intro.html){.reference .internal}
--   [7. The Process: A virtual Computer](../scheduling/process.html){.reference .internal}
--   [8. Virtualizing the CPU](../scheduling/virtual.html){.reference .internal}
--   [9. The Thread: A Virtual CPU](../scheduling/threads.html){.reference .internal}
--   [10. Scheduling](../scheduling/scheduling.html){.reference .internal}
-    []{.toctree-toggle role="presentation"}
-    -   [10.1. Scheduling Goals](../scheduling/sch-goals.html){.reference .internal}
-    -   [10.2. Simple Examples of Scheduling Policies](../scheduling/sch-simple.html){.reference .internal}
-    -   [10.3. Scheduling with Priorities](../scheduling/sch-prio.html){.reference .internal}
-    -   [10.4. Scheduling in the real world](../scheduling/sch-real.html){.reference .internal}
--   [11. Review Questions](../scheduling/review.html){.reference .internal}
+- [6. Introduction](../scheduling/intro.html){.reference .internal}
+- [7. The Process: A virtual Computer](../scheduling/process.html){.reference .internal}
+- [8. Virtualizing the CPU](../scheduling/virtual.html){.reference .internal}
+- [9. The Thread: A Virtual CPU](../scheduling/threads.html){.reference .internal}
+- [10. Scheduling](../scheduling/scheduling.html){.reference .internal}
+  []{.toctree-toggle role="presentation"}
+  - [10.1. Scheduling Goals](../scheduling/sch-goals.html){.reference .internal}
+  - [10.2. Simple Examples of Scheduling Policies](../scheduling/sch-simple.html){.reference .internal}
+  - [10.3. Scheduling with Priorities](../scheduling/sch-prio.html){.reference .internal}
+  - [10.4. Scheduling in the real world](../scheduling/sch-real.html){.reference .internal}
+- [11. Review Questions](../scheduling/review.html){.reference .internal}
 
 [Virtual Memory]{.caption-text}
 
--   [12. Introduction](../mm/intro.html){.reference .internal}
--   [13. Memory management before paged virtual memory](../mm/phys-and-seg.html){.reference .internal}
--   [14. Paged Virtual memory](../mm/pagvm.html){.reference .internal}
-    []{.toctree-toggle role="presentation"}
-    -   [14.1. Abstracting a useful interface for memory management.](../mm/vmabs.html){.reference .internal}
-    -   [14.2. Paging](../mm/virt-paging.html){.reference .internal}
-    -   [14.3. Page Tables](../mm/page-tables.html){.reference .internal}
-    -   [14.4. Memory reclaiming algorithms.](../mm/reclamation.html){.reference .internal}
-    -   [14.5. Page Sizes](../mm/page-size.html){.reference .internal}
-    -   [14.6. Memory Management Page Faults](../mm/pagefaults.html){.reference .internal}
--   [15. Buffer Cache](../mm/buffer-cache.html){.reference .internal}
--   [16. Memory management in the real world](../mm/realworld.html){.reference .internal}
--   [17. Conclusion](../mm/concl.html){.reference .internal}
--   [18. Review](../mm/review.html){.reference .internal}
+- [12. Introduction](../mm/intro.html){.reference .internal}
+- [13. Memory management before paged virtual memory](../mm/phys-and-seg.html){.reference .internal}
+- [14. Paged Virtual memory](../mm/pagvm.html){.reference .internal}
+  []{.toctree-toggle role="presentation"}
+  - [14.1. Abstracting a useful interface for memory management.](../mm/vmabs.html){.reference .internal}
+  - [14.2. Paging](../mm/virt-paging.html){.reference .internal}
+  - [14.3. Page Tables](../mm/page-tables.html){.reference .internal}
+  - [14.4. Memory reclaiming algorithms.](../mm/reclamation.html){.reference .internal}
+  - [14.5. Page Sizes](../mm/page-size.html){.reference .internal}
+  - [14.6. Memory Management Page Faults](../mm/pagefaults.html){.reference .internal}
+- [15. Buffer Cache](../mm/buffer-cache.html){.reference .internal}
+- [16. Memory management in the real world](../mm/realworld.html){.reference .internal}
+- [17. Conclusion](../mm/concl.html){.reference .internal}
+- [18. Review](../mm/review.html){.reference .internal}
 
 [File Systems]{.caption-text}
 
--   [19. Introduction](../fs/intro.html){.reference .internal}
--   [20. File System Abstraction](../fs/interface.html){.reference .internal}
--   [21. A bit about Disks](../fs/diskhw.html){.reference .internal}
--   [22. Implementation](../fs/impl.html){.reference .internal}
-    []{.toctree-toggle role="presentation"}
-    -   [22.1. File System Layout](../fs/disklayout.html){.reference .internal}
-    -   [22.2. Disk Layout:Tracking Used Space](../fs/dl_track_used.html){.reference .internal}
-    -   [22.3. Disk Layout:Tracking Free Space](../fs/dl_track_free.html){.reference .internal}
-    -   [22.4. Disk Layout:Implementing Name Space](../fs/dl_name.html){.reference .internal}
-    -   [22.5. Disk Layout:Dealing with Failures](../fs/dl_failures.html){.reference .internal}
-    -   [22.6. Disk Layout:Examples of Real World File Systems](../fs/dl_ex_exx.html){.reference .internal}
-    -   [22.7. Kernel implementation](../fs/kernelimp.html){.reference .internal}
--   [23. Review](../fs/review.html){.reference .internal}
+- [19. Introduction](../fs/intro.html){.reference .internal}
+- [20. File System Abstraction](../fs/interface.html){.reference .internal}
+- [21. A bit about Disks](../fs/diskhw.html){.reference .internal}
+- [22. Implementation](../fs/impl.html){.reference .internal}
+  []{.toctree-toggle role="presentation"}
+  - [22.1. File System Layout](../fs/disklayout.html){.reference .internal}
+  - [22.2. Disk Layout:Tracking Used Space](../fs/dl_track_used.html){.reference .internal}
+  - [22.3. Disk Layout:Tracking Free Space](../fs/dl_track_free.html){.reference .internal}
+  - [22.4. Disk Layout:Implementing Name Space](../fs/dl_name.html){.reference .internal}
+  - [22.5. Disk Layout:Dealing with Failures](../fs/dl_failures.html){.reference .internal}
+  - [22.6. Disk Layout:Examples of Real World File Systems](../fs/dl_ex_exx.html){.reference .internal}
+  - [22.7. Kernel implementation](../fs/kernelimp.html){.reference .internal}
+- [23. Review](../fs/review.html){.reference .internal}
 
 [Concurrency]{.caption-text}
 
--   [24. Introduction](sync.html){.reference .internal}
--   [25. Basic Synchronization](basic.html){.reference .internal}
-    []{.toctree-toggle role="presentation"}
-    -   [25.1. Cooperating Processes and Inter-process Communication](sharing.html){.reference .internal}
-    -   [25.2. The Critical Section Problem](criticalsection.html){.reference .internal}
-    -   [25.3. Implementing Locks](locks.html){.reference .internal}
-    -   [25.4. Ordering Thread Events](ordering.html){.reference .internal}
--   [26. Common Concurrency Bugs](#){.current .reference .internal}
--   [27. Advanced Synchronization](advanced.html){.reference .internal}
-    []{.toctree-toggle role="presentation"}
-    -   [27.1. Read-Dominated Workloads](readmostly.html){.reference .internal}
-    -   [27.2. Challenges of Modern Hardware](hardware_challenges.html){.reference .internal}
-    -   [27.3. Locking in the Linux Kernel](linux_locking.html){.reference .internal}
--   [28. Review](review.html){.reference .internal}
+- [24. Introduction](sync.html){.reference .internal}
+- [25. Basic Synchronization](basic.html){.reference .internal}
+  []{.toctree-toggle role="presentation"}
+  - [25.1. Cooperating Processes and Inter-process Communication](sharing.html){.reference .internal}
+  - [25.2. The Critical Section Problem](criticalsection.html){.reference .internal}
+  - [25.3. Implementing Locks](locks.html){.reference .internal}
+  - [25.4. Ordering Thread Events](ordering.html){.reference .internal}
+- [26. Common Concurrency Bugs](#){.current .reference .internal}
+- [27. Advanced Synchronization](advanced.html){.reference .internal}
+  []{.toctree-toggle role="presentation"}
+  - [27.1. Read-Dominated Workloads](readmostly.html){.reference .internal}
+  - [27.2. Challenges of Modern Hardware](hardware_challenges.html){.reference .internal}
+  - [27.3. Locking in the Linux Kernel](linux_locking.html){.reference .internal}
+- [28. Review](review.html){.reference .internal}
 
 [Other Topics]{.caption-text}
 
--   [29. Input and Output](../devices/devices.html){.reference .internal}
--   [30. More on Disks](../devices/disk2.html){.reference .internal}
--   [31. Virtualization](../virt/virt.html){.reference .internal}
--   [32. Security](../sec/sec.html){.reference .internal}
+- [29. Input and Output](../devices/devices.html){.reference .internal}
+- [30. More on Disks](../devices/disk2.html){.reference .internal}
+- [31. Virtualization](../virt/virt.html){.reference .internal}
+- [32. Security](../sec/sec.html){.reference .internal}
 
 [Appendices]{.caption-text}
 
--   [33. How to read this book](../misc/howto.html){.reference .internal}
--   [34. Contributing](../contributing/intro.html){.reference .internal}
-    []{.toctree-toggle role="presentation"}
-    -   [34.1. Examples](../contributing/examples.html){.reference .internal}
-    -   [34.2. Contributors](../contributing/credit.html){.reference .internal}
-    -   [34.3. Contributing](../contributing/Contributing.html){.reference .internal}
-    -   [34.6. Resources to look at](../contributing/resources.html){.reference .internal}
-    -   [34.7. Out of date](../contributing/fix.html){.reference .internal}
--   [35. Bibliography](../misc/bib.html){.reference .internal}
-:::
-:::
-:::
+- [33. How to read this book](../misc/howto.html){.reference .internal}
+- [34. Contributing](../contributing/intro.html){.reference .internal}
+  []{.toctree-toggle role="presentation"}
+  - [34.1. Examples](../contributing/examples.html){.reference .internal}
+  - [34.2. Contributors](../contributing/credit.html){.reference .internal}
+  - [34.3. Contributing](../contributing/Contributing.html){.reference .internal}
+  - [34.6. Resources to look at](../contributing/resources.html){.reference .internal}
+  - [34.7. Out of date](../contributing/fix.html){.reference .internal}
+- [35. Bibliography](../misc/bib.html){.reference .internal}
+  :::
+  :::
+  :::
 
 ::: {.sidebar-primary-items__end .sidebar-primary__section}
 :::
@@ -178,21 +178,22 @@ Back to top
 ::: article-header-buttons
 ::: {.dropdown .dropdown-launch-buttons}
 
--   [[ ![JupyterHub logo](../_static/images/logo_jupyterhub.svg) ]{.btn__icon-container} [JupyterHub]{.btn__text-container}](https://jupyterhub-opf-jupyterhub.apps.smaug.na.operate-first.cloud/hub/user-redirect/git-pull?repo=https%3A//github.com/OpenOSOrg/openos&urlpath=lab/tree/openos/content/sync/concurrency_bugs.ipynb&branch=main "Launch on JupyterHub"){.btn .btn-sm .dropdown-item target="_blank" bs-placement="left" bs-toggle="tooltip"}
-:::
+- [[ ![JupyterHub logo](../_static/images/logo_jupyterhub.svg) ]{.btn__icon-container} [JupyterHub]{.btn__text-container}](https://jupyterhub-opf-jupyterhub.apps.smaug.na.operate-first.cloud/hub/user-redirect/git-pull?repo=https%3A//github.com/OpenOSOrg/openos&urlpath=lab/tree/openos/content/sync/concurrency_bugs.ipynb&branch=main "Launch on JupyterHub"){.btn .btn-sm .dropdown-item target="_blank" bs-placement="left" bs-toggle="tooltip"}
+  :::
 
 ::: {.dropdown .dropdown-source-buttons}
 
--   [[ ]{.btn__icon-container} [Repository]{.btn__text-container}](https://github.com/OpenOSOrg/openos "Source repository"){.btn .btn-sm .btn-source-repository-button .dropdown-item target="_blank" bs-placement="left" bs-toggle="tooltip"}
--   [[ ]{.btn__icon-container} [Suggest edit]{.btn__text-container}](https://github.com/OpenOSOrg/openos/edit/main/content/sync/concurrency_bugs.ipynb "Suggest edit"){.btn .btn-sm .btn-source-edit-button .dropdown-item target="_blank" bs-placement="left" bs-toggle="tooltip"}
--   [[ ]{.btn__icon-container} [Open issue]{.btn__text-container}](https://github.com/OpenOSOrg/openos/issues/new?title=Issue%20on%20page%20%2Fsync/concurrency_bugs.html&body=Your%20issue%20content%20here. "Open an issue"){.btn .btn-sm .btn-source-issues-button .dropdown-item target="_blank" bs-placement="left" bs-toggle="tooltip"}
-:::
+- [[ ]{.btn__icon-container} [Repository]{.btn__text-container}](https://github.com/OpenOSOrg/openos "Source repository"){.btn .btn-sm .btn-source-repository-button .dropdown-item target="_blank" bs-placement="left" bs-toggle="tooltip"}
+- [[ ]{.btn__icon-container} [Suggest edit]{.btn__text-container}](https://github.com/OpenOSOrg/openos/edit/main/content/sync/concurrency_bugs.ipynb "Suggest edit"){.btn .btn-sm .btn-source-edit-button .dropdown-item target="_blank" bs-placement="left" bs-toggle="tooltip"}
+- [[ ]{.btn__icon-container} [Open issue]{.btn__text-container}](https://github.com/OpenOSOrg/openos/issues/new?title=Issue%20on%20page%20%2Fsync/concurrency_bugs.html&body=Your%20issue%20content%20here. "Open an issue"){.btn .btn-sm .btn-source-issues-button .dropdown-item target="_blank" bs-placement="left" bs-toggle="tooltip"}
+  :::
 
 ::: {.dropdown .dropdown-download-buttons}
 
--   [[ ]{.btn__icon-container} [.ipynb]{.btn__text-container}](../_sources/sync/concurrency_bugs.ipynb "Download source file"){.btn .btn-sm .btn-download-source-button .dropdown-item target="_blank" bs-placement="left" bs-toggle="tooltip"}
--   [ ]{.btn__icon-container} [.pdf]{.btn__text-container}
-:::
+- [[ ]{.btn__icon-container} [.ipynb]{.btn__text-container}](../_sources/sync/concurrency_bugs.ipynb "Download source file"){.btn .btn-sm .btn-download-source-button .dropdown-item target="_blank" bs-placement="left" bs-toggle="tooltip"}
+
+-  [ ]{.btn__icon-container} [.pdf]{.btn__text-container}
+  :::
 
 [ ]{.btn__icon-container}
 
@@ -204,31 +205,33 @@ Back to top
 :::
 
 ::: {#jb-print-docs-body .onlyprint}
+
 # Common Concurrency Bugs
 
 ::: {#print-main-content}
 ::: {#jb-print-toc}
+
 <div>
 
 ## Contents
 
 </div>
 
--   [26.1. Atomicity Violations](#atomicity-violations){.reference .internal .nav-link}
--   [26.2. Order Violations](#order-violations){.reference .internal .nav-link}
--   [26.3. Deadlocks](#deadlocks){.reference .internal .nav-link}
-    -   [26.3.1. What is a resource?](#what-is-a-resource){.reference .internal .nav-link}
-    -   [26.3.2. Visualizing and Modeling Deadlocks](#visualizing-and-modeling-deadlocks){.reference .internal .nav-link}
-    -   [26.3.3. The Four Conditions for Deadlock](#the-four-conditions-for-deadlock){.reference .internal .nav-link}
-    -   [26.3.4. Breaking Mutual Exclusion](#breaking-mutual-exclusion){.reference .internal .nav-link}
-    -   [26.3.5. Breaking Hold-and-Wait](#breaking-hold-and-wait){.reference .internal .nav-link}
-    -   [26.3.6. Allowing Preemption (breaking the no preemption condition)](#allowing-preemption-breaking-the-no-preemption-condition){.reference .internal .nav-link}
-    -   [26.3.7. Breaking Circular Wait](#breaking-circular-wait){.reference .internal .nav-link}
-    -   [26.3.8. Reality Check](#reality-check){.reference .internal .nav-link}
--   [26.4. Livelock, Starvation and Other Bugs](#livelock-starvation-and-other-bugs){.reference .internal .nav-link}
-:::
-:::
-:::
+- [26.1. Atomicity Violations](#atomicity-violations){.reference .internal .nav-link}
+- [26.2. Order Violations](#order-violations){.reference .internal .nav-link}
+- [26.3. Deadlocks](#deadlocks){.reference .internal .nav-link}
+  - [26.3.1. What is a resource?](#what-is-a-resource){.reference .internal .nav-link}
+  - [26.3.2. Visualizing and Modeling Deadlocks](#visualizing-and-modeling-deadlocks){.reference .internal .nav-link}
+  - [26.3.3. The Four Conditions for Deadlock](#the-four-conditions-for-deadlock){.reference .internal .nav-link}
+  - [26.3.4. Breaking Mutual Exclusion](#breaking-mutual-exclusion){.reference .internal .nav-link}
+  - [26.3.5. Breaking Hold-and-Wait](#breaking-hold-and-wait){.reference .internal .nav-link}
+  - [26.3.6. Allowing Preemption (breaking the no preemption condition)](#allowing-preemption-breaking-the-no-preemption-condition){.reference .internal .nav-link}
+  - [26.3.7. Breaking Circular Wait](#breaking-circular-wait){.reference .internal .nav-link}
+  - [26.3.8. Reality Check](#reality-check){.reference .internal .nav-link}
+- [26.4. Livelock, Starvation and Other Bugs](#livelock-starvation-and-other-bugs){.reference .internal .nav-link}
+  :::
+  :::
+  :::
 
 ::: {#searchbox}
 :::
@@ -239,27 +242,30 @@ Back to top
 ::: {#common-concurrency-bugs .section .tex2jax_ignore .mathjax_ignore}
 []{#cont-sync-concurrency-bugs}
 
-# [26. ]{.section-number}Common Concurrency Bugs[\#](#common-concurrency-bugs "Link to this heading"){.headerlink}
+# [26. ] {.section-number}Common Concurrency Bugs[\#](#common-concurrency-bugs "Link to this heading") {.headerlink}
 
 In the previous chapters, we have already seen some examples of how things can go wrong without correct synchronization. In this chapter, we examine the three most common types of concurrency bugs: *atomicity violations*, *order violations*, and *deadlocks*. We will also briefly discuss other, less common, concurrency bugs. We will focus on deadlocks, since we have already seen the tools needed to address the other two main types of bugs.
 
 Our bug classifications, and real-world examples, are drawn from Lu et al.'s 2008 study of concurrency bugs [\[[LPSZ08](../misc/bib.html#id10 "Shan Lu, Soyeon Park, Eunsoo Seo, and Yuanyuan Zhou. Learning from mistakes: a comprehensive study on real world concurrency bug characteristics. In Proceedings of the 13th International Conference on Architectural Support for Programming Languages and Operating Systems, ASPLOS XIII, 329–339. New York, NY, USA, 2008. Association for Computing Machinery. URL: https://doi.org/10.1145/1346281.1346323, doi:10.1145/1346281.1346323."){.reference .internal}\]]{#id1}, which examined 105 randomly selected concurrency bugs drawn from the bug databases of four open-source applications (MySQL, Apache, Mozilla, and OpenOffice). In [[Table 26.1]{.std .std-numref}](#table-sync-bugs-breakdown){.reference .internal}, we break down these bugs by category.
 
 ::: pst-scrollable-table-container
-  Bug Category          Bug Count
-  --------------------- -----------
-  Deadlock              31
-  Atomicity Violation   51
-  Order Violation       24
-  Other                 2
+Bug Category          Bug Count
 
-  : [Table 26.1 ]{.caption-number}[Concurrency Bug Breakdown (3 bugs are counted as both atomicity violation and order violation)]{.caption-text}[\#](#table-sync-bugs-breakdown "Link to this table"){.headerlink}
+---
+
+Deadlock              31
+Atomicity Violation   51
+Order Violation       24
+Other                 2
+
+: [Table 26.1 ]{.caption-number}[Concurrency Bug Breakdown (3 bugs are counted as both atomicity violation and order violation)]{.caption-text}[\#](#table-sync-bugs-breakdown "Link to this table"){.headerlink}
 :::
 
 One key takeaway from this study is that concurrent programming is *hard*---even mature, widely used projects have concurrency bugs. Developing tools to help detect, diagnose, and correct these concurrency bugs is an active area of research, but so far, there is no silver bullet.
 
 ::: {#atomicity-violations .section}
-## [26.1. ]{.section-number}Atomicity Violations[\#](#atomicity-violations "Link to this heading"){.headerlink}
+
+## [26.1. ] {.section-number}Atomicity Violations[\#](#atomicity-violations "Link to this heading") {.headerlink}
 
 > <div>
 >
@@ -279,7 +285,8 @@ When writing concurrent code, always think adversarially. Is your code guarantee
 :::
 
 ::: {#order-violations .section}
-## [26.2. ]{.section-number}Order Violations[\#](#order-violations "Link to this heading"){.headerlink}
+
+## [26.2. ] {.section-number}Order Violations[\#](#order-violations "Link to this heading") {.headerlink}
 
 > <div>
 >
@@ -297,7 +304,8 @@ The fix for this bug is simply to enforce some ordering, so that Thread 2 has to
 :::
 
 ::: {#deadlocks .section}
-## [26.3. ]{.section-number}Deadlocks[\#](#deadlocks "Link to this heading"){.headerlink}
+
+## [26.3. ] {.section-number}Deadlocks[\#](#deadlocks "Link to this heading") {.headerlink}
 
 > <div>
 >
@@ -329,9 +337,8 @@ Another real-world example of deadlock comes from the [Massachusetts Driver's Ma
 >
 > At an intersection with stop signs in all directions, you must yield the right-of-way to...
 >
-> -   Another vehicle that has already come to a full stop
->
-> -   A vehicle directly to your right that has stopped at the same time as you
+> - Another vehicle that has already come to a full stop
+> - A vehicle directly to your right that has stopped at the same time as you
 >
 > </div>
 
@@ -342,7 +349,8 @@ As illustrated in [[Fig. 26.5]{.std .std-numref}](#fig-sync-bugs-four-way-stop){
 Since this is an operating systems book, our focus is on deadlocks that arise in the concurrent execution of computer programs. We will use the term `thread`{.docutils .literal .notranslate} to refer to the concurrent execution contexts, although the same issues arise when processes share resources.
 
 ::: {#what-is-a-resource .section}
-### [26.3.1. ]{.section-number}What is a resource?[\#](#what-is-a-resource "Link to this heading"){.headerlink}
+
+### [26.3.1. ] {.section-number}What is a resource?[\#](#what-is-a-resource "Link to this heading") {.headerlink}
 
 In discussing deadlocks, we often talk about *resources* that are shared by multiple threads or processes in a computer system. In general, a resource is any object that is needed by a thread to do its work. Some resources may be physical objects, like a printer or a network card, while others are logical objects, like a counter variable, a scheduler queue, or a data structure representing a bank account record in a database. In fact, even the physical resources will be represented and managed by the computer system using some data structure. And, when we have a shared data object, we usually need to associate a lock with it to protect against unwanted interference. So, when we talk about resource deadlocks, we are often talking about the lock that protects that resource from concurrent access. When we say that a thread (or process) has been allocated (equivalently, assigned or granted) a resource, we often mean that the thread has acquired the lock protecting that resource, and is now permitted to use the resource.
 
@@ -355,30 +363,31 @@ We often find situations where threads need to acquire multiple resources protec
 
 ::: {.highlight-c .notranslate}
 ::: highlight
-     1typedef struct account_s {
-     2    int acct_num;
-     3    money_t balance;
-     4    pthread_mutex_lock acct_lock;
-     5} account_t;
-     6 
-     7void transfer(account_t *src_acct, account_t *dest_acct, money_t amount)
-     8{
-     9    pthread_mutex_lock(&src_acct->acct_lock);
-    10    pthread_mutex_lock(&dest_acct->acct_lock);
-    11
-    12    src_acct->balance -= amount;
-    13    dest_acct->balance += amount;
-    14
-    15    pthread_mutex_unlock(&dest_acct->acct_lock);
-    16    pthread_mutex_unlock(&src_acct->acct_lock);
-    17}
+1typedef struct account_s {
+2    int acct_num;
+3    money_t balance;
+4    pthread_mutex_lock acct_lock;
+5} account_t;
+6
+7void transfer(account_t *src_acct, account_t *dest_acct, money_t amount)
+8{
+9    pthread_mutex_lock(&src_acct->acct_lock);
+10    pthread_mutex_lock(&dest_acct->acct_lock);
+11
+12    src_acct->balance -= amount;
+13    dest_acct->balance += amount;
+14
+15    pthread_mutex_unlock(&dest_acct->acct_lock);
+16    pthread_mutex_unlock(&src_acct->acct_lock);
+17}
 :::
 :::
 :::
 :::
 
 ::: {#visualizing-and-modeling-deadlocks .section}
-### [26.3.2. ]{.section-number}Visualizing and Modeling Deadlocks[\#](#visualizing-and-modeling-deadlocks "Link to this heading"){.headerlink}
+
+### [26.3.2. ] {.section-number}Visualizing and Modeling Deadlocks[\#](#visualizing-and-modeling-deadlocks "Link to this heading") {.headerlink}
 
 To visualize resource deadlocks, we adopt the directed bipartite graph model introduced by Holt [\[[Hol72](../misc/bib.html#id12 "Richard C. Holt. Some deadlock properties of computer systems. ACM Comput. Surv., 4(3):179–196, sep 1972. URL: https://doi.org/10.1145/356603.356607, doi:10.1145/356603.356607."){.reference .internal}\]]{#id4}, in which threads and resources are represented by nodes, resource allocations are represented by a directed edge from the resource node to the thread node that has been granted exclusive use of that resource, and resource requests are represented by a directed edge from a thread node to the resource node that it is requesting. (We will only deal with the case where there is a single instance of each type of resource.) When drawing such a resource graph, we depict thread nodes using circles, and resource nodes using squares.
 
@@ -390,7 +399,8 @@ Returning to our bank transfer example, the situation in [[Fig. 26.6]{.std .std-
 :::
 
 ::: {#the-four-conditions-for-deadlock .section}
-### [26.3.3. ]{.section-number}The Four Conditions for Deadlock[\#](#the-four-conditions-for-deadlock "Link to this heading"){.headerlink}
+
+### [26.3.3. ] {.section-number}The Four Conditions for Deadlock[\#](#the-four-conditions-for-deadlock "Link to this heading") {.headerlink}
 
 Deadlocks in concurrent software systems were described by Djikstra [\[[Dij65](../misc/bib.html#id5){.reference .internal}\]]{#id5}, who called them "the deadly embrace". A few years later, Coffman et al. laid out the formal conditions for deadlock to occur [\[[CES71](../misc/bib.html#id11 "E. G. Coffman, M. Elphick, and A. Shoshani. System deadlocks. ACM Comput. Surv., 3(2):67–78, jun 1971. URL: https://doi.org/10.1145/356586.356588, doi:10.1145/356586.356588."){.reference .internal}\]]{#id6}:
 
@@ -416,7 +426,7 @@ These conditions, taken together, are necessary and sufficient for deadlock. If 
 ::: {#breaking-mutual-exclusion .section}
 []{#cont-sync-concurrency-bugs-break-mutex}
 
-### [26.3.4. ]{.section-number}Breaking Mutual Exclusion[\#](#breaking-mutual-exclusion "Link to this heading"){.headerlink}
+### [26.3.4. ] {.section-number}Breaking Mutual Exclusion[\#](#breaking-mutual-exclusion "Link to this heading") {.headerlink}
 
 Recall that we introduced mutual exclusion as one of the requirements for a solution to the critical section problem. Herlihy, however, showed that we can devise *non-blocking* algorithms to operate on concurrent data structures without enforcing mutual exclusion, given atomic hardware instructions such as `compare-and-swap`{.docutils .literal .notranslate} (`CAS`{.docutils .literal .notranslate}) [\[[Her93](../misc/bib.html#id14 "Maurice Herlihy. A methodology for implementing highly concurrent data objects. ACM Trans. Program. Lang. Syst., 15(5):745–770, nov 1993. URL: https://doi.org/10.1145/161468.161469, doi:10.1145/161468.161469."){.reference .internal}\]]{#id7} [\[[Her90](../misc/bib.html#id13 "M. Herlihy. A methodology for implementing highly concurrent data structures. In Proceedings of the Second ACM SIGPLAN Symposium on Principles & Practice of Parallel Programming, PPOPP '90, 197–206. New York, NY, USA, 1990. Association for Computing Machinery. URL: https://doi.org/10.1145/99163.99185, doi:10.1145/99163.99185."){.reference .internal}\]]{#id8}. These algorithms and data structures are called *lock-free* if they guarantee that *some* thread will complete an operation in a finite number of steps taken by itself or other threads, and *wait-free* if they guarantee that *each* thread will complete an operation in a finite number of steps.
 
@@ -426,14 +436,17 @@ For example, suppose we needed to implement an `AtomicAdd()`{.docutils .literal 
 
 ::: {.highlight-c .notranslate}
 ::: highlight
-    pthread_mutex_t L = PTHREAD_MUTEX_INITIALIZER;
+pthread_mutex_t L = PTHREAD_MUTEX_INITIALIZER;
 
-    void AtomicAdd(int *val, int a) 
-    {
-        pthread_mutex_lock(&L);
-        *val += a;
-        pthread_mutex_unlock(&L);
-    }
+```
+void AtomicAdd(int *val, int a) 
+{
+    pthread_mutex_lock(&L);
+    *val += a;
+    pthread_mutex_unlock(&L);
+}
+```
+
 :::
 :::
 
@@ -441,13 +454,13 @@ The overhead of acquiring and releasing the lock, however, far exceeds the work 
 
 ::: {.highlight-c .notranslate}
 ::: highlight
-    1void AtomicAdd(int *val, int a) 
-    2{
-    3    do {
-    4        int old = *val;
-    5        int new = old + a; 
-    6    } while (CAS(val, old, new) == false);
-    7}
+1void AtomicAdd(int *val, int a)
+2{
+3    do {
+4        int old = *val;
+5        int new = old + a;
+6    } while (CAS(val, old, new) == false);
+7}
 :::
 :::
 
@@ -463,21 +476,19 @@ We will discuss *Read-Copy-Update* (RCU), a widely used primitive that provides 
 ::: {#breaking-hold-and-wait .section}
 []{#cont-sync-concurrency-bugs-deadlock-holdandwait}
 
-### [26.3.5. ]{.section-number}Breaking Hold-and-Wait[\#](#breaking-hold-and-wait "Link to this heading"){.headerlink}
+### [26.3.5. ] {.section-number}Breaking Hold-and-Wait[\#](#breaking-hold-and-wait "Link to this heading") {.headerlink}
 
 If threads acquire all the resources they need before starting execution, then a thread will never have to wait for additional resources while holding onto resources it has already been granted. Once a thread is able to start running, it will have everything it needs to finish, making the resources available again for other threads. No deadlock! Unfortunately, there are several significant problems with this approach:
 
--   A thread with 'large' resource needs (e.g., many different locks) may have to wait for a long time for all resources to be available at the same time. Additional effort is needed to ensure these threads do not starve.
-
--   The system concurrency is limited because threads must acquire all resources before starting, rather than acquiring them when they needed. Consequently, resources are tied up for a longer time, even when they could be safely used by other threads.
-
--   A thread may not know all the resources that it will need before it even starts running. Particularly for interactive tasks, input from the user can heavily influence what resources are needed next.
+- A thread with 'large' resource needs (e.g., many different locks) may have to wait for a long time for all resources to be available at the same time. Additional effort is needed to ensure these threads do not starve.
+- The system concurrency is limited because threads must acquire all resources before starting, rather than acquiring them when they needed. Consequently, resources are tied up for a longer time, even when they could be safely used by other threads.
+- A thread may not know all the resources that it will need before it even starts running. Particularly for interactive tasks, input from the user can heavily influence what resources are needed next.
 
 As a general strategy, acquiring all resources before starting execution is not very promising, although it may be used in some specialized systems such as batch processing. Another way to break the hold-and-wait condition requires a thread to release all the resources it already holds before it can request an additional resource. The thread must then submit a batch request for all the resources it needs (the ones it just gave up, and the new resource). The thread will be blocked until the complete set of resources can be allocated to it, but it will not be holding any resources while it waits. This strategy does not prevent starvation of a thread that needs a large number of resources simultaneously, and it requires care on the part of the programmer to ensure that data structures are not left in an inconsistent state when the resources are released.
 
 There is a lot of overhead in giving up existing resources (e.g., releasing all the locks already acquired) and then immediately asking for them back again, particularly when the additional resource was already available. To help with this situation, some thread libraries offer a `trylock()`{.docutils .literal .notranslate} function:
 
--   `pthread_mutex_trylock(pthread_mutex_t *mutex)`{.docutils .literal .notranslate}: Acquire the lock referenced by `mutex`{.docutils .literal .notranslate} if it is available and return 0; if `mutex`{.docutils .literal .notranslate} is currently locked, the call will return immediately with an error code.
+- `pthread_mutex_trylock(pthread_mutex_t *mutex)`{.docutils .literal .notranslate}: Acquire the lock referenced by `mutex`{.docutils .literal .notranslate} if it is available and return 0; if `mutex`{.docutils .literal .notranslate} is currently locked, the call will return immediately with an error code.
 
 A thread holding one or more locks already will first try to acquire an additional lock with a `trylock()`{.docutils .literal .notranslate} operation. If it succeeds, then there is no need to release the locks it already held. If the `trylock()`{.docutils .literal .notranslate} fails, however, the thread must release all of the other locks and try again to acquire the full set of locks. For example:
 
@@ -488,20 +499,20 @@ A thread holding one or more locks already will first try to acquire an addition
 
 ::: {.highlight-c .notranslate}
 ::: highlight
-     1void transfer(account_t *src_acct, account_t *dest_acct, money_t amount)
-     2{
-     3    pthread_mutex_lock(&src_acct->acct_lock);
-     4    while (pthread_mutex_trylock(&dest_acct->acct_lock) == EBUSY) {
-     5        pthread_mutex_unlock(&src_acct->acct_lock);
-     6        pthread_mutex_lock(&src_acct->acct_lock);
-     7    }
-     8    
-     9    src_acct->balance -= amount;
-    10    dest_acct->balance += amount;
-    11
-    12    pthread_mutex_unlock(&dest_acct->acct_lock);
-    13    pthread_mutex_unlock(&src_acct->acct_lock);
-    14}
+1void transfer(account_t *src_acct, account_t *dest_acct, money_t amount)
+2{
+3    pthread_mutex_lock(&src_acct->acct_lock);
+4    while (pthread_mutex_trylock(&dest_acct->acct_lock) == EBUSY) {
+5        pthread_mutex_unlock(&src_acct->acct_lock);
+6        pthread_mutex_lock(&src_acct->acct_lock);
+7    }
+8
+9    src_acct->balance -= amount;
+10    dest_acct->balance += amount;
+11
+12    pthread_mutex_unlock(&dest_acct->acct_lock);
+13    pthread_mutex_unlock(&src_acct->acct_lock);
+14}
 :::
 :::
 :::
@@ -514,7 +525,8 @@ Breaking the hold-and-wait condition is related to *two-phase locking*, which is
 :::
 
 ::: {#allowing-preemption-breaking-the-no-preemption-condition .section}
-### [26.3.6. ]{.section-number}Allowing Preemption (breaking the no preemption condition)[\#](#allowing-preemption-breaking-the-no-preemption-condition "Link to this heading"){.headerlink}
+
+### [26.3.6. ] {.section-number}Allowing Preemption (breaking the no preemption condition)[\#](#allowing-preemption-breaking-the-no-preemption-condition "Link to this heading") {.headerlink}
 
 For certain physical resources, we can prevent deadlock by forcibly preempting the resource from one thread and allocating it to another. In particular, this works for resources that we can *virtualize* so that each thread has the illusion of its own private copy of the resource. For example, a physical CPU can be allocated to one thread for a timeslice, then forcibly preempted and allocated to another thread. Similarly, a page of physical memory can be allocated to the use of one address space, then preempted and reallocated to the use of another address space. In both cases, this is feasible because we can save the state of the resource (in the thread struct for the CPU, or in the swap file for memory) when it is preempted from a thread, and restore the state when it is returned to the thread.
 
@@ -522,7 +534,8 @@ However, when we are dealing with shared data structures, breaking 'no preemptio
 :::
 
 ::: {#breaking-circular-wait .section}
-### [26.3.7. ]{.section-number}Breaking Circular Wait[\#](#breaking-circular-wait "Link to this heading"){.headerlink}
+
+### [26.3.7. ] {.section-number}Breaking Circular Wait[\#](#breaking-circular-wait "Link to this heading") {.headerlink}
 
 The final condition we have to consider is the circular wait. It is quite appealing to allow the first three conditions, since they all serve to make it easier to write correct concurrent code, while ensuring that we never find ourselves in a situation with a circular chain of threads holding some resources and waiting for a resource held by the next thread in the chain.
 
@@ -539,22 +552,22 @@ Returning again to our bank transfer function, we can use the account numbers to
 
 ::: {.highlight-c .notranslate}
 ::: highlight
-     1void transfer(account_t *src_acct, account_t *dest_acct, money_t amount)
-     2{
-     3    if (src_acct->acct_num < dest_acct->acct_num) { 
-     4        pthread_mutex_lock(&src_acct->acct_lock);
-     5        pthread_mutex_lock(&dest_acct->acct_lock);
-     6    } else {
-     7        pthread_mutex_lock(&dest_acct->acct_lock);
-     8        pthread_mutex_lock(&src_acct->acct_lock);
-     9    }
-    10
-    11    src_acct->balance -= amount;
-    12    dest_acct->balance += amount;
-    13
-    14    pthread_mutex_unlock(&dest_acct->acct_lock);
-    15    pthread_mutex_unlock(&src_acct->acct_lock);
-    16}
+1void transfer(account_t *src_acct, account_t *dest_acct, money_t amount)
+2{
+3    if (src_acct->acct_num < dest_acct->acct_num) {
+4        pthread_mutex_lock(&src_acct->acct_lock);
+5        pthread_mutex_lock(&dest_acct->acct_lock);
+6    } else {
+7        pthread_mutex_lock(&dest_acct->acct_lock);
+8        pthread_mutex_lock(&src_acct->acct_lock);
+9    }
+10
+11    src_acct->balance -= amount;
+12    dest_acct->balance += amount;
+13
+14    pthread_mutex_unlock(&dest_acct->acct_lock);
+15    pthread_mutex_unlock(&src_acct->acct_lock);
+16}
 :::
 :::
 :::
@@ -563,14 +576,16 @@ Now, if T1 is running `transfer(R1, R2, amt1)`{.docutils .literal .notranslate} 
 :::
 
 ::: {#reality-check .section}
-### [26.3.8. ]{.section-number}Reality Check[\#](#reality-check "Link to this heading"){.headerlink}
+
+### [26.3.8. ] {.section-number}Reality Check[\#](#reality-check "Link to this heading") {.headerlink}
 
 No single strategy for dealing with deadlock is appropriate for all resources in all situations. Moreover, all strategies are costly in terms of computation overhead, or restricting the use of resources. Consequently, many systems make some use of what Tanenbaum refers to as "the ostrich algorithm": ignore the problem and hope it doesn't happen too often [\[[TB14](../misc/bib.html#id15 "Andrew S. Tanenbaum and Herbert Bos. Modern Operating Systems. Prentice Hall Press, USA, 4th edition, 2014. ISBN 013359162X."){.reference .internal}\]]{#id9}. This isn't really as shocking as it might sound at first. For personal computers, which are rebooted frequently, the rare inconvenience of manually resolving a deadlock (by forcibly killing some tasks, or rebooting the machine) is likely to be preferable to the constant overhead of ensuring deadlocks don't occur. On the other hand, deadlocks are unacceptable in safety critical systems and ensuring they don't occur is worth some loss in performance. Modern operating systems like Linux employ a mix of strategies for deadlock, including using lock-free algorithms when possible, defining a well-documented lock hierarchy that kernel programmers are expected to follow, and providing runtime lock validators that check for deadlocks or incorrect lock usage. Because of the high runtime cost, such validators are generally used during development but not in deployment.
 :::
 :::
 
 ::: {#livelock-starvation-and-other-bugs .section}
-## [26.4. ]{.section-number}Livelock, Starvation and Other Bugs[\#](#livelock-starvation-and-other-bugs "Link to this heading"){.headerlink}
+
+## [26.4. ] {.section-number}Livelock, Starvation and Other Bugs[\#](#livelock-starvation-and-other-bugs "Link to this heading") {.headerlink}
 
 While atomicity violations, order violations, and deadlocks collectively made up over 98% of the concurrency bugs in Lu et al.'s study [\[[LPSZ08](../misc/bib.html#id10 "Shan Lu, Soyeon Park, Eunsoo Seo, and Yuanyuan Zhou. Learning from mistakes: a comprehensive study on real world concurrency bug characteristics. In Proceedings of the 13th International Conference on Architectural Support for Programming Languages and Operating Systems, ASPLOS XIII, 329–339. New York, NY, USA, 2008. Association for Computing Machinery. URL: https://doi.org/10.1145/1346281.1346323, doi:10.1145/1346281.1346323."){.reference .internal}\]]{#id10}, there are other subtle concurrency issues that can occur.
 
@@ -583,49 +598,49 @@ In [[Section 26.3.5]{.std .std-numref}](#cont-sync-concurrency-bugs-deadlock-hol
 
 ::: {.highlight-default .notranslate}
 ::: highlight
-     1void *threadfunc(void *arg)
-     2{
-     3    struct args_s *my_args = (struct args_s *)arg;
-     4
-     5    int fd_in;
-     6    int fd_out;
-     7
-     8    /* Open input file, retrying if there are too many files already open */
-     9    for ( ; ; ) {
-    10        fd_in = open(my_args->infile, O_RDONLY);
-    11        if (fd_in > 0) {
-    12            break;
-    13        }
-    14        if (errno != EMFILE) {
-    15            return NULL;
-    16        }
-    17    }
-    18
-    19    fprintf(stderr,"Thread %d has input file %s open now.\n", 
-    20            my_args->id, my_args->infile);
-    21
-    22    /* Open output file, retrying if there are too many files already open */
-    23    for ( ; ; ) {
-    24        fd_out = open(my_args->outfile, O_RDWR);
-    25        if (fd_out > 0) {
-    26            break;
-    27        }
-    28        if (errno != EMFILE)  {
-    29            close(fd_in);
-    30            return NULL;
-    31        }
-    32    }
-    33    fprintf(stderr,"Thread %d has output file %s open now.\n",
-    34            my_args->id, my_args->outfile);
-    35
-    36    /* Sleep for a while to simulate time reading input and producing output */
-    37    sleep(1);
-    38
-    39    close(fd_in);
-    40    close(fd_out);
-    41
-    42    return NULL;
-    43}
+1void *threadfunc(void *arg)
+2{
+3    struct args_s *my_args = (struct args_s *)arg;
+4
+5    int fd_in;
+6    int fd_out;
+7
+8    /* Open input file, retrying if there are too many files already open */
+9    for ( ; ; ) {
+10        fd_in = open(my_args->infile, O_RDONLY);
+11        if (fd_in > 0) {
+12            break;
+13        }
+14        if (errno != EMFILE) {
+15            return NULL;
+16        }
+17    }
+18
+19    fprintf(stderr,"Thread %d has input file %s open now.\n",
+20            my_args->id, my_args->infile);
+21
+22    /* Open output file, retrying if there are too many files already open */
+23    for ( ; ; ) {
+24        fd_out = open(my_args->outfile, O_RDWR);
+25        if (fd_out > 0) {
+26            break;
+27        }
+28        if (errno != EMFILE)  {
+29            close(fd_in);
+30            return NULL;
+31        }
+32    }
+33    fprintf(stderr,"Thread %d has output file %s open now.\n",
+34            my_args->id, my_args->outfile);
+35
+36    /* Sleep for a while to simulate time reading input and producing output */
+37    sleep(1);
+38
+39    close(fd_in);
+40    close(fd_out);
+41
+42    return NULL;
+43}
 :::
 :::
 :::
@@ -666,22 +681,22 @@ next
 Contents
 :::
 
--   [26.1. Atomicity Violations](#atomicity-violations){.reference .internal .nav-link}
--   [26.2. Order Violations](#order-violations){.reference .internal .nav-link}
--   [26.3. Deadlocks](#deadlocks){.reference .internal .nav-link}
-    -   [26.3.1. What is a resource?](#what-is-a-resource){.reference .internal .nav-link}
-    -   [26.3.2. Visualizing and Modeling Deadlocks](#visualizing-and-modeling-deadlocks){.reference .internal .nav-link}
-    -   [26.3.3. The Four Conditions for Deadlock](#the-four-conditions-for-deadlock){.reference .internal .nav-link}
-    -   [26.3.4. Breaking Mutual Exclusion](#breaking-mutual-exclusion){.reference .internal .nav-link}
-    -   [26.3.5. Breaking Hold-and-Wait](#breaking-hold-and-wait){.reference .internal .nav-link}
-    -   [26.3.6. Allowing Preemption (breaking the no preemption condition)](#allowing-preemption-breaking-the-no-preemption-condition){.reference .internal .nav-link}
-    -   [26.3.7. Breaking Circular Wait](#breaking-circular-wait){.reference .internal .nav-link}
-    -   [26.3.8. Reality Check](#reality-check){.reference .internal .nav-link}
--   [26.4. Livelock, Starvation and Other Bugs](#livelock-starvation-and-other-bugs){.reference .internal .nav-link}
-:::
-:::
-:::
-:::
+- [26.1. Atomicity Violations](#atomicity-violations){.reference .internal .nav-link}
+- [26.2. Order Violations](#order-violations){.reference .internal .nav-link}
+- [26.3. Deadlocks](#deadlocks){.reference .internal .nav-link}
+  - [26.3.1. What is a resource?](#what-is-a-resource){.reference .internal .nav-link}
+  - [26.3.2. Visualizing and Modeling Deadlocks](#visualizing-and-modeling-deadlocks){.reference .internal .nav-link}
+  - [26.3.3. The Four Conditions for Deadlock](#the-four-conditions-for-deadlock){.reference .internal .nav-link}
+  - [26.3.4. Breaking Mutual Exclusion](#breaking-mutual-exclusion){.reference .internal .nav-link}
+  - [26.3.5. Breaking Hold-and-Wait](#breaking-hold-and-wait){.reference .internal .nav-link}
+  - [26.3.6. Allowing Preemption (breaking the no preemption condition)](#allowing-preemption-breaking-the-no-preemption-condition){.reference .internal .nav-link}
+  - [26.3.7. Breaking Circular Wait](#breaking-circular-wait){.reference .internal .nav-link}
+  - [26.3.8. Reality Check](#reality-check){.reference .internal .nav-link}
+- [26.4. Livelock, Starvation and Other Bugs](#livelock-starvation-and-other-bugs){.reference .internal .nav-link}
+  :::
+  :::
+  :::
+  :::
 
 ::: {.bd-footer-content__inner .container}
 ::: footer-item
@@ -689,7 +704,7 @@ By (see contributing chapter book)
 :::
 
 ::: footer-item
-© Copyright 2022.\
+© Copyright 2022.
 :::
 
 ::: footer-item

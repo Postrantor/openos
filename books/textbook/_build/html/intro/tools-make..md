@@ -7,7 +7,6 @@ viewport:
 - width=device-width, initial-scale=1
 - width=device-width, initial-scale=1
 ---
-
 ::: {#pst-skip-link .skip-link .d-print-none}
 [Skip to main content](#main-content)
 :::
@@ -48,109 +47,110 @@ Back to top
 
 ::: sidebar-primary-item
 ::: {.bd-toc-item .navbar-nav .active}
--   [Preface](pref.html){.reference .internal}
+
+- [Preface](pref.html){.reference .internal}
 
 [Getting started]{.caption-text}
 
--   [1. Introduction](intro.html){.reference .internal}
--   [2. Purpose of operating systems](purpose.html){.reference .internal}
--   [3. Operating System Structure & Unix/Linux](structure.html){.reference .internal}
--   [4. Operating System Abstractions](abstractions.html){.reference .internal}
--   [5. What you should know](tools.html){.reference .internal}
-    []{.toctree-toggle role="presentation"}
-    -   [5.1. The C Programming Language](tools-c.html){.reference .internal}
-    -   [5.2. Shell](tools-shell.html){.reference .internal}
-    -   [5.3. Editors](tools-editors.html){.reference .internal}
-    -   [5.4. Make](#){.current .reference .internal}
-    -   [5.5. Testing](tools-testing.html){.reference .internal}
-    -   [5.6. Git Basics](tools-git.html){.reference .internal}
-    -   [5.7. GDB](tools-gdb.html){.reference .internal}
+- [1. Introduction](intro.html){.reference .internal}
+- [2. Purpose of operating systems](purpose.html){.reference .internal}
+- [3. Operating System Structure & Unix/Linux](structure.html){.reference .internal}
+- [4. Operating System Abstractions](abstractions.html){.reference .internal}
+- [5. What you should know](tools.html){.reference .internal}
+  []{.toctree-toggle role="presentation"}
+  - [5.1. The C Programming Language](tools-c.html){.reference .internal}
+  - [5.2. Shell](tools-shell.html){.reference .internal}
+  - [5.3. Editors](tools-editors.html){.reference .internal}
+  - [5.4. Make](#){.current .reference .internal}
+  - [5.5. Testing](tools-testing.html){.reference .internal}
+  - [5.6. Git Basics](tools-git.html){.reference .internal}
+  - [5.7. GDB](tools-gdb.html){.reference .internal}
 
 [Virtual Processor]{.caption-text}
 
--   [6. Introduction](../scheduling/intro.html){.reference .internal}
--   [7. The Process: A virtual Computer](../scheduling/process.html){.reference .internal}
--   [8. Virtualizing the CPU](../scheduling/virtual.html){.reference .internal}
--   [9. The Thread: A Virtual CPU](../scheduling/threads.html){.reference .internal}
--   [10. Scheduling](../scheduling/scheduling.html){.reference .internal}
-    []{.toctree-toggle role="presentation"}
-    -   [10.1. Scheduling Goals](../scheduling/sch-goals.html){.reference .internal}
-    -   [10.2. Simple Examples of Scheduling Policies](../scheduling/sch-simple.html){.reference .internal}
-    -   [10.3. Scheduling with Priorities](../scheduling/sch-prio.html){.reference .internal}
-    -   [10.4. Scheduling in the real world](../scheduling/sch-real.html){.reference .internal}
--   [11. Review Questions](../scheduling/review.html){.reference .internal}
+- [6. Introduction](../scheduling/intro.html){.reference .internal}
+- [7. The Process: A virtual Computer](../scheduling/process.html){.reference .internal}
+- [8. Virtualizing the CPU](../scheduling/virtual.html){.reference .internal}
+- [9. The Thread: A Virtual CPU](../scheduling/threads.html){.reference .internal}
+- [10. Scheduling](../scheduling/scheduling.html){.reference .internal}
+  []{.toctree-toggle role="presentation"}
+  - [10.1. Scheduling Goals](../scheduling/sch-goals.html){.reference .internal}
+  - [10.2. Simple Examples of Scheduling Policies](../scheduling/sch-simple.html){.reference .internal}
+  - [10.3. Scheduling with Priorities](../scheduling/sch-prio.html){.reference .internal}
+  - [10.4. Scheduling in the real world](../scheduling/sch-real.html){.reference .internal}
+- [11. Review Questions](../scheduling/review.html){.reference .internal}
 
 [Virtual Memory]{.caption-text}
 
--   [12. Introduction](../mm/intro.html){.reference .internal}
--   [13. Memory management before paged virtual memory](../mm/phys-and-seg.html){.reference .internal}
--   [14. Paged Virtual memory](../mm/pagvm.html){.reference .internal}
-    []{.toctree-toggle role="presentation"}
-    -   [14.1. Abstracting a useful interface for memory management.](../mm/vmabs.html){.reference .internal}
-    -   [14.2. Paging](../mm/virt-paging.html){.reference .internal}
-    -   [14.3. Page Tables](../mm/page-tables.html){.reference .internal}
-    -   [14.4. Memory reclaiming algorithms.](../mm/reclamation.html){.reference .internal}
-    -   [14.5. Page Sizes](../mm/page-size.html){.reference .internal}
-    -   [14.6. Memory Management Page Faults](../mm/pagefaults.html){.reference .internal}
--   [15. Buffer Cache](../mm/buffer-cache.html){.reference .internal}
--   [16. Memory management in the real world](../mm/realworld.html){.reference .internal}
--   [17. Conclusion](../mm/concl.html){.reference .internal}
--   [18. Review](../mm/review.html){.reference .internal}
+- [12. Introduction](../mm/intro.html){.reference .internal}
+- [13. Memory management before paged virtual memory](../mm/phys-and-seg.html){.reference .internal}
+- [14. Paged Virtual memory](../mm/pagvm.html){.reference .internal}
+  []{.toctree-toggle role="presentation"}
+  - [14.1. Abstracting a useful interface for memory management.](../mm/vmabs.html){.reference .internal}
+  - [14.2. Paging](../mm/virt-paging.html){.reference .internal}
+  - [14.3. Page Tables](../mm/page-tables.html){.reference .internal}
+  - [14.4. Memory reclaiming algorithms.](../mm/reclamation.html){.reference .internal}
+  - [14.5. Page Sizes](../mm/page-size.html){.reference .internal}
+  - [14.6. Memory Management Page Faults](../mm/pagefaults.html){.reference .internal}
+- [15. Buffer Cache](../mm/buffer-cache.html){.reference .internal}
+- [16. Memory management in the real world](../mm/realworld.html){.reference .internal}
+- [17. Conclusion](../mm/concl.html){.reference .internal}
+- [18. Review](../mm/review.html){.reference .internal}
 
 [File Systems]{.caption-text}
 
--   [19. Introduction](../fs/intro.html){.reference .internal}
--   [20. File System Abstraction](../fs/interface.html){.reference .internal}
--   [21. A bit about Disks](../fs/diskhw.html){.reference .internal}
--   [22. Implementation](../fs/impl.html){.reference .internal}
-    []{.toctree-toggle role="presentation"}
-    -   [22.1. File System Layout](../fs/disklayout.html){.reference .internal}
-    -   [22.2. Disk Layout:Tracking Used Space](../fs/dl_track_used.html){.reference .internal}
-    -   [22.3. Disk Layout:Tracking Free Space](../fs/dl_track_free.html){.reference .internal}
-    -   [22.4. Disk Layout:Implementing Name Space](../fs/dl_name.html){.reference .internal}
-    -   [22.5. Disk Layout:Dealing with Failures](../fs/dl_failures.html){.reference .internal}
-    -   [22.6. Disk Layout:Examples of Real World File Systems](../fs/dl_ex_exx.html){.reference .internal}
-    -   [22.7. Kernel implementation](../fs/kernelimp.html){.reference .internal}
--   [23. Review](../fs/review.html){.reference .internal}
+- [19. Introduction](../fs/intro.html){.reference .internal}
+- [20. File System Abstraction](../fs/interface.html){.reference .internal}
+- [21. A bit about Disks](../fs/diskhw.html){.reference .internal}
+- [22. Implementation](../fs/impl.html){.reference .internal}
+  []{.toctree-toggle role="presentation"}
+  - [22.1. File System Layout](../fs/disklayout.html){.reference .internal}
+  - [22.2. Disk Layout:Tracking Used Space](../fs/dl_track_used.html){.reference .internal}
+  - [22.3. Disk Layout:Tracking Free Space](../fs/dl_track_free.html){.reference .internal}
+  - [22.4. Disk Layout:Implementing Name Space](../fs/dl_name.html){.reference .internal}
+  - [22.5. Disk Layout:Dealing with Failures](../fs/dl_failures.html){.reference .internal}
+  - [22.6. Disk Layout:Examples of Real World File Systems](../fs/dl_ex_exx.html){.reference .internal}
+  - [22.7. Kernel implementation](../fs/kernelimp.html){.reference .internal}
+- [23. Review](../fs/review.html){.reference .internal}
 
 [Concurrency]{.caption-text}
 
--   [24. Introduction](../sync/sync.html){.reference .internal}
--   [25. Basic Synchronization](../sync/basic.html){.reference .internal}
-    []{.toctree-toggle role="presentation"}
-    -   [25.1. Cooperating Processes and Inter-process Communication](../sync/sharing.html){.reference .internal}
-    -   [25.2. The Critical Section Problem](../sync/criticalsection.html){.reference .internal}
-    -   [25.3. Implementing Locks](../sync/locks.html){.reference .internal}
-    -   [25.4. Ordering Thread Events](../sync/ordering.html){.reference .internal}
--   [26. Common Concurrency Bugs](../sync/concurrency_bugs.html){.reference .internal}
--   [27. Advanced Synchronization](../sync/advanced.html){.reference .internal}
-    []{.toctree-toggle role="presentation"}
-    -   [27.1. Read-Dominated Workloads](../sync/readmostly.html){.reference .internal}
-    -   [27.2. Challenges of Modern Hardware](../sync/hardware_challenges.html){.reference .internal}
-    -   [27.3. Locking in the Linux Kernel](../sync/linux_locking.html){.reference .internal}
--   [28. Review](../sync/review.html){.reference .internal}
+- [24. Introduction](../sync/sync.html){.reference .internal}
+- [25. Basic Synchronization](../sync/basic.html){.reference .internal}
+  []{.toctree-toggle role="presentation"}
+  - [25.1. Cooperating Processes and Inter-process Communication](../sync/sharing.html){.reference .internal}
+  - [25.2. The Critical Section Problem](../sync/criticalsection.html){.reference .internal}
+  - [25.3. Implementing Locks](../sync/locks.html){.reference .internal}
+  - [25.4. Ordering Thread Events](../sync/ordering.html){.reference .internal}
+- [26. Common Concurrency Bugs](../sync/concurrency_bugs.html){.reference .internal}
+- [27. Advanced Synchronization](../sync/advanced.html){.reference .internal}
+  []{.toctree-toggle role="presentation"}
+  - [27.1. Read-Dominated Workloads](../sync/readmostly.html){.reference .internal}
+  - [27.2. Challenges of Modern Hardware](../sync/hardware_challenges.html){.reference .internal}
+  - [27.3. Locking in the Linux Kernel](../sync/linux_locking.html){.reference .internal}
+- [28. Review](../sync/review.html){.reference .internal}
 
 [Other Topics]{.caption-text}
 
--   [29. Input and Output](../devices/devices.html){.reference .internal}
--   [30. More on Disks](../devices/disk2.html){.reference .internal}
--   [31. Virtualization](../virt/virt.html){.reference .internal}
--   [32. Security](../sec/sec.html){.reference .internal}
+- [29. Input and Output](../devices/devices.html){.reference .internal}
+- [30. More on Disks](../devices/disk2.html){.reference .internal}
+- [31. Virtualization](../virt/virt.html){.reference .internal}
+- [32. Security](../sec/sec.html){.reference .internal}
 
 [Appendices]{.caption-text}
 
--   [33. How to read this book](../misc/howto.html){.reference .internal}
--   [34. Contributing](../contributing/intro.html){.reference .internal}
-    []{.toctree-toggle role="presentation"}
-    -   [34.1. Examples](../contributing/examples.html){.reference .internal}
-    -   [34.2. Contributors](../contributing/credit.html){.reference .internal}
-    -   [34.3. Contributing](../contributing/Contributing.html){.reference .internal}
-    -   [34.6. Resources to look at](../contributing/resources.html){.reference .internal}
-    -   [34.7. Out of date](../contributing/fix.html){.reference .internal}
--   [35. Bibliography](../misc/bib.html){.reference .internal}
-:::
-:::
-:::
+- [33. How to read this book](../misc/howto.html){.reference .internal}
+- [34. Contributing](../contributing/intro.html){.reference .internal}
+  []{.toctree-toggle role="presentation"}
+  - [34.1. Examples](../contributing/examples.html){.reference .internal}
+  - [34.2. Contributors](../contributing/credit.html){.reference .internal}
+  - [34.3. Contributing](../contributing/Contributing.html){.reference .internal}
+  - [34.6. Resources to look at](../contributing/resources.html){.reference .internal}
+  - [34.7. Out of date](../contributing/fix.html){.reference .internal}
+- [35. Bibliography](../misc/bib.html){.reference .internal}
+  :::
+  :::
+  :::
 
 ::: {.sidebar-primary-items__end .sidebar-primary__section}
 :::
@@ -178,21 +178,22 @@ Back to top
 ::: article-header-buttons
 ::: {.dropdown .dropdown-launch-buttons}
 
--   [[ ![JupyterHub logo](../_static/images/logo_jupyterhub.svg) ]{.btn__icon-container} [JupyterHub]{.btn__text-container}](https://jupyterhub-opf-jupyterhub.apps.smaug.na.operate-first.cloud/hub/user-redirect/git-pull?repo=https%3A//github.com/OpenOSOrg/openos&urlpath=lab/tree/openos/content/intro/tools-make.ipynb&branch=main "Launch on JupyterHub"){.btn .btn-sm .dropdown-item target="_blank" bs-placement="left" bs-toggle="tooltip"}
-:::
+- [[ ![JupyterHub logo](../_static/images/logo_jupyterhub.svg) ]{.btn__icon-container} [JupyterHub]{.btn__text-container}](https://jupyterhub-opf-jupyterhub.apps.smaug.na.operate-first.cloud/hub/user-redirect/git-pull?repo=https%3A//github.com/OpenOSOrg/openos&urlpath=lab/tree/openos/content/intro/tools-make.ipynb&branch=main "Launch on JupyterHub"){.btn .btn-sm .dropdown-item target="_blank" bs-placement="left" bs-toggle="tooltip"}
+  :::
 
 ::: {.dropdown .dropdown-source-buttons}
 
--   [[ ]{.btn__icon-container} [Repository]{.btn__text-container}](https://github.com/OpenOSOrg/openos "Source repository"){.btn .btn-sm .btn-source-repository-button .dropdown-item target="_blank" bs-placement="left" bs-toggle="tooltip"}
--   [[ ]{.btn__icon-container} [Suggest edit]{.btn__text-container}](https://github.com/OpenOSOrg/openos/edit/main/content/intro/tools-make.ipynb "Suggest edit"){.btn .btn-sm .btn-source-edit-button .dropdown-item target="_blank" bs-placement="left" bs-toggle="tooltip"}
--   [[ ]{.btn__icon-container} [Open issue]{.btn__text-container}](https://github.com/OpenOSOrg/openos/issues/new?title=Issue%20on%20page%20%2Fintro/tools-make.html&body=Your%20issue%20content%20here. "Open an issue"){.btn .btn-sm .btn-source-issues-button .dropdown-item target="_blank" bs-placement="left" bs-toggle="tooltip"}
-:::
+- [[ ]{.btn__icon-container} [Repository]{.btn__text-container}](https://github.com/OpenOSOrg/openos "Source repository"){.btn .btn-sm .btn-source-repository-button .dropdown-item target="_blank" bs-placement="left" bs-toggle="tooltip"}
+- [[ ]{.btn__icon-container} [Suggest edit]{.btn__text-container}](https://github.com/OpenOSOrg/openos/edit/main/content/intro/tools-make.ipynb "Suggest edit"){.btn .btn-sm .btn-source-edit-button .dropdown-item target="_blank" bs-placement="left" bs-toggle="tooltip"}
+- [[ ]{.btn__icon-container} [Open issue]{.btn__text-container}](https://github.com/OpenOSOrg/openos/issues/new?title=Issue%20on%20page%20%2Fintro/tools-make.html&body=Your%20issue%20content%20here. "Open an issue"){.btn .btn-sm .btn-source-issues-button .dropdown-item target="_blank" bs-placement="left" bs-toggle="tooltip"}
+  :::
 
 ::: {.dropdown .dropdown-download-buttons}
 
--   [[ ]{.btn__icon-container} [.ipynb]{.btn__text-container}](../_sources/intro/tools-make.ipynb "Download source file"){.btn .btn-sm .btn-download-source-button .dropdown-item target="_blank" bs-placement="left" bs-toggle="tooltip"}
--   [ ]{.btn__icon-container} [.pdf]{.btn__text-container}
-:::
+- [[ ]{.btn__icon-container} [.ipynb]{.btn__text-container}](../_sources/intro/tools-make.ipynb "Download source file"){.btn .btn-sm .btn-download-source-button .dropdown-item target="_blank" bs-placement="left" bs-toggle="tooltip"}
+
+-  [ ]{.btn__icon-container} [.pdf]{.btn__text-container}
+  :::
 
 [ ]{.btn__icon-container}
 
@@ -204,22 +205,24 @@ Back to top
 :::
 
 ::: {#jb-print-docs-body .onlyprint}
+
 # Make
 
 ::: {#print-main-content}
 ::: {#jb-print-toc}
+
 <div>
 
 ## Contents
 
 </div>
 
--   [5.4.1. Motivation](#motivation){.reference .internal .nav-link}
--   [5.4.2. A simple example](#a-simple-example){.reference .internal .nav-link}
--   [5.4.3. Summary](#summary){.reference .internal .nav-link}
-:::
-:::
-:::
+- [5.4.1. Motivation](#motivation){.reference .internal .nav-link}
+- [5.4.2. A simple example](#a-simple-example){.reference .internal .nav-link}
+- [5.4.3. Summary](#summary){.reference .internal .nav-link}
+  :::
+  :::
+  :::
 
 ::: {#searchbox}
 :::
@@ -230,12 +233,13 @@ Back to top
 ::: {#make .section .tex2jax_ignore .mathjax_ignore}
 []{#cont-gs-tools-make}
 
-# [5.4. ]{.section-number}Make[\#](#make "Link to this heading"){.headerlink}
+# [5.4. ] {.section-number}Make[\#](#make "Link to this heading") {.headerlink}
 
 Make is a critical tool to let developers automate compiling complicated programs. After motivating why you want to do master it, we provide an example makefile and demonstrate a bit of the power of this tool.
 
 ::: {#motivation .section}
-## [5.4.1. ]{.section-number}Motivation[\#](#motivation "Link to this heading"){.headerlink}
+
+## [5.4.1. ] {.section-number}Motivation[\#](#motivation "Link to this heading") {.headerlink}
 
 For very simple programs, you can use [[emacs]{.std .std-ref}](tools-editors.html#cont-gs-tools-editors){.reference .internal} to write them in a single file and can compile them into executables to be run using, for example, the GNU C compiler gcc:
 
@@ -243,17 +247,12 @@ For very simple programs, you can use [[emacs]{.std .std-ref}](tools-editors.htm
 
 That's fine for little programs, although even there, there are lots of flags that you will want to use to compile a program that are not the default with gcc. For example, we would recommend that you always use the following flags:
 
--   `-Wall`{.docutils .literal .notranslate}: turns on many compiler warning flags; about 90% of the simple bugs that students make are caught by gcc at compile time which emits warnings to ask you if you **really** want to shoot yourself in the foot. Please believe us, if there is a warning, it is much faster to fix it instead of finding the bug at run time later.
-
--   `-Werror`{.docutils .literal .notranslate}: turns warnings into compilation errors. This is super valuable so that you don't miss the warning; again don't come to a TF for help unless your program compiles with -Wall and -Werror.
-
--   `-std=gnu99`{.docutils .literal .notranslate}: this isn't super critical, but gcc supports a variety of standard variants of the c programming language, so you might as well use a standard that will ensure that your program is compilable by other compielrs.
-
--   `-O0`{.docutils .literal .notranslate}: sets optimization level to 0. The compiler supports a wide set of [optimizations](https://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html){.reference .external} for size, for performance... and for the final program, you might want to specify something different. However, optimizations re-arrange the code, copying functions into other functions. If you want to debug the program you wrote, use `-O0`{.docutils .literal .notranslate}, if you want to debug a program that is logically the same, but doesn't really look like the software you wrote, use something else.
-
--   `-g`{.docutils .literal .notranslate}: adds debugging symbols to executable. Without this, you are pretty much out of luck if you want to use a [[debugger]{.std .std-ref}](tools-gdb.html#cont-gs-tools-gdb){.reference .internal}, and if you are not using a debugger, then you might as well give up on the projects associated with this course.
-
--   `-I.`{.docutils .literal .notranslate}: specifies directory where header files can be found (in this example, the working directory `.`{.docutils .literal .notranslate}). You should always seperate key information that describe the interfaces of your program and constants that you might want to change into header files. This flag tells the compiler where those header files are.
+- `-Wall`{.docutils .literal .notranslate}: turns on many compiler warning flags; about 90% of the simple bugs that students make are caught by gcc at compile time which emits warnings to ask you if you **really** want to shoot yourself in the foot. Please believe us, if there is a warning, it is much faster to fix it instead of finding the bug at run time later.
+- `-Werror`{.docutils .literal .notranslate}: turns warnings into compilation errors. This is super valuable so that you don't miss the warning; again don't come to a TF for help unless your program compiles with -Wall and -Werror.
+- `-std=gnu99`{.docutils .literal .notranslate}: this isn't super critical, but gcc supports a variety of standard variants of the c programming language, so you might as well use a standard that will ensure that your program is compilable by other compielrs.
+- `-O0`{.docutils .literal .notranslate}: sets optimization level to 0. The compiler supports a wide set of [optimizations](https://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html){.reference .external} for size, for performance... and for the final program, you might want to specify something different. However, optimizations re-arrange the code, copying functions into other functions. If you want to debug the program you wrote, use `-O0`{.docutils .literal .notranslate}, if you want to debug a program that is logically the same, but doesn't really look like the software you wrote, use something else.
+- `-g`{.docutils .literal .notranslate}: adds debugging symbols to executable. Without this, you are pretty much out of luck if you want to use a [[debugger]{.std .std-ref}](tools-gdb.html#cont-gs-tools-gdb){.reference .internal}, and if you are not using a debugger, then you might as well give up on the projects associated with this course.
+- `-I.`{.docutils .literal .notranslate}: specifies directory where header files can be found (in this example, the working directory `.`{.docutils .literal .notranslate}). You should always seperate key information that describe the interfaces of your program and constants that you might want to change into header files. This flag tells the compiler where those header files are.
 
 Okay, so now, to compiler your simple program, you will type:
 
@@ -271,7 +270,8 @@ We expect you to have at least a basic understanding of how Make works. The vers
 :::
 
 ::: {#a-simple-example .section}
-## [5.4.2. ]{.section-number}A simple example[\#](#a-simple-example "Link to this heading"){.headerlink}
+
+## [5.4.2. ] {.section-number}A simple example[\#](#a-simple-example "Link to this heading") {.headerlink}
 
 Here is a simple example that you should understand that is used for a parser that will for many of you be the first assignment of this course.
 
@@ -282,38 +282,38 @@ Here is a simple example that you should understand that is used for a parser th
 
 ::: {.highlight-make .notranslate}
 ::: highlight
-     1override CFLAGS := -std=gnu99 -O0 -Wall -Werror -g  -fsanitize=undefined $(CFLAGS) -I.
-     2override LDFLAGS := -fsanitize=undefined -fsanitize=leak $(LDLAGS)  
-     3CC = gcc
-     4
-     5# I generally make the first rule run all the tests
-     6all: check
-     7
-     8# rule for making the parser.o  that is needed by all the test programs
-     9myshell_parser.o: myshell_parser.c myshell_parser.h
-    10
-    11
-    12# each of the test files depend on their own .c and myshell_parser.h
-    13test_simple_input.o: test_simple_input.c myshell_parser.h
-    14test_simple_pipe.o: test_simple_pipe.c myshell_parser.h
-    15
-    16# each of the test programs executables are generated by combining the generated .o with the parser.o
-    17test_simple_input : test_simple_input.o myshell_parser.o
-    18test_simple_pipe : test_simple_pipe.o myshell_parser.o
-    19
-    20# Add any additional tests here
-    21test_files=./test_simple_input ./test_simple_pipe
-    22
-    23.PHONY: clean check checkprogs all
-    24
-    25# Build all of the test program
-    26checkprogs: $(test_files)
-    27
-    28check: checkprogs
-    29 /bin/bash run_tests.sh $(test_files)
-    30
-    31clean:
-    32 rm -f *~ *.o $(test_files) $(test_o_files)
+1override CFLAGS := -std=gnu99 -O0 -Wall -Werror -g  -fsanitize=undefined $(CFLAGS) -I.
+2override LDFLAGS := -fsanitize=undefined -fsanitize=leak $(LDLAGS)
+3CC = gcc
+4
+5# I generally make the first rule run all the tests
+6all: check
+7
+8# rule for making the parser.o  that is needed by all the test programs
+9myshell_parser.o: myshell_parser.c myshell_parser.h
+10
+11
+12# each of the test files depend on their own .c and myshell_parser.h
+13test_simple_input.o: test_simple_input.c myshell_parser.h
+14test_simple_pipe.o: test_simple_pipe.c myshell_parser.h
+15
+16# each of the test programs executables are generated by combining the generated .o with the parser.o
+17test_simple_input : test_simple_input.o myshell_parser.o
+18test_simple_pipe : test_simple_pipe.o myshell_parser.o
+19
+20# Add any additional tests here
+21test_files=./test_simple_input ./test_simple_pipe
+22
+23.PHONY: clean check checkprogs all
+24
+25# Build all of the test program
+26checkprogs: $(test_files)
+27
+28check: checkprogs
+29 /bin/bash run_tests.sh $(test_files)
+30
+31clean:
+32 rm -f *~ *.o $(test_files) $(test_o_files)
 :::
 :::
 :::
@@ -332,9 +332,8 @@ Line 20 specifies the list of test programs you are generated, which is used in 
 
 Note, this makefile could be greatly simplified by using a set of built-in variables Make supports (see [here](https://www.gnu.org/software/make/manual/html_node/Automatic-Variables.html){.reference .external}). For example:
 
--   `$+`{.docutils .literal .notranslate} inserts all dependencies of the rule
-
--   `$@`{.docutils .literal .notranslate} inserts the rule's target
+- `$+`{.docutils .literal .notranslate} inserts all dependencies of the rule
+- `$@`{.docutils .literal .notranslate} inserts the rule's target
 
 You normally don't use make clean, but its useful when you want to, for example, commit your changes to the repository to make sure that new files you have recently created are not hiding among a whole bunch of generated files. Its also useful here to illustrate what is happening from a clean directory. So, if you type `make clean`{.docutils .literal .notranslate} and then `make checkprogs`{.docutils .literal .notranslate} {numref}\`make_parser is:
 
@@ -373,7 +372,8 @@ And if `myshell_parser.h`{.docutils .literal .notranslate} is modified, everythi
 :::
 
 ::: {#summary .section}
-## [5.4.3. ]{.section-number}Summary[\#](#summary "Link to this heading"){.headerlink}
+
+## [5.4.3. ] {.section-number}Summary[\#](#summary "Link to this heading") {.headerlink}
 
 If you are writing complicated programs, composed of many files, you need to master make. The example we showed above showed how this one tool enables you to ensure that you always specify the right flags, and ensure that if a file has changed, everything that relies on it will automatically be regenerated. Finally, we have shown how you can automatically run a set of tests everytime you change anything; something we will talk more about [[here]{.std .std-ref}](tools-testing.html#cont-gs-tools-testing){.reference .internal}. For more info on `make`{.docutils .literal .notranslate}, see the [GNU make manual](https://www.gnu.org/software/make/manual/make.html){.reference .external}.
 :::
@@ -405,13 +405,13 @@ next
 Contents
 :::
 
--   [5.4.1. Motivation](#motivation){.reference .internal .nav-link}
--   [5.4.2. A simple example](#a-simple-example){.reference .internal .nav-link}
--   [5.4.3. Summary](#summary){.reference .internal .nav-link}
-:::
-:::
-:::
-:::
+- [5.4.1. Motivation](#motivation){.reference .internal .nav-link}
+- [5.4.2. A simple example](#a-simple-example){.reference .internal .nav-link}
+- [5.4.3. Summary](#summary){.reference .internal .nav-link}
+  :::
+  :::
+  :::
+  :::
 
 ::: {.bd-footer-content__inner .container}
 ::: footer-item
@@ -419,7 +419,7 @@ By (see contributing chapter book)
 :::
 
 ::: footer-item
-© Copyright 2022.\
+© Copyright 2022.
 :::
 
 ::: footer-item

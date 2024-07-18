@@ -7,7 +7,6 @@ viewport:
 - width=device-width, initial-scale=1
 - width=device-width, initial-scale=1
 ---
-
 ::: {#pst-skip-link .skip-link .d-print-none}
 [Skip to main content](#main-content)
 :::
@@ -48,109 +47,110 @@ Back to top
 
 ::: sidebar-primary-item
 ::: {.bd-toc-item .navbar-nav .active}
--   [Preface](../intro/pref.html){.reference .internal}
+
+- [Preface](../intro/pref.html){.reference .internal}
 
 [Getting started]{.caption-text}
 
--   [1. Introduction](../intro/intro.html){.reference .internal}
--   [2. Purpose of operating systems](../intro/purpose.html){.reference .internal}
--   [3. Operating System Structure & Unix/Linux](../intro/structure.html){.reference .internal}
--   [4. Operating System Abstractions](../intro/abstractions.html){.reference .internal}
--   [5. What you should know](../intro/tools.html){.reference .internal}
-    []{.toctree-toggle role="presentation"}
-    -   [5.1. The C Programming Language](../intro/tools-c.html){.reference .internal}
-    -   [5.2. Shell](../intro/tools-shell.html){.reference .internal}
-    -   [5.3. Editors](../intro/tools-editors.html){.reference .internal}
-    -   [5.4. Make](../intro/tools-make.html){.reference .internal}
-    -   [5.5. Testing](../intro/tools-testing.html){.reference .internal}
-    -   [5.6. Git Basics](../intro/tools-git.html){.reference .internal}
-    -   [5.7. GDB](../intro/tools-gdb.html){.reference .internal}
+- [1. Introduction](../intro/intro.html){.reference .internal}
+- [2. Purpose of operating systems](../intro/purpose.html){.reference .internal}
+- [3. Operating System Structure & Unix/Linux](../intro/structure.html){.reference .internal}
+- [4. Operating System Abstractions](../intro/abstractions.html){.reference .internal}
+- [5. What you should know](../intro/tools.html){.reference .internal}
+  []{.toctree-toggle role="presentation"}
+  - [5.1. The C Programming Language](../intro/tools-c.html){.reference .internal}
+  - [5.2. Shell](../intro/tools-shell.html){.reference .internal}
+  - [5.3. Editors](../intro/tools-editors.html){.reference .internal}
+  - [5.4. Make](../intro/tools-make.html){.reference .internal}
+  - [5.5. Testing](../intro/tools-testing.html){.reference .internal}
+  - [5.6. Git Basics](../intro/tools-git.html){.reference .internal}
+  - [5.7. GDB](../intro/tools-gdb.html){.reference .internal}
 
 [Virtual Processor]{.caption-text}
 
--   [6. Introduction](../scheduling/intro.html){.reference .internal}
--   [7. The Process: A virtual Computer](../scheduling/process.html){.reference .internal}
--   [8. Virtualizing the CPU](../scheduling/virtual.html){.reference .internal}
--   [9. The Thread: A Virtual CPU](../scheduling/threads.html){.reference .internal}
--   [10. Scheduling](../scheduling/scheduling.html){.reference .internal}
-    []{.toctree-toggle role="presentation"}
-    -   [10.1. Scheduling Goals](../scheduling/sch-goals.html){.reference .internal}
-    -   [10.2. Simple Examples of Scheduling Policies](../scheduling/sch-simple.html){.reference .internal}
-    -   [10.3. Scheduling with Priorities](../scheduling/sch-prio.html){.reference .internal}
-    -   [10.4. Scheduling in the real world](../scheduling/sch-real.html){.reference .internal}
--   [11. Review Questions](../scheduling/review.html){.reference .internal}
+- [6. Introduction](../scheduling/intro.html){.reference .internal}
+- [7. The Process: A virtual Computer](../scheduling/process.html){.reference .internal}
+- [8. Virtualizing the CPU](../scheduling/virtual.html){.reference .internal}
+- [9. The Thread: A Virtual CPU](../scheduling/threads.html){.reference .internal}
+- [10. Scheduling](../scheduling/scheduling.html){.reference .internal}
+  []{.toctree-toggle role="presentation"}
+  - [10.1. Scheduling Goals](../scheduling/sch-goals.html){.reference .internal}
+  - [10.2. Simple Examples of Scheduling Policies](../scheduling/sch-simple.html){.reference .internal}
+  - [10.3. Scheduling with Priorities](../scheduling/sch-prio.html){.reference .internal}
+  - [10.4. Scheduling in the real world](../scheduling/sch-real.html){.reference .internal}
+- [11. Review Questions](../scheduling/review.html){.reference .internal}
 
 [Virtual Memory]{.caption-text}
 
--   [12. Introduction](../mm/intro.html){.reference .internal}
--   [13. Memory management before paged virtual memory](../mm/phys-and-seg.html){.reference .internal}
--   [14. Paged Virtual memory](../mm/pagvm.html){.reference .internal}
-    []{.toctree-toggle role="presentation"}
-    -   [14.1. Abstracting a useful interface for memory management.](../mm/vmabs.html){.reference .internal}
-    -   [14.2. Paging](../mm/virt-paging.html){.reference .internal}
-    -   [14.3. Page Tables](../mm/page-tables.html){.reference .internal}
-    -   [14.4. Memory reclaiming algorithms.](../mm/reclamation.html){.reference .internal}
-    -   [14.5. Page Sizes](../mm/page-size.html){.reference .internal}
-    -   [14.6. Memory Management Page Faults](../mm/pagefaults.html){.reference .internal}
--   [15. Buffer Cache](../mm/buffer-cache.html){.reference .internal}
--   [16. Memory management in the real world](../mm/realworld.html){.reference .internal}
--   [17. Conclusion](../mm/concl.html){.reference .internal}
--   [18. Review](../mm/review.html){.reference .internal}
+- [12. Introduction](../mm/intro.html){.reference .internal}
+- [13. Memory management before paged virtual memory](../mm/phys-and-seg.html){.reference .internal}
+- [14. Paged Virtual memory](../mm/pagvm.html){.reference .internal}
+  []{.toctree-toggle role="presentation"}
+  - [14.1. Abstracting a useful interface for memory management.](../mm/vmabs.html){.reference .internal}
+  - [14.2. Paging](../mm/virt-paging.html){.reference .internal}
+  - [14.3. Page Tables](../mm/page-tables.html){.reference .internal}
+  - [14.4. Memory reclaiming algorithms.](../mm/reclamation.html){.reference .internal}
+  - [14.5. Page Sizes](../mm/page-size.html){.reference .internal}
+  - [14.6. Memory Management Page Faults](../mm/pagefaults.html){.reference .internal}
+- [15. Buffer Cache](../mm/buffer-cache.html){.reference .internal}
+- [16. Memory management in the real world](../mm/realworld.html){.reference .internal}
+- [17. Conclusion](../mm/concl.html){.reference .internal}
+- [18. Review](../mm/review.html){.reference .internal}
 
 [File Systems]{.caption-text}
 
--   [19. Introduction](../fs/intro.html){.reference .internal}
--   [20. File System Abstraction](../fs/interface.html){.reference .internal}
--   [21. A bit about Disks](../fs/diskhw.html){.reference .internal}
--   [22. Implementation](../fs/impl.html){.reference .internal}
-    []{.toctree-toggle role="presentation"}
-    -   [22.1. File System Layout](../fs/disklayout.html){.reference .internal}
-    -   [22.2. Disk Layout:Tracking Used Space](../fs/dl_track_used.html){.reference .internal}
-    -   [22.3. Disk Layout:Tracking Free Space](../fs/dl_track_free.html){.reference .internal}
-    -   [22.4. Disk Layout:Implementing Name Space](../fs/dl_name.html){.reference .internal}
-    -   [22.5. Disk Layout:Dealing with Failures](../fs/dl_failures.html){.reference .internal}
-    -   [22.6. Disk Layout:Examples of Real World File Systems](../fs/dl_ex_exx.html){.reference .internal}
-    -   [22.7. Kernel implementation](../fs/kernelimp.html){.reference .internal}
--   [23. Review](../fs/review.html){.reference .internal}
+- [19. Introduction](../fs/intro.html){.reference .internal}
+- [20. File System Abstraction](../fs/interface.html){.reference .internal}
+- [21. A bit about Disks](../fs/diskhw.html){.reference .internal}
+- [22. Implementation](../fs/impl.html){.reference .internal}
+  []{.toctree-toggle role="presentation"}
+  - [22.1. File System Layout](../fs/disklayout.html){.reference .internal}
+  - [22.2. Disk Layout:Tracking Used Space](../fs/dl_track_used.html){.reference .internal}
+  - [22.3. Disk Layout:Tracking Free Space](../fs/dl_track_free.html){.reference .internal}
+  - [22.4. Disk Layout:Implementing Name Space](../fs/dl_name.html){.reference .internal}
+  - [22.5. Disk Layout:Dealing with Failures](../fs/dl_failures.html){.reference .internal}
+  - [22.6. Disk Layout:Examples of Real World File Systems](../fs/dl_ex_exx.html){.reference .internal}
+  - [22.7. Kernel implementation](../fs/kernelimp.html){.reference .internal}
+- [23. Review](../fs/review.html){.reference .internal}
 
 [Concurrency]{.caption-text}
 
--   [24. Introduction](sync.html){.reference .internal}
--   [25. Basic Synchronization](basic.html){.reference .internal}
-    []{.toctree-toggle role="presentation"}
-    -   [25.1. Cooperating Processes and Inter-process Communication](sharing.html){.reference .internal}
-    -   [25.2. The Critical Section Problem](criticalsection.html){.reference .internal}
-    -   [25.3. Implementing Locks](locks.html){.reference .internal}
-    -   [25.4. Ordering Thread Events](#){.current .reference .internal}
--   [26. Common Concurrency Bugs](concurrency_bugs.html){.reference .internal}
--   [27. Advanced Synchronization](advanced.html){.reference .internal}
-    []{.toctree-toggle role="presentation"}
-    -   [27.1. Read-Dominated Workloads](readmostly.html){.reference .internal}
-    -   [27.2. Challenges of Modern Hardware](hardware_challenges.html){.reference .internal}
-    -   [27.3. Locking in the Linux Kernel](linux_locking.html){.reference .internal}
--   [28. Review](review.html){.reference .internal}
+- [24. Introduction](sync.html){.reference .internal}
+- [25. Basic Synchronization](basic.html){.reference .internal}
+  []{.toctree-toggle role="presentation"}
+  - [25.1. Cooperating Processes and Inter-process Communication](sharing.html){.reference .internal}
+  - [25.2. The Critical Section Problem](criticalsection.html){.reference .internal}
+  - [25.3. Implementing Locks](locks.html){.reference .internal}
+  - [25.4. Ordering Thread Events](#){.current .reference .internal}
+- [26. Common Concurrency Bugs](concurrency_bugs.html){.reference .internal}
+- [27. Advanced Synchronization](advanced.html){.reference .internal}
+  []{.toctree-toggle role="presentation"}
+  - [27.1. Read-Dominated Workloads](readmostly.html){.reference .internal}
+  - [27.2. Challenges of Modern Hardware](hardware_challenges.html){.reference .internal}
+  - [27.3. Locking in the Linux Kernel](linux_locking.html){.reference .internal}
+- [28. Review](review.html){.reference .internal}
 
 [Other Topics]{.caption-text}
 
--   [29. Input and Output](../devices/devices.html){.reference .internal}
--   [30. More on Disks](../devices/disk2.html){.reference .internal}
--   [31. Virtualization](../virt/virt.html){.reference .internal}
--   [32. Security](../sec/sec.html){.reference .internal}
+- [29. Input and Output](../devices/devices.html){.reference .internal}
+- [30. More on Disks](../devices/disk2.html){.reference .internal}
+- [31. Virtualization](../virt/virt.html){.reference .internal}
+- [32. Security](../sec/sec.html){.reference .internal}
 
 [Appendices]{.caption-text}
 
--   [33. How to read this book](../misc/howto.html){.reference .internal}
--   [34. Contributing](../contributing/intro.html){.reference .internal}
-    []{.toctree-toggle role="presentation"}
-    -   [34.1. Examples](../contributing/examples.html){.reference .internal}
-    -   [34.2. Contributors](../contributing/credit.html){.reference .internal}
-    -   [34.3. Contributing](../contributing/Contributing.html){.reference .internal}
-    -   [34.6. Resources to look at](../contributing/resources.html){.reference .internal}
-    -   [34.7. Out of date](../contributing/fix.html){.reference .internal}
--   [35. Bibliography](../misc/bib.html){.reference .internal}
-:::
-:::
-:::
+- [33. How to read this book](../misc/howto.html){.reference .internal}
+- [34. Contributing](../contributing/intro.html){.reference .internal}
+  []{.toctree-toggle role="presentation"}
+  - [34.1. Examples](../contributing/examples.html){.reference .internal}
+  - [34.2. Contributors](../contributing/credit.html){.reference .internal}
+  - [34.3. Contributing](../contributing/Contributing.html){.reference .internal}
+  - [34.6. Resources to look at](../contributing/resources.html){.reference .internal}
+  - [34.7. Out of date](../contributing/fix.html){.reference .internal}
+- [35. Bibliography](../misc/bib.html){.reference .internal}
+  :::
+  :::
+  :::
 
 ::: {.sidebar-primary-items__end .sidebar-primary__section}
 :::
@@ -178,21 +178,22 @@ Back to top
 ::: article-header-buttons
 ::: {.dropdown .dropdown-launch-buttons}
 
--   [[ ![JupyterHub logo](../_static/images/logo_jupyterhub.svg) ]{.btn__icon-container} [JupyterHub]{.btn__text-container}](https://jupyterhub-opf-jupyterhub.apps.smaug.na.operate-first.cloud/hub/user-redirect/git-pull?repo=https%3A//github.com/OpenOSOrg/openos&urlpath=lab/tree/openos/content/sync/ordering.ipynb&branch=main "Launch on JupyterHub"){.btn .btn-sm .dropdown-item target="_blank" bs-placement="left" bs-toggle="tooltip"}
-:::
+- [[ ![JupyterHub logo](../_static/images/logo_jupyterhub.svg) ]{.btn__icon-container} [JupyterHub]{.btn__text-container}](https://jupyterhub-opf-jupyterhub.apps.smaug.na.operate-first.cloud/hub/user-redirect/git-pull?repo=https%3A//github.com/OpenOSOrg/openos&urlpath=lab/tree/openos/content/sync/ordering.ipynb&branch=main "Launch on JupyterHub"){.btn .btn-sm .dropdown-item target="_blank" bs-placement="left" bs-toggle="tooltip"}
+  :::
 
 ::: {.dropdown .dropdown-source-buttons}
 
--   [[ ]{.btn__icon-container} [Repository]{.btn__text-container}](https://github.com/OpenOSOrg/openos "Source repository"){.btn .btn-sm .btn-source-repository-button .dropdown-item target="_blank" bs-placement="left" bs-toggle="tooltip"}
--   [[ ]{.btn__icon-container} [Suggest edit]{.btn__text-container}](https://github.com/OpenOSOrg/openos/edit/main/content/sync/ordering.ipynb "Suggest edit"){.btn .btn-sm .btn-source-edit-button .dropdown-item target="_blank" bs-placement="left" bs-toggle="tooltip"}
--   [[ ]{.btn__icon-container} [Open issue]{.btn__text-container}](https://github.com/OpenOSOrg/openos/issues/new?title=Issue%20on%20page%20%2Fsync/ordering.html&body=Your%20issue%20content%20here. "Open an issue"){.btn .btn-sm .btn-source-issues-button .dropdown-item target="_blank" bs-placement="left" bs-toggle="tooltip"}
-:::
+- [[ ]{.btn__icon-container} [Repository]{.btn__text-container}](https://github.com/OpenOSOrg/openos "Source repository"){.btn .btn-sm .btn-source-repository-button .dropdown-item target="_blank" bs-placement="left" bs-toggle="tooltip"}
+- [[ ]{.btn__icon-container} [Suggest edit]{.btn__text-container}](https://github.com/OpenOSOrg/openos/edit/main/content/sync/ordering.ipynb "Suggest edit"){.btn .btn-sm .btn-source-edit-button .dropdown-item target="_blank" bs-placement="left" bs-toggle="tooltip"}
+- [[ ]{.btn__icon-container} [Open issue]{.btn__text-container}](https://github.com/OpenOSOrg/openos/issues/new?title=Issue%20on%20page%20%2Fsync/ordering.html&body=Your%20issue%20content%20here. "Open an issue"){.btn .btn-sm .btn-source-issues-button .dropdown-item target="_blank" bs-placement="left" bs-toggle="tooltip"}
+  :::
 
 ::: {.dropdown .dropdown-download-buttons}
 
--   [[ ]{.btn__icon-container} [.ipynb]{.btn__text-container}](../_sources/sync/ordering.ipynb "Download source file"){.btn .btn-sm .btn-download-source-button .dropdown-item target="_blank" bs-placement="left" bs-toggle="tooltip"}
--   [ ]{.btn__icon-container} [.pdf]{.btn__text-container}
-:::
+- [[ ]{.btn__icon-container} [.ipynb]{.btn__text-container}](../_sources/sync/ordering.ipynb "Download source file"){.btn .btn-sm .btn-download-source-button .dropdown-item target="_blank" bs-placement="left" bs-toggle="tooltip"}
+
+-  [ ]{.btn__icon-container} [.pdf]{.btn__text-container}
+  :::
 
 [ ]{.btn__icon-container}
 
@@ -204,22 +205,24 @@ Back to top
 :::
 
 ::: {#jb-print-docs-body .onlyprint}
+
 # Ordering Thread Events
 
 ::: {#print-main-content}
 ::: {#jb-print-toc}
+
 <div>
 
 ## Contents
 
 </div>
 
--   [25.4.1. The Bounded Buffer Problem](#the-bounded-buffer-problem){.reference .internal .nav-link}
--   [25.4.2. Semaphores](#semaphores){.reference .internal .nav-link}
--   [25.4.3. Condition Variables](#condition-variables){.reference .internal .nav-link}
-:::
-:::
-:::
+- [25.4.1. The Bounded Buffer Problem](#the-bounded-buffer-problem){.reference .internal .nav-link}
+- [25.4.2. Semaphores](#semaphores){.reference .internal .nav-link}
+- [25.4.3. Condition Variables](#condition-variables){.reference .internal .nav-link}
+  :::
+  :::
+  :::
 
 ::: {#searchbox}
 :::
@@ -230,24 +233,23 @@ Back to top
 ::: {#ordering-thread-events .section .tex2jax_ignore .mathjax_ignore}
 []{#cont-sync-ordering}
 
-# [25.4. ]{.section-number}Ordering Thread Events[\#](#ordering-thread-events "Link to this heading"){.headerlink}
+# [25.4. ] {.section-number}Ordering Thread Events[\#](#ordering-thread-events "Link to this heading") {.headerlink}
 
 As we saw in [[Section 25.3.4]{.std .std-numref}](locks.html#cont-sync-locks-sleep-wakeup){.reference .internal}, the `wait_queue`{.docutils .literal .notranslate} data structure provides a way for threads to avoid wasting CPU time while they are waiting for something to happen. The mechanics of atomically putting a thread to sleep on a wait_queue must be handled carefully, and require some interaction with the CPU scheduler. Different operating systems have different ways of doing this, and we will revisit this issue when we discuss locking in the Linux kernel. For now, we will simply use these abstractions to explore other synchronization problems and build some higher-level synchronization primitives.
 
 As a reminder, here are the operations on a `wait_queue`{.docutils .literal .notranslate}:
 
--   `sleep(wait_queue)`{.docutils .literal .notranslate}: blocks the calling thread; thread is added to `wait_queue`{.docutils .literal .notranslate} and another thread is selected to run.
-
--   `wakeup(wait_queue)`{.docutils .literal .notranslate}: removes a thread from `wait_queue`{.docutils .literal .notranslate} and adds it to the scheduler Ready queue.
-
--   `wakeup_all(wait_queue)`{.docutils .literal .notranslate}: moves *all* threads from `wait_queue`{.docutils .literal .notranslate} to the the scheduler Ready queue.
+- `sleep(wait_queue)`{.docutils .literal .notranslate}: blocks the calling thread; thread is added to `wait_queue`{.docutils .literal .notranslate} and another thread is selected to run.
+- `wakeup(wait_queue)`{.docutils .literal .notranslate}: removes a thread from `wait_queue`{.docutils .literal .notranslate} and adds it to the scheduler Ready queue.
+- `wakeup_all(wait_queue)`{.docutils .literal .notranslate}: moves *all* threads from `wait_queue`{.docutils .literal .notranslate} to the the scheduler Ready queue.
 
 Waiting for a lock to be released is just one possible reason that a thread might need to wait. We saw another example in the code of [[Listing 25.22]{.std .std-numref}](locks.html#listing-sync-check-spinlock-fairness){.reference .internal}, where each child thread spins waiting for the parent to finish creating all the other children. The `wakeup_all()`{.docutils .literal .notranslate} operation is handy in a case like this where we want to allow all the waiting threads to resume activity.
 
 There are many examples where we need to control the order in which threads can execute. In the remainder of this chapter, we will consider some of these problems.
 
 ::: {#the-bounded-buffer-problem .section}
-## [25.4.1. ]{.section-number}The Bounded Buffer Problem[\#](#the-bounded-buffer-problem "Link to this heading"){.headerlink}
+
+## [25.4.1. ] {.section-number}The Bounded Buffer Problem[\#](#the-bounded-buffer-problem "Link to this heading") {.headerlink}
 
 Let's look at one classic example, known as the Bounded Buffer problem (also called the Producer/Consumer problem). In this problem, a set of threads communicate through a shared circular buffer that can hold N items. We maintain a count of the number of items currently in the buffer. Producer threads generate new items and add them to the buffer; consumer threads remove items from the buffer. The items could be an arbitrary structure, or just bytes of data. We will begin by considering the special case of a single producer and a single consumer. This problem is essentially a simplified version of the [[pipe abstraction]{.std .std-ref}](../intro/abstractions.html#cont-gs-abstractions-pipes){.reference .internal}.
 
@@ -264,53 +266,56 @@ Let's try using the `sleep()`{.docutils .literal .notranslate} and `wakeup()`{.d
 
 ::: {.highlight-default .notranslate}
 ::: highlight
-    /* For illustration purposes only. 
-     * This code is not complete and cannot be compiled into an executable.
-     */
-    #include <stdatomic.h>
-    #include <stdbool.h>
-    #include "waitqueue.h"
+/* For illustration purposes only.
+* This code is not complete and cannot be compiled into an executable.
+*/
+#include <stdatomic.h>
+#include <stdbool.h>
+#include "waitqueue.h"
 
-    extern char produce_item();
-    extern void consume_item(char item);
+```
+extern char produce_item();
+extern void consume_item(char item);
 
-    #define N 2
+#define N 2
 
-    struct bounded_buffer {
-        char data[N];   /* 'items' in this example are just bytes */
-        int in;     /* index where producer inserts items, initially 0 */
-        int out;    /* index where consumer removes items, initially 0 */
-        atomic_int count;  /* number of items currently in buffer, initially 0 */
-        struct wait_queue waitq; /* keep track of waiting threads */
-    };
+struct bounded_buffer {
+    char data[N];   /* 'items' in this example are just bytes */
+    int in;     /* index where producer inserts items, initially 0 */
+    int out;    /* index where consumer removes items, initially 0 */
+    atomic_int count;  /* number of items currently in buffer, initially 0 */
+    struct wait_queue waitq; /* keep track of waiting threads */
+};
 
-    struct bounded_buffer bb;
+struct bounded_buffer bb;
 
-    void *producer(void *arg) {
-        while(true) {
-            char item = produce_item();
-            if (bb.count == N)
-                sleep(&bb.waitq);
-            bb.data[bb.in] = item;
-            bb.in = (bb.in + 1) % N;
-            bb.count++;
-            if (bb.count == 1) 
-                wakeup(&bb.waitq);
-        }
+void *producer(void *arg) {
+    while(true) {
+        char item = produce_item();
+        if (bb.count == N)
+            sleep(&bb.waitq);
+        bb.data[bb.in] = item;
+        bb.in = (bb.in + 1) % N;
+        bb.count++;
+        if (bb.count == 1) 
+            wakeup(&bb.waitq);
     }
+}
 
-    void *consumer(void *arg) {
-        while(true) {
-            if (bb.count == 0) 
-                sleep(&bb.waitq);
-            char item = bb.data[bb.out];
-            bb.out = (bb.out + 1) % N;
-            bb.count--;
-            if (bb.count == N-1) 
-                wakeup(&bb.waitq);
-            consume_item(item);
-        }
+void *consumer(void *arg) {
+    while(true) {
+        if (bb.count == 0) 
+            sleep(&bb.waitq);
+        char item = bb.data[bb.out];
+        bb.out = (bb.out + 1) % N;
+        bb.count--;
+        if (bb.count == N-1) 
+            wakeup(&bb.waitq);
+        consume_item(item);
     }
+}
+```
+
 :::
 :::
 :::
@@ -331,7 +336,7 @@ Now, you might observe that testing the value of `count`{.docutils .literal .not
 ::: {#semaphores .section}
 []{#cont-sync-ordering-sema}
 
-## [25.4.2. ]{.section-number}Semaphores[\#](#semaphores "Link to this heading"){.headerlink}
+## [25.4.2. ] {.section-number}Semaphores[\#](#semaphores "Link to this heading") {.headerlink}
 
 We can observe that the *lost wakeup* problem occurs because a `wakeup()`{.docutils .literal .notranslate} has no effect when no one is waiting yet. Perhaps we could avoid the problem if we kept track of the `wakeup()`{.docutils .literal .notranslate} and allowed a thread the return immediately from `sleep()`{.docutils .literal .notranslate} if a `wakeup()`{.docutils .literal .notranslate} had already been sent. This is the key idea behind the *semaphore* synchronization primitive introduced by Djikstra [\[[Dij65](../misc/bib.html#id5){.reference .internal}\]]{#id1}. A semaphore has private data consisting of a non-negative integer count and a queue of waiting threads, which can only be accessed by two **atomic operations**, `sem_wait()`{.docutils .literal .notranslate} and `sem_post()`{.docutils .literal .notranslate}. There is also a `sem_init()`{.docutils .literal .notranslate} operation that sets the semaphore count to some initial value.
 
@@ -343,11 +348,9 @@ We are using the POSIX names for the semaphore operations. The original names of
 
 The semaphore operations are defined as follows:
 
--   `sem_init(sem_t *sem, int pshared, unsigned int value)`{.docutils .literal .notranslate} - initializes the semaphore pointed to by sem with the initial value `value`{.docutils .literal .notranslate}. (The pshared argument should be 0 for semaphores shared by threads in the same process.)
-
--   `sem_wait(sem_t *sem)`{.docutils .literal .notranslate} - decrements the internal count of the semaphore pointed to by `sem`{.docutils .literal .notranslate}. If the semaphore's value is greater than zero, then the decrement proceeds, and the function returns, immediately. If the semaphore currently has the value zero, then the call blocks until it becomes possible to perform the decrement (i.e., the semaphore value rises above zero).
-
--   `sem_post(sem_t *sem)`{.docutils .literal .notranslate} - increments the internal count of the semaphore pointed to by `sem`{.docutils .literal .notranslate}. If the semaphore's value consequently becomes greater than zero, then another process or thread blocked in a `sem_wait()`{.docutils .literal .notranslate} call will be woken up.
+- `sem_init(sem_t *sem, int pshared, unsigned int value)`{.docutils .literal .notranslate} - initializes the semaphore pointed to by sem with the initial value `value`{.docutils .literal .notranslate}. (The pshared argument should be 0 for semaphores shared by threads in the same process.)
+- `sem_wait(sem_t *sem)`{.docutils .literal .notranslate} - decrements the internal count of the semaphore pointed to by `sem`{.docutils .literal .notranslate}. If the semaphore's value is greater than zero, then the decrement proceeds, and the function returns, immediately. If the semaphore currently has the value zero, then the call blocks until it becomes possible to perform the decrement (i.e., the semaphore value rises above zero).
+- `sem_post(sem_t *sem)`{.docutils .literal .notranslate} - increments the internal count of the semaphore pointed to by `sem`{.docutils .literal .notranslate}. If the semaphore's value consequently becomes greater than zero, then another process or thread blocked in a `sem_wait()`{.docutils .literal .notranslate} call will be woken up.
 
 It is important that the `sem_wait()`{.docutils .literal .notranslate} and `sem_post()`{.docutils .literal .notranslate} calls are atomic, meaning that once a thread starts one of these operations, it cannot be interleaved with the execution of another operation on the same semaphore. For user-level implementations, this generally requires a system call since we may need to change the state of a thread from running to blocked, or from blocked to runnable. In the operating system, we need to ensure that checking the semaphore count and putting a thread to sleep is atomic, either by disabling interrupts on a uniprocessor, or by using a spinlock on a multiprocessor. Once the thread has been enqueued on the semaphore's wait list, the lock can be released before yielding the CPU to another thread.
 
@@ -360,56 +363,56 @@ How does the semaphore synchronization primitive help us solve the bounded buffe
 
 ::: {.highlight-default .notranslate}
 ::: highlight
-     1/* For illustration purposes only. 
-     2 * This code is not complete and cannot be compiled into an executable.
-     3 */
-     4#include <semaphore.h>
-     5#include <stdbool.h>
-     6
-     7extern char produce_item();
-     8extern void consume_item(char item);
-     9
-    10#define N 2
-    11
-    12struct bounded_buffer {
-    13    char data[N];   /* 'items' in this example are just bytes */
-    14    int in;     /* index where producer inserts items, initially 0 */
-    15    int out;    /* index where consumer removes items, initially 0 */
-    16    sem_t sem_empty;
-    17    sem_t sem_filled;
-    18};
-    19
-    20struct bounded_buffer bb;
-    21
-    22void *producer(void *arg) {
-    23    while(true) {
-    24        char item = produce_item();
-    25        sem_wait(&bb.sem_empty);
-    26        bb.data[bb.in] = item;
-    27        bb.in = (bb.in + 1) % N;
-    28        sem_post(&bb.sem_filled);
-    29    }
-    30}
-    31
-    32void *consumer(void *arg) {
-    33    while(true) {
-    34        sem_wait(&bb.sem_filled);
-    35        char item = bb.data[bb.out];
-    36        bb.out = (bb.out + 1) % N;
-    37        sem_post(&bb.sem_empty);
-    38        consume_item(item);
-    39    }
-    40}
-    41
-    42int main()
-    43{
-    44    sem_init(&bb.sem_empty, 0, N);
-    45    sem_init(&bb.sem_filled,0, 0);
-    46    
-    47    /*** Thread creation stuff here ***/
-    48    
-    49    return 0;
-    50}
+1/* For illustration purposes only.
+2 * This code is not complete and cannot be compiled into an executable.
+3 */
+4#include <semaphore.h>
+5#include <stdbool.h>
+6
+7extern char produce_item();
+8extern void consume_item(char item);
+9
+10#define N 2
+11
+12struct bounded_buffer {
+13    char data[N];   /* 'items' in this example are just bytes */
+14    int in;     /* index where producer inserts items, initially 0 */
+15    int out;    /* index where consumer removes items, initially 0 */
+16    sem_t sem_empty;
+17    sem_t sem_filled;
+18};
+19
+20struct bounded_buffer bb;
+21
+22void *producer(void *arg) {
+23    while(true) {
+24        char item = produce_item();
+25        sem_wait(&bb.sem_empty);
+26        bb.data[bb.in] = item;
+27        bb.in = (bb.in + 1) % N;
+28        sem_post(&bb.sem_filled);
+29    }
+30}
+31
+32void *consumer(void *arg) {
+33    while(true) {
+34        sem_wait(&bb.sem_filled);
+35        char item = bb.data[bb.out];
+36        bb.out = (bb.out + 1) % N;
+37        sem_post(&bb.sem_empty);
+38        consume_item(item);
+39    }
+40}
+41
+42int main()
+43{
+44    sem_init(&bb.sem_empty, 0, N);
+45    sem_init(&bb.sem_filled,0, 0);
+46
+47    /*** Thread creation stuff here ***/
+48
+49    return 0;
+50}
 :::
 :::
 :::
@@ -425,62 +428,65 @@ The `sem_empty`{.docutils .literal .notranslate} and `sem_filled`{.docutils .lit
 
 ::: {.highlight-default .notranslate}
 ::: highlight
-    /* For illustration purposes only. 
-     * This code is not complete and cannot be compiled into an executable.
-     */
-    #include <semaphore.h>
-    #include <stdbool.h>
+/* For illustration purposes only.
+* This code is not complete and cannot be compiled into an executable.
+*/
+#include <semaphore.h>
+#include <stdbool.h>
 
-    extern char produce_item();
-    extern void consume_item(char item);
+```
+extern char produce_item();
+extern void consume_item(char item);
 
-    #define N 2
+#define N 2
 
-    struct bounded_buffer {
-        char data[N];   /* 'items' in this example are just bytes */
-        int in;     /* index where producer inserts items, initially 0 */
-        int out;    /* index where consumer removes items, initially 0 */
-        sem_t sem_empty;
-        sem_t sem_filled;
-        sem_t sem_mutex;
-    };
+struct bounded_buffer {
+    char data[N];   /* 'items' in this example are just bytes */
+    int in;     /* index where producer inserts items, initially 0 */
+    int out;    /* index where consumer removes items, initially 0 */
+    sem_t sem_empty;
+    sem_t sem_filled;
+    sem_t sem_mutex;
+};
 
-    struct bounded_buffer bb;
+struct bounded_buffer bb;
 
-    void *producer(void *arg) {
-        while(true) {
-            char item = produce_item();
-            sem_wait(&bb.sem_empty);
-            sem_wait(&bb.sem_mutex);
-            bb.data[bb.in] = item;
-            bb.in = (bb.in + 1) % N;
-            sem_post(&bb.sem_mutex);
-            sem_post(&bb.sem_filled);
-        }
+void *producer(void *arg) {
+    while(true) {
+        char item = produce_item();
+        sem_wait(&bb.sem_empty);
+        sem_wait(&bb.sem_mutex);
+        bb.data[bb.in] = item;
+        bb.in = (bb.in + 1) % N;
+        sem_post(&bb.sem_mutex);
+        sem_post(&bb.sem_filled);
     }
+}
 
-    void *consumer(void *arg) {
-        while(true) {
-            sem_wait(&bb.sem_filled);
-            sem_wait(&bb.sem_mutex);
-            char item = bb.data[bb.out];
-            bb.out = (bb.out + 1) % N;
-            sem_post(&bb.sem_mutex);
-            sem_post(&bb.sem_empty);
-            consume_item(item);
-        }
+void *consumer(void *arg) {
+    while(true) {
+        sem_wait(&bb.sem_filled);
+        sem_wait(&bb.sem_mutex);
+        char item = bb.data[bb.out];
+        bb.out = (bb.out + 1) % N;
+        sem_post(&bb.sem_mutex);
+        sem_post(&bb.sem_empty);
+        consume_item(item);
     }
+}
 
-    int main()
-    {
-        sem_init(&bb.sem_empty, 0, N);
-        sem_init(&bb.sem_filled, 0, 0);
-        sem_init(&bb.sem_mutex, 0, 1);
-        
-        /*** Thread creation stuff here ***/
-        
-        return 0;
-    }
+int main()
+{
+    sem_init(&bb.sem_empty, 0, N);
+    sem_init(&bb.sem_filled, 0, 0);
+    sem_init(&bb.sem_mutex, 0, 1);
+    
+    /*** Thread creation stuff here ***/
+    
+    return 0;
+}
+```
+
 :::
 :::
 :::
@@ -491,26 +497,24 @@ The `sem_mutex`{.docutils .literal .notranslate} is used exactly like a lock to 
 ::: {#condition-variables .section}
 []{#cont-sync-ordering-cv}
 
-## [25.4.3. ]{.section-number}Condition Variables[\#](#condition-variables "Link to this heading"){.headerlink}
+## [25.4.3. ] {.section-number}Condition Variables[\#](#condition-variables "Link to this heading") {.headerlink}
 
 One challenge with using semaphores is that we must encode the state that a thread is waiting upon as a single counter. This worked nicely for the bounded buffer problem with producers using a semaphore to count the number of empty slots, and consumers using another semaphore to count the number of filled slots. For example, suppose we had two types of producer threads, one that produced 'a's and another that produced 'b's, and we wanted to ensure that the buffer was never more than 75% full of either a's or b's. The 'a'-producer would need a check something like the code shown below before it could add another 'a' to the buffer (and similarly for the 'b'-producer).
 
 ::: {.highlight-c .notranslate}
 ::: highlight
-    1...
-    2if ( (a_count + b_count) == N || (a_count >= N*3/4) )
-    3    sleep()
-    4...
+1...
+2if ( (a_count + b_count) == N || (a_count >= N*3/4) )
+3    sleep()
+4...
 :::
 :::
 
 Expressing this set of conditions using semaphores is tricky (although it can be done), and it is easy to make mistakes. Instead, we would like to separate the checking of the conditions from the act of atomically putting a thread to sleep. However, we saw earlier that we need to hold a lock while testing the shared variables that are involved in deciding whether to sleep or not, and we need to release the lock before we put the thread to sleep. To solve that problem we introduce another synchronization primitive called a *condition variable*. This is, admittedly, a terrible name since the boolean condition that a thread checks is not actually part of the *condition variable* object at all. A condition variable consists of an internal list of waiting threads, and operations `wait`{.docutils .literal .notranslate}, `signal`{.docutils .literal .notranslate} and `broadcast`{.docutils .literal .notranslate}. For concreteness, we will use the POSIX pthread names for the condition variable type, `pthread_cond_t`{.docutils .literal .notranslate}, and operations, `pthread_cond_wait`{.docutils .literal .notranslate}, `pthread_cond_signal`{.docutils .literal .notranslate} and `pthread_cond_broadcast`{.docutils .literal .notranslate}.
 
--   `pthread_cond_wait(pthread_cond_t *cond, pthread_mutex_t *mutex)`{.docutils .literal .notranslate} : atomically release the `mutex`{.docutils .literal .notranslate} and put the calling thread to sleep on the condition variable `cond`{.docutils .literal .notranslate}; upon waking up, the `mutex`{.docutils .literal .notranslate} is re-acquired before returning. Must be called with `mutex`{.docutils .literal .notranslate} held by the calling thread.
-
--   `pthread_cond_signal(pthread_cond_t *cond)`{.docutils .literal .notranslate} : Wake up one thread waiting on condition variable `cond`{.docutils .literal .notranslate}. Has no effect if no threads are waiting.
-
--   `pthread_cond_broadcast(pthread_cond_t *cond)`{.docutils .literal .notranslate} : Wake up all threads waiting on condition variable `cond`{.docutils .literal .notranslate}. Has no effect if no threads are waiting.
+- `pthread_cond_wait(pthread_cond_t *cond, pthread_mutex_t *mutex)`{.docutils .literal .notranslate} : atomically release the `mutex`{.docutils .literal .notranslate} and put the calling thread to sleep on the condition variable `cond`{.docutils .literal .notranslate}; upon waking up, the `mutex`{.docutils .literal .notranslate} is re-acquired before returning. Must be called with `mutex`{.docutils .literal .notranslate} held by the calling thread.
+- `pthread_cond_signal(pthread_cond_t *cond)`{.docutils .literal .notranslate} : Wake up one thread waiting on condition variable `cond`{.docutils .literal .notranslate}. Has no effect if no threads are waiting.
+- `pthread_cond_broadcast(pthread_cond_t *cond)`{.docutils .literal .notranslate} : Wake up all threads waiting on condition variable `cond`{.docutils .literal .notranslate}. Has no effect if no threads are waiting.
 
 Note that locks and condition variables must always be used together. The lock protects the shared data, so that a thread can examine the state of a structure, make decisions about what to do next, and modify the shared data without interference from other threads. The condition variable provides the mechanism to atomically release the lock and put a thread to sleep until it becomes possible for that thread to make progress again. Upon return from a `pthread_cond_wait()`{.docutils .literal .notranslate}, a thread is guaranteed to hold the lock again. However, there is no guarantee that a thread awakened by a `pthread_cond_signal()`{.docutils .literal .notranslate} will be the next thread to acquire the lock---other threads could run first, acquire the lock, change shared variables and invalidate the condition that the thread was waiting for. Hence, a thread should always re-evaluate the boolean expression after returning from `pthread_cond_wait()`{.docutils .literal .notranslate} to make sure it is ok to proceed. In some cases, a thread may need to wait repeatedly.
 
@@ -523,70 +527,70 @@ To illustrate these concepts, let's look first at how we would implement a solut
 
 ::: {.highlight-default .notranslate}
 ::: highlight
-     1/* For illustration purposes only. 
-     2 * This code is not complete and cannot be compiled into an executable.
-     3 */
-     4#include <pthread.h>
-     5#include <stdbool.h>
-     6
-     7extern char produce_item();
-     8extern void consume_item(char item);
-     9
-    10#define N 2
-    11
-    12struct bounded_buffer {
-    13    char data[N];   /* 'items' in this example are just bytes */
-    14    int in;     /* index where producer inserts items, initially 0 */
-    15    int out;    /* index where consumer removes items, initially 0 */
-    16    int count;
-    17    pthread_mutex_t buflock;
-    18    pthread_cond_t not_full;
-    19    pthread_cond_t not_empty;
-    20};
-    21
-    22struct bounded_buffer bb;
-    23
-    24void *producer(void *arg) {
-    25    while(true) {
-    26        char item = produce_item();
-    27        pthread_mutex_lock(&bb.buflock);
-    28        while(bb.count == N) {
-    29            pthread_cond_wait(&bb.notfull, &bb.buflock);
-    30        }
-    31        bb.data[bb.in] = item;
-    32        bb.in = (bb.in + 1) % N;
-    33        bb.count++;
-    34        pthread_cond_signal(&bb.notempty);
-    35        pthread_mutex_unlock(&bb.buflock);
-    36    }
-    37}
-    38
-    39void *consumer(void *arg) {
-    40    while(true) {
-    41        pthread_mutex_lock(&bb.buflock);
-    42        while (bb.count == 0) {
-    43            pthread_cond_wait(&bb.notempty, &bb.buflock);
-    44        }
-    45        char item = bb.data[bb.out];
-    46        bb.out = (bb.out + 1) % N;
-    47        bb.count--;
-    48        pthread_cond_signal(&bb.notfull);
-    49        pthread_mutex_unlock(&bb.buflock);
-    50
-    51        consume_item(item);
-    52    }
-    53}
-    54
-    55int main()
-    56{
-    57    pthread_mutex_init(&bb.buflock, NULL);
-    58    pthread_cond_init(&bb.notfull, NULL);
-    59    pthread_cond_init(&bb.notempty, NULL);
-    60    
-    61    /*** Thread creation stuff here ***/
-    62    
-    63    return 0;
-    64}
+1/* For illustration purposes only.
+2 * This code is not complete and cannot be compiled into an executable.
+3 */
+4#include <pthread.h>
+5#include <stdbool.h>
+6
+7extern char produce_item();
+8extern void consume_item(char item);
+9
+10#define N 2
+11
+12struct bounded_buffer {
+13    char data[N];   /* 'items' in this example are just bytes */
+14    int in;     /* index where producer inserts items, initially 0 */
+15    int out;    /* index where consumer removes items, initially 0 */
+16    int count;
+17    pthread_mutex_t buflock;
+18    pthread_cond_t not_full;
+19    pthread_cond_t not_empty;
+20};
+21
+22struct bounded_buffer bb;
+23
+24void *producer(void *arg) {
+25    while(true) {
+26        char item = produce_item();
+27        pthread_mutex_lock(&bb.buflock);
+28        while(bb.count == N) {
+29            pthread_cond_wait(&bb.notfull, &bb.buflock);
+30        }
+31        bb.data[bb.in] = item;
+32        bb.in = (bb.in + 1) % N;
+33        bb.count++;
+34        pthread_cond_signal(&bb.notempty);
+35        pthread_mutex_unlock(&bb.buflock);
+36    }
+37}
+38
+39void *consumer(void *arg) {
+40    while(true) {
+41        pthread_mutex_lock(&bb.buflock);
+42        while (bb.count == 0) {
+43            pthread_cond_wait(&bb.notempty, &bb.buflock);
+44        }
+45        char item = bb.data[bb.out];
+46        bb.out = (bb.out + 1) % N;
+47        bb.count--;
+48        pthread_cond_signal(&bb.notfull);
+49        pthread_mutex_unlock(&bb.buflock);
+50
+51        consume_item(item);
+52    }
+53}
+54
+55int main()
+56{
+57    pthread_mutex_init(&bb.buflock, NULL);
+58    pthread_cond_init(&bb.notfull, NULL);
+59    pthread_cond_init(&bb.notempty, NULL);
+60
+61    /*** Thread creation stuff here ***/
+62
+63    return 0;
+64}
 :::
 :::
 :::
@@ -627,13 +631,13 @@ next
 Contents
 :::
 
--   [25.4.1. The Bounded Buffer Problem](#the-bounded-buffer-problem){.reference .internal .nav-link}
--   [25.4.2. Semaphores](#semaphores){.reference .internal .nav-link}
--   [25.4.3. Condition Variables](#condition-variables){.reference .internal .nav-link}
-:::
-:::
-:::
-:::
+- [25.4.1. The Bounded Buffer Problem](#the-bounded-buffer-problem){.reference .internal .nav-link}
+- [25.4.2. Semaphores](#semaphores){.reference .internal .nav-link}
+- [25.4.3. Condition Variables](#condition-variables){.reference .internal .nav-link}
+  :::
+  :::
+  :::
+  :::
 
 ::: {.bd-footer-content__inner .container}
 ::: footer-item
@@ -641,7 +645,7 @@ By (see contributing chapter book)
 :::
 
 ::: footer-item
-© Copyright 2022.\
+© Copyright 2022.
 :::
 
 ::: footer-item

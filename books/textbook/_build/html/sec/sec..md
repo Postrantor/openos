@@ -7,7 +7,6 @@ viewport:
 - width=device-width, initial-scale=1
 - width=device-width, initial-scale=1
 ---
-
 ::: {#pst-skip-link .skip-link .d-print-none}
 [Skip to main content](#main-content)
 :::
@@ -48,109 +47,110 @@ Back to top
 
 ::: sidebar-primary-item
 ::: {.bd-toc-item .navbar-nav .active}
--   [Preface](../intro/pref.html){.reference .internal}
+
+- [Preface](../intro/pref.html){.reference .internal}
 
 [Getting started]{.caption-text}
 
--   [1. Introduction](../intro/intro.html){.reference .internal}
--   [2. Purpose of operating systems](../intro/purpose.html){.reference .internal}
--   [3. Operating System Structure & Unix/Linux](../intro/structure.html){.reference .internal}
--   [4. Operating System Abstractions](../intro/abstractions.html){.reference .internal}
--   [5. What you should know](../intro/tools.html){.reference .internal}
-    []{.toctree-toggle role="presentation"}
-    -   [5.1. The C Programming Language](../intro/tools-c.html){.reference .internal}
-    -   [5.2. Shell](../intro/tools-shell.html){.reference .internal}
-    -   [5.3. Editors](../intro/tools-editors.html){.reference .internal}
-    -   [5.4. Make](../intro/tools-make.html){.reference .internal}
-    -   [5.5. Testing](../intro/tools-testing.html){.reference .internal}
-    -   [5.6. Git Basics](../intro/tools-git.html){.reference .internal}
-    -   [5.7. GDB](../intro/tools-gdb.html){.reference .internal}
+- [1. Introduction](../intro/intro.html){.reference .internal}
+- [2. Purpose of operating systems](../intro/purpose.html){.reference .internal}
+- [3. Operating System Structure & Unix/Linux](../intro/structure.html){.reference .internal}
+- [4. Operating System Abstractions](../intro/abstractions.html){.reference .internal}
+- [5. What you should know](../intro/tools.html){.reference .internal}
+  []{.toctree-toggle role="presentation"}
+  - [5.1. The C Programming Language](../intro/tools-c.html){.reference .internal}
+  - [5.2. Shell](../intro/tools-shell.html){.reference .internal}
+  - [5.3. Editors](../intro/tools-editors.html){.reference .internal}
+  - [5.4. Make](../intro/tools-make.html){.reference .internal}
+  - [5.5. Testing](../intro/tools-testing.html){.reference .internal}
+  - [5.6. Git Basics](../intro/tools-git.html){.reference .internal}
+  - [5.7. GDB](../intro/tools-gdb.html){.reference .internal}
 
 [Virtual Processor]{.caption-text}
 
--   [6. Introduction](../scheduling/intro.html){.reference .internal}
--   [7. The Process: A virtual Computer](../scheduling/process.html){.reference .internal}
--   [8. Virtualizing the CPU](../scheduling/virtual.html){.reference .internal}
--   [9. The Thread: A Virtual CPU](../scheduling/threads.html){.reference .internal}
--   [10. Scheduling](../scheduling/scheduling.html){.reference .internal}
-    []{.toctree-toggle role="presentation"}
-    -   [10.1. Scheduling Goals](../scheduling/sch-goals.html){.reference .internal}
-    -   [10.2. Simple Examples of Scheduling Policies](../scheduling/sch-simple.html){.reference .internal}
-    -   [10.3. Scheduling with Priorities](../scheduling/sch-prio.html){.reference .internal}
-    -   [10.4. Scheduling in the real world](../scheduling/sch-real.html){.reference .internal}
--   [11. Review Questions](../scheduling/review.html){.reference .internal}
+- [6. Introduction](../scheduling/intro.html){.reference .internal}
+- [7. The Process: A virtual Computer](../scheduling/process.html){.reference .internal}
+- [8. Virtualizing the CPU](../scheduling/virtual.html){.reference .internal}
+- [9. The Thread: A Virtual CPU](../scheduling/threads.html){.reference .internal}
+- [10. Scheduling](../scheduling/scheduling.html){.reference .internal}
+  []{.toctree-toggle role="presentation"}
+  - [10.1. Scheduling Goals](../scheduling/sch-goals.html){.reference .internal}
+  - [10.2. Simple Examples of Scheduling Policies](../scheduling/sch-simple.html){.reference .internal}
+  - [10.3. Scheduling with Priorities](../scheduling/sch-prio.html){.reference .internal}
+  - [10.4. Scheduling in the real world](../scheduling/sch-real.html){.reference .internal}
+- [11. Review Questions](../scheduling/review.html){.reference .internal}
 
 [Virtual Memory]{.caption-text}
 
--   [12. Introduction](../mm/intro.html){.reference .internal}
--   [13. Memory management before paged virtual memory](../mm/phys-and-seg.html){.reference .internal}
--   [14. Paged Virtual memory](../mm/pagvm.html){.reference .internal}
-    []{.toctree-toggle role="presentation"}
-    -   [14.1. Abstracting a useful interface for memory management.](../mm/vmabs.html){.reference .internal}
-    -   [14.2. Paging](../mm/virt-paging.html){.reference .internal}
-    -   [14.3. Page Tables](../mm/page-tables.html){.reference .internal}
-    -   [14.4. Memory reclaiming algorithms.](../mm/reclamation.html){.reference .internal}
-    -   [14.5. Page Sizes](../mm/page-size.html){.reference .internal}
-    -   [14.6. Memory Management Page Faults](../mm/pagefaults.html){.reference .internal}
--   [15. Buffer Cache](../mm/buffer-cache.html){.reference .internal}
--   [16. Memory management in the real world](../mm/realworld.html){.reference .internal}
--   [17. Conclusion](../mm/concl.html){.reference .internal}
--   [18. Review](../mm/review.html){.reference .internal}
+- [12. Introduction](../mm/intro.html){.reference .internal}
+- [13. Memory management before paged virtual memory](../mm/phys-and-seg.html){.reference .internal}
+- [14. Paged Virtual memory](../mm/pagvm.html){.reference .internal}
+  []{.toctree-toggle role="presentation"}
+  - [14.1. Abstracting a useful interface for memory management.](../mm/vmabs.html){.reference .internal}
+  - [14.2. Paging](../mm/virt-paging.html){.reference .internal}
+  - [14.3. Page Tables](../mm/page-tables.html){.reference .internal}
+  - [14.4. Memory reclaiming algorithms.](../mm/reclamation.html){.reference .internal}
+  - [14.5. Page Sizes](../mm/page-size.html){.reference .internal}
+  - [14.6. Memory Management Page Faults](../mm/pagefaults.html){.reference .internal}
+- [15. Buffer Cache](../mm/buffer-cache.html){.reference .internal}
+- [16. Memory management in the real world](../mm/realworld.html){.reference .internal}
+- [17. Conclusion](../mm/concl.html){.reference .internal}
+- [18. Review](../mm/review.html){.reference .internal}
 
 [File Systems]{.caption-text}
 
--   [19. Introduction](../fs/intro.html){.reference .internal}
--   [20. File System Abstraction](../fs/interface.html){.reference .internal}
--   [21. A bit about Disks](../fs/diskhw.html){.reference .internal}
--   [22. Implementation](../fs/impl.html){.reference .internal}
-    []{.toctree-toggle role="presentation"}
-    -   [22.1. File System Layout](../fs/disklayout.html){.reference .internal}
-    -   [22.2. Disk Layout:Tracking Used Space](../fs/dl_track_used.html){.reference .internal}
-    -   [22.3. Disk Layout:Tracking Free Space](../fs/dl_track_free.html){.reference .internal}
-    -   [22.4. Disk Layout:Implementing Name Space](../fs/dl_name.html){.reference .internal}
-    -   [22.5. Disk Layout:Dealing with Failures](../fs/dl_failures.html){.reference .internal}
-    -   [22.6. Disk Layout:Examples of Real World File Systems](../fs/dl_ex_exx.html){.reference .internal}
-    -   [22.7. Kernel implementation](../fs/kernelimp.html){.reference .internal}
--   [23. Review](../fs/review.html){.reference .internal}
+- [19. Introduction](../fs/intro.html){.reference .internal}
+- [20. File System Abstraction](../fs/interface.html){.reference .internal}
+- [21. A bit about Disks](../fs/diskhw.html){.reference .internal}
+- [22. Implementation](../fs/impl.html){.reference .internal}
+  []{.toctree-toggle role="presentation"}
+  - [22.1. File System Layout](../fs/disklayout.html){.reference .internal}
+  - [22.2. Disk Layout:Tracking Used Space](../fs/dl_track_used.html){.reference .internal}
+  - [22.3. Disk Layout:Tracking Free Space](../fs/dl_track_free.html){.reference .internal}
+  - [22.4. Disk Layout:Implementing Name Space](../fs/dl_name.html){.reference .internal}
+  - [22.5. Disk Layout:Dealing with Failures](../fs/dl_failures.html){.reference .internal}
+  - [22.6. Disk Layout:Examples of Real World File Systems](../fs/dl_ex_exx.html){.reference .internal}
+  - [22.7. Kernel implementation](../fs/kernelimp.html){.reference .internal}
+- [23. Review](../fs/review.html){.reference .internal}
 
 [Concurrency]{.caption-text}
 
--   [24. Introduction](../sync/sync.html){.reference .internal}
--   [25. Basic Synchronization](../sync/basic.html){.reference .internal}
-    []{.toctree-toggle role="presentation"}
-    -   [25.1. Cooperating Processes and Inter-process Communication](../sync/sharing.html){.reference .internal}
-    -   [25.2. The Critical Section Problem](../sync/criticalsection.html){.reference .internal}
-    -   [25.3. Implementing Locks](../sync/locks.html){.reference .internal}
-    -   [25.4. Ordering Thread Events](../sync/ordering.html){.reference .internal}
--   [26. Common Concurrency Bugs](../sync/concurrency_bugs.html){.reference .internal}
--   [27. Advanced Synchronization](../sync/advanced.html){.reference .internal}
-    []{.toctree-toggle role="presentation"}
-    -   [27.1. Read-Dominated Workloads](../sync/readmostly.html){.reference .internal}
-    -   [27.2. Challenges of Modern Hardware](../sync/hardware_challenges.html){.reference .internal}
-    -   [27.3. Locking in the Linux Kernel](../sync/linux_locking.html){.reference .internal}
--   [28. Review](../sync/review.html){.reference .internal}
+- [24. Introduction](../sync/sync.html){.reference .internal}
+- [25. Basic Synchronization](../sync/basic.html){.reference .internal}
+  []{.toctree-toggle role="presentation"}
+  - [25.1. Cooperating Processes and Inter-process Communication](../sync/sharing.html){.reference .internal}
+  - [25.2. The Critical Section Problem](../sync/criticalsection.html){.reference .internal}
+  - [25.3. Implementing Locks](../sync/locks.html){.reference .internal}
+  - [25.4. Ordering Thread Events](../sync/ordering.html){.reference .internal}
+- [26. Common Concurrency Bugs](../sync/concurrency_bugs.html){.reference .internal}
+- [27. Advanced Synchronization](../sync/advanced.html){.reference .internal}
+  []{.toctree-toggle role="presentation"}
+  - [27.1. Read-Dominated Workloads](../sync/readmostly.html){.reference .internal}
+  - [27.2. Challenges of Modern Hardware](../sync/hardware_challenges.html){.reference .internal}
+  - [27.3. Locking in the Linux Kernel](../sync/linux_locking.html){.reference .internal}
+- [28. Review](../sync/review.html){.reference .internal}
 
 [Other Topics]{.caption-text}
 
--   [29. Input and Output](../devices/devices.html){.reference .internal}
--   [30. More on Disks](../devices/disk2.html){.reference .internal}
--   [31. Virtualization](../virt/virt.html){.reference .internal}
--   [32. Security](#){.current .reference .internal}
+- [29. Input and Output](../devices/devices.html){.reference .internal}
+- [30. More on Disks](../devices/disk2.html){.reference .internal}
+- [31. Virtualization](../virt/virt.html){.reference .internal}
+- [32. Security](#){.current .reference .internal}
 
 [Appendices]{.caption-text}
 
--   [33. How to read this book](../misc/howto.html){.reference .internal}
--   [34. Contributing](../contributing/intro.html){.reference .internal}
-    []{.toctree-toggle role="presentation"}
-    -   [34.1. Examples](../contributing/examples.html){.reference .internal}
-    -   [34.2. Contributors](../contributing/credit.html){.reference .internal}
-    -   [34.3. Contributing](../contributing/Contributing.html){.reference .internal}
-    -   [34.6. Resources to look at](../contributing/resources.html){.reference .internal}
-    -   [34.7. Out of date](../contributing/fix.html){.reference .internal}
--   [35. Bibliography](../misc/bib.html){.reference .internal}
-:::
-:::
-:::
+- [33. How to read this book](../misc/howto.html){.reference .internal}
+- [34. Contributing](../contributing/intro.html){.reference .internal}
+  []{.toctree-toggle role="presentation"}
+  - [34.1. Examples](../contributing/examples.html){.reference .internal}
+  - [34.2. Contributors](../contributing/credit.html){.reference .internal}
+  - [34.3. Contributing](../contributing/Contributing.html){.reference .internal}
+  - [34.6. Resources to look at](../contributing/resources.html){.reference .internal}
+  - [34.7. Out of date](../contributing/fix.html){.reference .internal}
+- [35. Bibliography](../misc/bib.html){.reference .internal}
+  :::
+  :::
+  :::
 
 ::: {.sidebar-primary-items__end .sidebar-primary__section}
 :::
@@ -178,21 +178,22 @@ Back to top
 ::: article-header-buttons
 ::: {.dropdown .dropdown-launch-buttons}
 
--   [[ ![JupyterHub logo](../_static/images/logo_jupyterhub.svg) ]{.btn__icon-container} [JupyterHub]{.btn__text-container}](https://jupyterhub-opf-jupyterhub.apps.smaug.na.operate-first.cloud/hub/user-redirect/git-pull?repo=https%3A//github.com/OpenOSOrg/openos&urlpath=lab/tree/openos/content/sec/sec.ipynb&branch=main "Launch on JupyterHub"){.btn .btn-sm .dropdown-item target="_blank" bs-placement="left" bs-toggle="tooltip"}
-:::
+- [[ ![JupyterHub logo](../_static/images/logo_jupyterhub.svg) ]{.btn__icon-container} [JupyterHub]{.btn__text-container}](https://jupyterhub-opf-jupyterhub.apps.smaug.na.operate-first.cloud/hub/user-redirect/git-pull?repo=https%3A//github.com/OpenOSOrg/openos&urlpath=lab/tree/openos/content/sec/sec.ipynb&branch=main "Launch on JupyterHub"){.btn .btn-sm .dropdown-item target="_blank" bs-placement="left" bs-toggle="tooltip"}
+  :::
 
 ::: {.dropdown .dropdown-source-buttons}
 
--   [[ ]{.btn__icon-container} [Repository]{.btn__text-container}](https://github.com/OpenOSOrg/openos "Source repository"){.btn .btn-sm .btn-source-repository-button .dropdown-item target="_blank" bs-placement="left" bs-toggle="tooltip"}
--   [[ ]{.btn__icon-container} [Suggest edit]{.btn__text-container}](https://github.com/OpenOSOrg/openos/edit/main/content/sec/sec.ipynb "Suggest edit"){.btn .btn-sm .btn-source-edit-button .dropdown-item target="_blank" bs-placement="left" bs-toggle="tooltip"}
--   [[ ]{.btn__icon-container} [Open issue]{.btn__text-container}](https://github.com/OpenOSOrg/openos/issues/new?title=Issue%20on%20page%20%2Fsec/sec.html&body=Your%20issue%20content%20here. "Open an issue"){.btn .btn-sm .btn-source-issues-button .dropdown-item target="_blank" bs-placement="left" bs-toggle="tooltip"}
-:::
+- [[ ]{.btn__icon-container} [Repository]{.btn__text-container}](https://github.com/OpenOSOrg/openos "Source repository"){.btn .btn-sm .btn-source-repository-button .dropdown-item target="_blank" bs-placement="left" bs-toggle="tooltip"}
+- [[ ]{.btn__icon-container} [Suggest edit]{.btn__text-container}](https://github.com/OpenOSOrg/openos/edit/main/content/sec/sec.ipynb "Suggest edit"){.btn .btn-sm .btn-source-edit-button .dropdown-item target="_blank" bs-placement="left" bs-toggle="tooltip"}
+- [[ ]{.btn__icon-container} [Open issue]{.btn__text-container}](https://github.com/OpenOSOrg/openos/issues/new?title=Issue%20on%20page%20%2Fsec/sec.html&body=Your%20issue%20content%20here. "Open an issue"){.btn .btn-sm .btn-source-issues-button .dropdown-item target="_blank" bs-placement="left" bs-toggle="tooltip"}
+  :::
 
 ::: {.dropdown .dropdown-download-buttons}
 
--   [[ ]{.btn__icon-container} [.ipynb]{.btn__text-container}](../_sources/sec/sec.ipynb "Download source file"){.btn .btn-sm .btn-download-source-button .dropdown-item target="_blank" bs-placement="left" bs-toggle="tooltip"}
--   [ ]{.btn__icon-container} [.pdf]{.btn__text-container}
-:::
+- [[ ]{.btn__icon-container} [.ipynb]{.btn__text-container}](../_sources/sec/sec.ipynb "Download source file"){.btn .btn-sm .btn-download-source-button .dropdown-item target="_blank" bs-placement="left" bs-toggle="tooltip"}
+
+-  [ ]{.btn__icon-container} [.pdf]{.btn__text-container}
+  :::
 
 [ ]{.btn__icon-container}
 
@@ -204,70 +205,69 @@ Back to top
 :::
 
 ::: {#jb-print-docs-body .onlyprint}
+
 # Security
 
 ::: {#print-main-content}
 ::: {#jb-print-toc}
+
 <div>
 
 ## Contents
 
 </div>
 
--   [32.1. Protection](#protection){.reference .internal .nav-link}
-    -   [32.1.1. Identity and Authentication](#identity-and-authentication){.reference .internal .nav-link}
-    -   [32.1.2. Checking passwords](#checking-passwords){.reference .internal .nav-link}
-    -   [32.1.3. Centralized authentication - LDAP and Kerberos](#centralized-authentication-ldap-and-kerberos){.reference .internal .nav-link}
--   [32.2. Unix Access Control](#unix-access-control){.reference .internal .nav-link}
-    -   [32.2.1. Limitations of Unix permissions](#limitations-of-unix-permissions){.reference .internal .nav-link}
-    -   [32.2.2. Access Control Lists](#access-control-lists){.reference .internal .nav-link}
-    -   [32.2.3. Access Control List Examples](#access-control-list-examples){.reference .internal .nav-link}
-    -   [32.2.4. Other Privileged Operations](#other-privileged-operations){.reference .internal .nav-link}
--   [32.3. SELinux](#selinux){.reference .internal .nav-link}
-    -   [32.3.1. Control of Information Flow](#control-of-information-flow){.reference .internal .nav-link}
-        -   [32.3.1.1. Review Questions](#review-questions){.reference .internal .nav-link}
--   [32.4. Attacks --- Stack Overflow](#attacks-stack-overflow){.reference .internal .nav-link}
-    -   [32.4.1. Security - SQL Injection](#security-sql-injection){.reference .internal .nav-link}
-    -   [32.4.2. SSL and Connection Security](#ssl-and-connection-security){.reference .internal .nav-link}
-:::
-:::
-:::
+- [32.1. Protection](#protection){.reference .internal .nav-link}
+  - [32.1.1. Identity and Authentication](#identity-and-authentication){.reference .internal .nav-link}
+  - [32.1.2. Checking passwords](#checking-passwords){.reference .internal .nav-link}
+  - [32.1.3. Centralized authentication - LDAP and Kerberos](#centralized-authentication-ldap-and-kerberos){.reference .internal .nav-link}
+- [32.2. Unix Access Control](#unix-access-control){.reference .internal .nav-link}
+  - [32.2.1. Limitations of Unix permissions](#limitations-of-unix-permissions){.reference .internal .nav-link}
+  - [32.2.2. Access Control Lists](#access-control-lists){.reference .internal .nav-link}
+  - [32.2.3. Access Control List Examples](#access-control-list-examples){.reference .internal .nav-link}
+  - [32.2.4. Other Privileged Operations](#other-privileged-operations){.reference .internal .nav-link}
+- [32.3. SELinux](#selinux){.reference .internal .nav-link}
+  - [32.3.1. Control of Information Flow](#control-of-information-flow){.reference .internal .nav-link}
+    - [32.3.1.1. Review Questions](#review-questions){.reference .internal .nav-link}
+- [32.4. Attacks --- Stack Overflow](#attacks-stack-overflow){.reference .internal .nav-link}
+  - [32.4.1. Security - SQL Injection](#security-sql-injection){.reference .internal .nav-link}
+  - [32.4.2. SSL and Connection Security](#ssl-and-connection-security){.reference .internal .nav-link}
+    :::
+    :::
+    :::
 
 ::: {#searchbox}
 :::
 
 ::: {#security .section .tex2jax_ignore .mathjax_ignore}
-# [32. ]{.section-number}Security[\#](#security "Link to this heading"){.headerlink}
+
+# [32. ] {.section-number}Security[\#](#security "Link to this heading") {.headerlink}
 
 The term computer security covers a number of areas and goals. Most of them fall under the following categories:
 
--   Confidentiality of data. As a user of a computer system, this allows you to prevent others from accessing information which you wish to keep private, such as email or passwords.
-
--   Confidentiality of actions. This lets you prevent others from observing what programs you run and what files or external resources you access.
-
--   Integrity of data. Your data will not be modified or deleted without your permission.
-
--   Integrity of operations. Commands should do what they are supposed to do. For example, when you type ls you should get a directory listing, rather than a script that sends your passwords to a secret website in Russia.
-
--   Availability. A system will not stop running when you need it to be operational.
+- Confidentiality of data. As a user of a computer system, this allows you to prevent others from accessing information which you wish to keep private, such as email or passwords.
+- Confidentiality of actions. This lets you prevent others from observing what programs you run and what files or external resources you access.
+- Integrity of data. Your data will not be modified or deleted without your permission.
+- Integrity of operations. Commands should do what they are supposed to do. For example, when you type ls you should get a directory listing, rather than a script that sends your passwords to a secret website in Russia.
+- Availability. A system will not stop running when you need it to be operational.
 
 With the rise of the Internet, security has become a much broader field, much of it related to either networking or the behavior of applications such as web browsers. This chapter will cover operating system features which enable computer security, and which reduce the risks from security flaws in application software; the field of computing security is much larger, however[[\[]{.fn-bracket}1[\]]{.fn-bracket}](#id10){#id1 .footnote-reference .brackets role="doc-noteref"}.
 
 ::: {#protection .section}
-## [32.1. ]{.section-number}Protection[\#](#protection "Link to this heading"){.headerlink}
+
+## [32.1. ] {.section-number}Protection[\#](#protection "Link to this heading") {.headerlink}
 
 Much of security involves protection: deciding whether or not to allow an operation based on a series of rules. The purpose of protection is to ensure the security goals described above, by applying these rules to computing operations, allowing some operations and forbiding others. (This is not sufficient for full security, as seen in the discussion below of software vulnerabilities, but it helps.) These rules are typically based on a simple model, of actors, objects, and actions:
 
--   Actors. These perform the actions. At the lowest level these are almost always processes, but they are typically identified by a text or numeric user ID, which is typically associated with either an actual person or a system service.
-
--   Objects. These are the things which are being protected: usually files or directories, but sometimes processes, special devices, configurations, or other aspects of the system which can be modified.
-
--   Actions. These are performed on objects. The most common actions are read and write, but others can include creating and deleting files, killing a process, or rebooting the system.
+- Actors. These perform the actions. At the lowest level these are almost always processes, but they are typically identified by a text or numeric user ID, which is typically associated with either an actual person or a system service.
+- Objects. These are the things which are being protected: usually files or directories, but sometimes processes, special devices, configurations, or other aspects of the system which can be modified.
+- Actions. These are performed on objects. The most common actions are read and write, but others can include creating and deleting files, killing a process, or rebooting the system.
 
 The goal of the operating system's protection or *access control* mechanisms is to express and enforce policies which determine whether a particular combination of an actor performing an action on an object is to be allowed or denied.
 
 ::: {#identity-and-authentication .section}
-### [32.1.1. ]{.section-number}Identity and Authentication[\#](#identity-and-authentication "Link to this heading"){.headerlink}
+
+### [32.1.1. ] {.section-number}Identity and Authentication[\#](#identity-and-authentication "Link to this heading") {.headerlink}
 
 In a Unix-like operating system, the actual actors are processes, which perform actions by issuing system calls. However specifying rules based on the processes themselves---e.g. process 10 may access file `"/home/pjd"`{.docutils .literal .notranslate}---will not work, because processes are created dynamically: rules could only be made for processes in existence at that time, and not for ones created in the future.
 
@@ -279,17 +279,16 @@ In practice this requires a login process, or *authentication*, in which an exte
 
 Most authentication mechanisms can be classified as one of three types, based on the type of verification provided by the user:
 
-1.  *Something you know*: e.g. a password. This is the most common form of authentication, due to ease of implementation.
-
-2.  *Something you have*: like a key to a lock, an RSA SecurID token, etc. More complicated to administer, but more difficult for an adversary to obtain.
-
-3.  *Something you are*: often biometric data, such as a fingerprint.
+1. *Something you know*: e.g. a password. This is the most common form of authentication, due to ease of implementation.
+2. *Something you have*: like a key to a lock, an RSA SecurID token, etc. More complicated to administer, but more difficult for an adversary to obtain.
+3. *Something you are*: often biometric data, such as a fingerprint.
 
 You have undoubtedly used many password-authenticated processes; in addition you may have used other methods such as a SecureID token or fingerprint scanner. There are advantages and disadvantages to each type of authentication; however this class focuses on passwords as they are the most widely used.
 :::
 
 ::: {#checking-passwords .section}
-### [32.1.2. ]{.section-number}Checking passwords[\#](#checking-passwords "Link to this heading"){.headerlink}
+
+### [32.1.2. ] {.section-number}Checking passwords[\#](#checking-passwords "Link to this heading") {.headerlink}
 
 Securely storing and checking passwords is difficult, and various methods have been used over the years. The primary alternatives are as follows.
 
@@ -310,17 +309,17 @@ As machines (especially GPUs) become faster and faster, even this method has bec
 
 ::: {.highlight-default .notranslate}
 ::: highlight
-    pjd@cs5600-vbox:~$ ls -l /etc/shadow /etc/passwd
-    -rw-r--r-- 1 root root   1061 Aug 24  2013 /etc/passwd
-    -rw-r----- 1 root shadow  867 Aug 24  2013 /etc/shadow
-    pjd@cs5600-vbox:~$ tail -2 /etc/passwd
-    student:x:1000:1000:A,,,:/home/student:/bin/bash
-    pjd:x:1001:1001:Peter Desnoyers,,,:/home/pjd:/bin/bash
-    pjd@cs5600-vbox:~$ sudo tail -2 /etc/shadow
-    student:$6$JjiTdyS2$cvbtxgVxMwMI5fL0If5Dc90JRuds9yolCKGHc/52ET1tLwksji/
-               SN05pksqdwACztcvhIyCDRfAt9lrK133WA/:15935:0:99999:7:::
-    pjd:$6$wz5.BTqz$RXkmlCnbb0aoA7C67zf2zL7FokmdKLoc51MLdn7jcDe/JMHzs7iePBC
-               NEy7O7ZGbVFIl4wTEbi5a8yhhQALnd1:15941:0:99999:7:::
+pjd@cs5600-vbox:~$ ls -l /etc/shadow /etc/passwd
+-rw-r--r-- 1 root root   1061 Aug 24  2013 /etc/passwd
+-rw-r----- 1 root shadow  867 Aug 24  2013 /etc/shadow
+pjd@cs5600-vbox:~$ tail -2 /etc/passwd
+student:x:1000:1000:A,,,:/home/student:/bin/bash
+pjd:x:1001:1001:Peter Desnoyers,,,:/home/pjd:/bin/bash
+pjd@cs5600-vbox:~$ sudo tail -2 /etc/shadow
+student:$6$JjiTdyS2$cvbtxgVxMwMI5fL0If5Dc90JRuds9yolCKGHc/52ET1tLwksji/
+SN05pksqdwACztcvhIyCDRfAt9lrK133WA/:15935:0:99999:7:::
+pjd:$6$wz5.BTqz$RXkmlCnbb0aoA7C67zf2zL7FokmdKLoc51MLdn7jcDe/JMHzs7iePBC
+NEy7O7ZGbVFIl4wTEbi5a8yhhQALnd1:15941:0:99999:7:::
 :::
 :::
 :::
@@ -329,7 +328,8 @@ As machines (especially GPUs) become faster and faster, even this method has bec
 :::
 
 ::: {#centralized-authentication-ldap-and-kerberos .section}
-### [32.1.3. ]{.section-number}Centralized authentication - LDAP and Kerberos[\#](#centralized-authentication-ldap-and-kerberos "Link to this heading"){.headerlink}
+
+### [32.1.3. ] {.section-number}Centralized authentication - LDAP and Kerberos[\#](#centralized-authentication-ldap-and-kerberos "Link to this heading") {.headerlink}
 
 Modern computer systems frequently use centralized password administration: for instance, when you log in to a CCIS workstation your password is not checked locally, but rather against a central authentication server. The most common used mechanisms are LDAP and Kerberos, frequently used as part of Microsoft's Active Directory service. LDAP (lightweight directory access protocol) is a general-purpose directory protocol that can store information about people, machines, and just about anything else that a computer might want to name; an example entry is shown in [[Listing 32.2]{.std .std-numref}](#fig-ldap){.reference .internal}.
 
@@ -340,18 +340,18 @@ Modern computer systems frequently use centralized password administration: for 
 
 ::: {.highlight-default .notranslate}
 ::: highlight
-    # pjd, people, ccs.neu.edu
-              dn: uid=pjd,ou=people,dc=ccs,dc=neu,dc=edu
-              displayName: Peter J. Desnoyers
-              cn: pjd
-              loginShell: /bin/bash
-              uidNumber: 11415
-              gidNumber: 65100
-              sn: Desnoyers
-              homeDirectory: /home/pjd
-              mail: pjd@ccs.neu.edu
-              givenName: Peter
-               ...
+# pjd, people, ccs.neu.edu
+dn: uid=pjd,ou=people,dc=ccs,dc=neu,dc=edu
+displayName: Peter J. Desnoyers
+cn: pjd
+loginShell: /bin/bash
+uidNumber: 11415
+gidNumber: 65100
+sn: Desnoyers
+homeDirectory: /home/pjd
+mail: pjd@ccs.neu.edumailto:pjd@ccs.neu.edu
+givenName: Peter
+...
 :::
 :::
 :::
@@ -363,28 +363,30 @@ Kerberos is a more general-purpose authentication mechanism that allows a server
 :::
 
 ::: {#unix-access-control .section}
-## [32.2. ]{.section-number}Unix Access Control[\#](#unix-access-control "Link to this heading"){.headerlink}
+
+## [32.2. ] {.section-number}Unix Access Control[\#](#unix-access-control "Link to this heading") {.headerlink}
 
 Basic security in an operating system is performed by access control: the process of determining whether each OS action will be allowed, based on the actor (determined by information like a user ID), the specific object (e.g. a file), and object permissions. The desired operation can be described by an access control matrix, such as this one or four users, 3 files and 1 directory:
 
 ::: pst-scrollable-table-container
-          file1        file2        dir1         file3
-  ------- ------------ ------------ ------------ ------------
-  user1                read                      read/write
-  user2   read         read         read/write   read
-  user3   read         read                      
-  user4   read/write   read/write                
+file1        file2        dir1         file3
 
-  : [Table 32.1 ]{.caption-number}[Simple access matrix (again)]{.caption-text}[\#](#fig-sec-simple "Link to this table"){.headerlink}
+---
+
+user1                read                      read/write
+user2   read         read         read/write   read
+user3   read         read
+user4   read/write   read/write
+
+: [Table 32.1 ]{.caption-number}[Simple access matrix (again)]{.caption-text}[\#](#fig-sec-simple "Link to this table"){.headerlink}
 :::
 
 To be more specific, the Unix security model has the following parts:
 
 **Actors**: Users. User identity (and file ownership) is described by two IDs:
 
-1.  User id (`uid`{.docutils .literal .notranslate})
-
-2.  Group id (`gid`{.docutils .literal .notranslate})
+1. User id (`uid`{.docutils .literal .notranslate})
+2. Group id (`gid`{.docutils .literal .notranslate})
 
 In addition there are permissions for *world*---i.e. any user.
 
@@ -401,8 +403,8 @@ Users may belong to more than one group: as an example, user pjd belongs to grou
 
 ::: {.highlight-default .notranslate}
 ::: highlight
-    pjd@login:~$ id pjd
-    uid=11415(pjd) gid=65100(faculty) groups=1254(cs5600),1294(sssl),65100(faculty)
+pjd@login:~$ id pjd
+uid=11415(pjd) gid=65100(faculty) groups=1254(cs5600),1294(sssl),65100(faculty)
 :::
 :::
 :::
@@ -422,18 +424,18 @@ Permissions are interpreted as follows:
 
 ::: {.highlight-default .notranslate}
 ::: highlight
-    check(process, action, file):
-          if process.uid = file.uid:
-             if action in file.perm.owner
-                allow
-             else deny
-          if process.gid = file.gid:
-             if action in file.perm.group
-                allow
-             else deny
-          if action in file.perm.world:
-             allow
-          else deny
+check(process, action, file):
+if process.uid = file.uid:
+if action in file.perm.owner
+allow
+else deny
+if process.gid = file.gid:
+if action in file.perm.group
+allow
+else deny
+if action in file.perm.world:
+allow
+else deny
 :::
 :::
 :::
@@ -441,45 +443,48 @@ Permissions are interpreted as follows:
 As an example, the access control matrix from earlier:
 
 ::: pst-scrollable-table-container
-          file1        file2        dir1         file3
-  ------- ------------ ------------ ------------ ------------
-  user1   \-           read         \-           read/write
-  user2   read         read         read/write   read
-  user3   read         read         \-           \-
-  user4   read/write   read/write   \-           \-
+file1        file2        dir1         file3
 
-  : [Table 32.2 ]{.caption-number}[Simple access matrix (again)]{.caption-text}[\#](#fig-sec-simple2 "Link to this table"){.headerlink}
+---
+
+user1   \-           read         \-           read/write
+user2   read         read         read/write   read
+user3   read         read         \-           \-
+user4   read/write   read/write   \-           \-
+
+: [Table 32.2 ]{.caption-number}[Simple access matrix (again)]{.caption-text}[\#](#fig-sec-simple2 "Link to this table"){.headerlink}
 :::
 
 can be encoded in the set of permissions shown below.
 
 ::: {.highlight-default .notranslate}
 ::: highlight
-    group1 = {user2,user3,user4}
-    file1:  owner = user4, group = group1
-                    permissions = {owner = 'rw-', group = 'r--', other = '---'}
-    file2:  owner = user4, group = [doesn't matter]
-            permissions = {owner = 'rw-', group = 'r--', other = 'r--'}
-    dir1:   owner = user2, group = [doesn't matter]
-                    permissions = {owner = 'rw-', group = '---', other = '---'}
-    group2 = {user1,user2}
-    file3:  owner = user1, group = group2
-                    permissions = {owner = 'rw-', group = 'r--', other = '---'}
+group1 = {user2,user3,user4}
+file1:  owner = user4, group = group1
+permissions = {owner = 'rw-', group = 'r--', other = '---'}
+file2:  owner = user4, group = [doesn't matter]
+permissions = {owner = 'rw-', group = 'r--', other = 'r--'}
+dir1:   owner = user2, group = [doesn't matter]
+permissions = {owner = 'rw-', group = '---', other = '---'}
+group2 = {user1,user2}
+file3:  owner = user1, group = group2
+permissions = {owner = 'rw-', group = 'r--', other = '---'}
 :::
 :::
 
 ::: {#limitations-of-unix-permissions .section}
-### [32.2.1. ]{.section-number}Limitations of Unix permissions[\#](#limitations-of-unix-permissions "Link to this heading"){.headerlink}
+
+### [32.2.1. ] {.section-number}Limitations of Unix permissions[\#](#limitations-of-unix-permissions "Link to this heading") {.headerlink}
 
 However if we make minor changes to this access control list:
 
 ::: {.highlight-none .notranslate}
 ::: highlight
-           file1   file2   dir1   file3
+file1   file2   dir1   file3
 :::
 :::
 
-------------------------------------------------------------------------
+---
 
 user1 --- r-- --- rw- user2 r-- r-- rw-- r-- user3 rw- r-- --- rwx user4 rw- rw- --- ---
 
@@ -493,7 +498,8 @@ There are two problems here:
 :::
 
 ::: {#access-control-lists .section}
-### [32.2.2. ]{.section-number}Access Control Lists[\#](#access-control-lists "Link to this heading"){.headerlink}
+
+### [32.2.2. ] {.section-number}Access Control Lists[\#](#access-control-lists "Link to this heading") {.headerlink}
 
 Access Control Lists (ACLs) are explicit rules granting or denying access to users, and are more powerful than simple permissions. The idea is straightforward: an ACL is a list of rules, where each rule specifies a user or group, an action, and whether to allow or deny permissions.
 
@@ -501,11 +507,11 @@ Using the same example, which could not be encoded in standard Unix permissions:
 
 ::: {.highlight-none .notranslate}
 ::: highlight
-                file1   file2   dir1    file3
-        user1   ---     r--     ---     rw-
-        user2   r--     r--     rw-     r--
-        user3   rw-     r--     ---     rwx
-        user4   rw-     rw-     ---     ---
+file1   file2   dir1    file3
+user1   ---     r--     ---     rw-
+user2   r--     r--     rw-     r--
+user3   rw-     r--     ---     rwx
+user4   rw-     rw-     ---     ---
 :::
 :::
 
@@ -513,16 +519,17 @@ the desired access to `file1`{.docutils .literal .notranslate} can be expressed 
 
 ::: {.highlight-default .notranslate}
 ::: highlight
-    file1:      owner = user4, group = {user4,user3}
-            owner: rw-, group: rw-, user2: r--, other: ---
-    file3:      owner = user3, group = {user3, user1}
-            owner: rwx, group: rw-, user2: r--, other: ---
+file1:      owner = user4, group = {user4,user3}
+owner: rw-, group: rw-, user2: r--, other: ---
+file3:      owner = user3, group = {user3, user1}
+owner: rwx, group: rw-, user2: r--, other: ---
 :::
 :::
 :::
 
 ::: {#access-control-list-examples .section}
-### [32.2.3. ]{.section-number}Access Control List Examples[\#](#access-control-list-examples "Link to this heading"){.headerlink}
+
+### [32.2.3. ] {.section-number}Access Control List Examples[\#](#access-control-list-examples "Link to this heading") {.headerlink}
 
 This example uses OSX access control lists; however, Linux and Windows have similar mechanisms. We start with three user IDs: `pjd`{.docutils .literal .notranslate}, `guest`{.docutils .literal .notranslate}, and `joe`{.docutils .literal .notranslate}.
 
@@ -530,12 +537,12 @@ First a file is created, made readable by all users, and an ACL rule is added de
 
 ::: {.highlight-default .notranslate}
 ::: highlight
-    pjd$ echo 'file 1 contents' > file.1
-    pjd$ chmod u=r,g=r,o=r file.1
-    pjd$ chmod +a 'joe deny read' file.1
-    pjd$ ls -le file.1
-    -r--r--r--+ 1 pjd  wheel  16 Aug 28 14:20 file.1
-     0: user:joe deny read
+pjd$ echo 'file 1 contents' > file.1
+pjd$ chmod u=r,g=r,o=r file.1
+pjd$ chmod +a 'joe deny read' file.1
+pjd$ ls -le file.1
+-r--r--r--+ 1 pjd  wheel  16 Aug 28 14:20 file.1
+0: user:joe deny read
 :::
 :::
 
@@ -543,12 +550,12 @@ The file can now be read by both `pjd`{.docutils .literal .notranslate} and `gue
 
 ::: {.highlight-default .notranslate}
 ::: highlight
-    pjd$ cat file.1
-    file 1 contents
-    joe$ cat file.1
-    cat: file.1: Permission denied
-    guest$ cat file.1
-    file 1 contents
+pjd$ cat file.1
+file 1 contents
+joe$ cat file.1
+cat: file.1: Permission denied
+guest$ cat file.1
+file 1 contents
 :::
 :::
 
@@ -556,11 +563,11 @@ Now we create a second file, set it owner read-only, and a rule is added giving 
 
 ::: {.highlight-default .notranslate}
 ::: highlight
-    pjd$ echo 'file 2 contents' > file.2        
-    pjd$ chmod u=r,g=,o= file.2 
-    pjd$ ls -le file.2
-     -r--------+ 1 pjd  wheel  16 Aug 28 14:20 file.2
-         0: user:joe allow read 
+pjd$ echo 'file 2 contents' > file.2
+pjd$ chmod u=r,g=,o= file.2
+pjd$ ls -le file.2
+-r--------+ 1 pjd  wheel  16 Aug 28 14:20 file.2
+0: user:joe allow read
 :::
 :::
 
@@ -568,34 +575,32 @@ Now the file can be read by `pjd`{.docutils .literal .notranslate} and `joe`{.do
 
 ::: {.highlight-default .notranslate}
 ::: highlight
-    pjd$ cat file.2
-    file 2 contents
-    joe$ cat file.2
-    file 2 contents
-    guest$ cat file.2
-    cat: file.2: Permission denied
+pjd$ cat file.2
+file 2 contents
+joe$ cat file.2
+file 2 contents
+guest$ cat file.2
+cat: file.2: Permission denied
 :::
 :::
 :::
 
 ::: {#other-privileged-operations .section}
-### [32.2.4. ]{.section-number}Other Privileged Operations[\#](#other-privileged-operations "Link to this heading"){.headerlink}
+
+### [32.2.4. ] {.section-number}Other Privileged Operations[\#](#other-privileged-operations "Link to this heading") {.headerlink}
 
 Most Linux security checking is handled by a combination of the following rules:
 
--   File system permissions
+- File system permissions
+- Signal permissions
 
--   Signal permissions
+  - A non-root process can only signal processes with the same user ID.
+- Super-user
 
-    -   A non-root process can only signal processes with the same user ID.
+  - User ID 0 (traditionally named "root") may access any file or signal any process; dangerous kernel operations can only be performed if the current user id is 0.
+- Set UID
 
--   Super-user
-
-    -   User ID 0 (traditionally named "root") may access any file or signal any process; dangerous kernel operations can only be performed if the current user id is 0.
-
--   Set UID
-
-    -   This allows users to invoke functions with elevated privileges when appropriate.
+  - This allows users to invoke functions with elevated privileges when appropriate.
 
 Most security checking in Linux / Unix is handled by file system permissions. As an example, system utilities need direct access to the disk (e.g. to format a new file system); normal users are prevented from reformatting the disk by the permissions on the special file representing the disk device (e.g. `/dev/sd0`{.docutils .literal .notranslate})
 
@@ -608,7 +613,8 @@ Finally, the setuid permission flag on a file tells the kernel that when the fil
 :::
 
 ::: {#selinux .section}
-## [32.3. ]{.section-number}SELinux[\#](#selinux "Link to this heading"){.headerlink}
+
+## [32.3. ] {.section-number}SELinux[\#](#selinux "Link to this heading") {.headerlink}
 
 An alternate security mechanism available in Linux is called SELinux, or Security-Enhanced Linux. This is an enhancement to the normal Linux security model, which allows for exceptions to normal Linux rules. As an example, normal file permissions can still deny access to a file, but in cases where permissions allow access, SELinux rules might still forbid it.
 
@@ -620,10 +626,10 @@ As an example, the password file `/etc/passwd`{.docutils .literal .notranslate} 
 
 ::: {.highlight-default .notranslate}
 ::: highlight
-    [root@localhost ~]# ls -Z /etc/passwd /etc/shadow /usr/bin/passwd
-    -rw-r--r--  root   root   system_u:object_r:etc_t          /etc/passwd
-    -r--------  root   root   system_u:object_r:shadow_t      /etc/shadow
-    -r-s--x--x  root   root   system_u:object_r:passwd_exec_t /usr/bin/passwd
+[root@localhost ~]# ls -Z /etc/passwd /etc/shadow /usr/bin/passwd
+-rw-r--r--  root   root   system_u:object_r:etc_t          /etc/passwd
+-r--------  root   root   system_u:object_r:shadow_t      /etc/shadow
+-r-s--x--x  root   root   system_u:object_r:passwd_exec_t /usr/bin/passwd
 :::
 :::
 
@@ -632,7 +638,8 @@ One SELinux policy rule states that a user enters the `passwd_t`{.docutils .lite
 Actual SELinux policies are extremely complex, containing hundreds of rules; if you are interested in finding out more there are a number of tutorials on the Internet, including [http://www.centos.org/docs/5/html/Deployment_Guide-en-US/ch-selinux.html](http://www.centos.org/docs/5/html/Deployment_Guide-en-US/ch-selinux.html){.reference .external}
 
 ::: {#control-of-information-flow .section}
-### [32.3.1. ]{.section-number}Control of Information Flow[\#](#control-of-information-flow "Link to this heading"){.headerlink}
+
+### [32.3.1. ] {.section-number}Control of Information Flow[\#](#control-of-information-flow "Link to this heading") {.headerlink}
 
 File access control is (somewhat) straightforward for an operating system to provide, as it represents a simple decision. If access is allowed, then the requested operation proceeds without interference; if it is denied, then the request fails completely.
 
@@ -647,28 +654,30 @@ In modern systems it is more common for such a gatekeeper role to be played by a
 **Blackboard**: Connections to Blackboard are web sessions, controlled directly by users, and isolation of the data itself is ensured by preventing user access to the system that Blackboard runs on. The application logic enforces a complex set of rules governing what information each user may access; thus an instructor may see all grades, while a student may only see aggregate information (e.g. averages) about other students' grades.
 
 ::: {#review-questions .section}
-#### [32.3.1.1. ]{.section-number}Review Questions[\#](#review-questions "Link to this heading"){.headerlink}
+
+#### [32.3.1.1. ] {.section-number}Review Questions[\#](#review-questions "Link to this heading") {.headerlink}
+
 :::
 :::
 :::
 
 ::: {#attacks-stack-overflow .section}
-## [32.4. ]{.section-number}Attacks --- Stack Overflow[\#](#attacks-stack-overflow "Link to this heading"){.headerlink}
+
+## [32.4. ] {.section-number}Attacks --- Stack Overflow[\#](#attacks-stack-overflow "Link to this heading") {.headerlink}
 
 ![[Fig. 32.2 ]{.caption-number}[Stack frame and buffer overflow]{.caption-text}[\#](#fig-sec-worm "Link to this image"){.headerlink}](../_images/security-fig2.png){style="width: 70%;"}
 
 In [[Fig. 32.2]{.std .std-numref}](#fig-sec-worm){.reference .internal} you can see a fragment of code that was attacked (among others) by the first piece of Internet malware, the 1988 Morris worm. The target program (`fingerd`{.docutils .literal .notranslate}) was run with a network connection for its standard input, and used the `gets`{.docutils .literal .notranslate} function to read a line of input into a buffer on the stack; it would normally return a simple reply based on that input and then exit. `Gets`{.docutils .literal .notranslate} reads a line from standard input, reading as many bytes as it takes before it finds a newline or reaches end-of-file. The buffer used, located at a lower address on the stack than the return address, was 512 bytes long, but the worm sent a 537-byte single-line message consisting of machine code, ending with a carefully chosen return address pointing at the beginning of the injected code. Since `fingerd`{.docutils .literal .notranslate} was run as the root user, the result was that when the function returned, the malware code had full control of the machine. In the years since, many lessons have been learned about preventing this sort of attack:
 
--   (application writers) Do not use `gets`{.docutils .literal .notranslate} or other functions which can overrun a fixed-length buffer. (e.g. `fgets`{.docutils .literal .notranslate} takes the buffer length as an argument)
-
--   (OS writers) Randomize the location of the stack and libraries each time a program is run, to make it more difficult to guess where an attack should return to.
-
--   (OS writers) Use the NX ("no execute") page table bit on modern processors to prevent code on the stack from being executed.
+- (application writers) Do not use `gets`{.docutils .literal .notranslate} or other functions which can overrun a fixed-length buffer. (e.g. `fgets`{.docutils .literal .notranslate} takes the buffer length as an argument)
+- (OS writers) Randomize the location of the stack and libraries each time a program is run, to make it more difficult to guess where an attack should return to.
+- (OS writers) Use the NX ("no execute") page table bit on modern processors to prevent code on the stack from being executed.
 
 Unfortunately buffer overflow vulnerabilities are still alive and well, as more sophisticated attacks have been developed to counter these techniques, as long as there is an initial application bug to give access to the stack. [[\[]{.fn-bracket}8[\]]{.fn-bracket}](#id17){#id8 .footnote-reference .brackets role="doc-noteref"}
 
 ::: {#security-sql-injection .section}
-### [32.4.1. ]{.section-number}Security - SQL Injection[\#](#security-sql-injection "Link to this heading"){.headerlink}
+
+### [32.4.1. ] {.section-number}Security - SQL Injection[\#](#security-sql-injection "Link to this heading") {.headerlink}
 
 ![Image by Randall Munroe, from Xkcd: http://xkcd.com/327/, licensedunder creative commons non-commercial license 2.5](../_images/security-xkcd.png){#fig:security:xkcd width="80%"}
 
@@ -676,8 +685,8 @@ What happened to Bobby's school's student database? Let's assume they used code 
 
 ::: {.highlight-default .notranslate}
 ::: highlight
-    cmd.commandText = "INSERT INTO Students (Name) VALUES ('" \& studentName \& "');"
-    cmd.executeNonQuery()
+cmd.commandText = "INSERT INTO Students (Name) VALUES ('" \& studentName \& "');"
+cmd.executeNonQuery()
 :::
 :::
 
@@ -685,7 +694,7 @@ So if studentName="Joey Smith", the following SQL command will be executed:
 
 ::: {.highlight-default .notranslate}
 ::: highlight
-    ``INSERT INTO Students (Name) VALUES('Joey Smith');"
+``INSERT INTO Students (Name) VALUES('Joey Smith');"
 :::
 :::
 
@@ -693,7 +702,7 @@ But if studentName="Robert'); DROP TABLE Students;--", we get:
 
 ::: {.highlight-default .notranslate}
 ::: highlight
-    ``INSERT INTO Students (Name) VALUES('Robert'); DROP TABLE Students;--);''
+``INSERT INTO Students (Name) VALUES('Robert'); DROP TABLE Students;--);''
 :::
 :::
 
@@ -701,25 +710,23 @@ Semicolon (";") is the command separator in SQL, and "" is a comment marker caus
 :::
 
 ::: {#ssl-and-connection-security .section}
-### [32.4.2. ]{.section-number}SSL and Connection Security[\#](#ssl-and-connection-security "Link to this heading"){.headerlink}
+
+### [32.4.2. ] {.section-number}SSL and Connection Security[\#](#ssl-and-connection-security "Link to this heading") {.headerlink}
 
 Secure Sockets Layer (SSL) allows two systems to establish a connection that cannot be intercepted, even by an adversary who observes every packet sent by both systems. Most importantly, it does not require any shared encryption key to be used by both systems[[\[]{.fn-bracket}9[\]]{.fn-bracket}](#id18){#id9 .footnote-reference .brackets role="doc-noteref"}. SSL relies on a combination of private- and public-key encryption:
 
--   Private-key encryption uses a private key to encrypt a message, which may then be decrypted using the same private key.
-
--   Public-key encryption uses two keys: (a) A public key to encrypt the message, and (b) a separate private key which must be used to decrypt it. In one of today's public-key systems, the public key is the product of two large prime numbers, and the private key is the two numbers themselves. The private key can be derived from the public key by factoring it, but for large numbers this is believed to be prohibitively difficult to actually do.
+- Private-key encryption uses a private key to encrypt a message, which may then be decrypted using the same private key.
+- Public-key encryption uses two keys: (a) A public key to encrypt the message, and (b) a separate private key which must be used to decrypt it. In one of today's public-key systems, the public key is the product of two large prime numbers, and the private key is the two numbers themselves. The private key can be derived from the public key by factoring it, but for large numbers this is believed to be prohibitively difficult to actually do.
 
 The simplest use of public-key encryption to provide a private connection would be for the two systems to each have public/private key pairs, send each other their public keys, and then encrypt traffic with the other system's public key. Unfortunately, public-key encryption is very computationally expensive, so instead SSL uses the following steps, sometimes called the SSL handshake:
 
-1.  The client connects to the server
-
-2.  The server sends its public key to the client
-
-3.  The client chooses a random number, encrypts it with the public key, and sends it to the server, which then decrypts it.
+1. The client connects to the server
+2. The server sends its public key to the client
+3. The client chooses a random number, encrypts it with the public key, and sends it to the server, which then decrypts it.
 
 Client and server both use this random number as the key to a private-key code --- all outgoing messages are encrypted using this key, and all incoming messages are decrypted with it. There are additional aspects of the SSL protocol to guard against impersonation and "man-in-the-middle" attacks, which are somewhat more complicated and are not covered here.
 
-------------------------------------------------------------------------
+---
 
 [[\[]{.fn-bracket}[1](#id1){role="doc-backlink"}[\]]{.fn-bracket}]{.label}
 
@@ -786,25 +793,25 @@ next
 Contents
 :::
 
--   [32.1. Protection](#protection){.reference .internal .nav-link}
-    -   [32.1.1. Identity and Authentication](#identity-and-authentication){.reference .internal .nav-link}
-    -   [32.1.2. Checking passwords](#checking-passwords){.reference .internal .nav-link}
-    -   [32.1.3. Centralized authentication - LDAP and Kerberos](#centralized-authentication-ldap-and-kerberos){.reference .internal .nav-link}
--   [32.2. Unix Access Control](#unix-access-control){.reference .internal .nav-link}
-    -   [32.2.1. Limitations of Unix permissions](#limitations-of-unix-permissions){.reference .internal .nav-link}
-    -   [32.2.2. Access Control Lists](#access-control-lists){.reference .internal .nav-link}
-    -   [32.2.3. Access Control List Examples](#access-control-list-examples){.reference .internal .nav-link}
-    -   [32.2.4. Other Privileged Operations](#other-privileged-operations){.reference .internal .nav-link}
--   [32.3. SELinux](#selinux){.reference .internal .nav-link}
-    -   [32.3.1. Control of Information Flow](#control-of-information-flow){.reference .internal .nav-link}
-        -   [32.3.1.1. Review Questions](#review-questions){.reference .internal .nav-link}
--   [32.4. Attacks --- Stack Overflow](#attacks-stack-overflow){.reference .internal .nav-link}
-    -   [32.4.1. Security - SQL Injection](#security-sql-injection){.reference .internal .nav-link}
-    -   [32.4.2. SSL and Connection Security](#ssl-and-connection-security){.reference .internal .nav-link}
-:::
-:::
-:::
-:::
+- [32.1. Protection](#protection){.reference .internal .nav-link}
+  - [32.1.1. Identity and Authentication](#identity-and-authentication){.reference .internal .nav-link}
+  - [32.1.2. Checking passwords](#checking-passwords){.reference .internal .nav-link}
+  - [32.1.3. Centralized authentication - LDAP and Kerberos](#centralized-authentication-ldap-and-kerberos){.reference .internal .nav-link}
+- [32.2. Unix Access Control](#unix-access-control){.reference .internal .nav-link}
+  - [32.2.1. Limitations of Unix permissions](#limitations-of-unix-permissions){.reference .internal .nav-link}
+  - [32.2.2. Access Control Lists](#access-control-lists){.reference .internal .nav-link}
+  - [32.2.3. Access Control List Examples](#access-control-list-examples){.reference .internal .nav-link}
+  - [32.2.4. Other Privileged Operations](#other-privileged-operations){.reference .internal .nav-link}
+- [32.3. SELinux](#selinux){.reference .internal .nav-link}
+  - [32.3.1. Control of Information Flow](#control-of-information-flow){.reference .internal .nav-link}
+    - [32.3.1.1. Review Questions](#review-questions){.reference .internal .nav-link}
+- [32.4. Attacks --- Stack Overflow](#attacks-stack-overflow){.reference .internal .nav-link}
+  - [32.4.1. Security - SQL Injection](#security-sql-injection){.reference .internal .nav-link}
+  - [32.4.2. SSL and Connection Security](#ssl-and-connection-security){.reference .internal .nav-link}
+    :::
+    :::
+    :::
+    :::
 
 ::: {.bd-footer-content__inner .container}
 ::: footer-item
@@ -812,7 +819,7 @@ By (see contributing chapter book)
 :::
 
 ::: footer-item
-© Copyright 2022.\
+© Copyright 2022.
 :::
 
 ::: footer-item

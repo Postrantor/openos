@@ -7,7 +7,6 @@ viewport:
 - width=device-width, initial-scale=1
 - width=device-width, initial-scale=1
 ---
-
 ::: {#pst-skip-link .skip-link .d-print-none}
 [Skip to main content](#main-content)
 :::
@@ -48,109 +47,110 @@ Back to top
 
 ::: sidebar-primary-item
 ::: {.bd-toc-item .navbar-nav .active}
--   [Preface](pref.html){.reference .internal}
+
+- [Preface](pref.html){.reference .internal}
 
 [Getting started]{.caption-text}
 
--   [1. Introduction](intro.html){.reference .internal}
--   [2. Purpose of operating systems](purpose.html){.reference .internal}
--   [3. Operating System Structure & Unix/Linux](structure.html){.reference .internal}
--   [4. Operating System Abstractions](#){.current .reference .internal}
--   [5. What you should know](tools.html){.reference .internal}
-    []{.toctree-toggle role="presentation"}
-    -   [5.1. The C Programming Language](tools-c.html){.reference .internal}
-    -   [5.2. Shell](tools-shell.html){.reference .internal}
-    -   [5.3. Editors](tools-editors.html){.reference .internal}
-    -   [5.4. Make](tools-make.html){.reference .internal}
-    -   [5.5. Testing](tools-testing.html){.reference .internal}
-    -   [5.6. Git Basics](tools-git.html){.reference .internal}
-    -   [5.7. GDB](tools-gdb.html){.reference .internal}
+- [1. Introduction](intro.html){.reference .internal}
+- [2. Purpose of operating systems](purpose.html){.reference .internal}
+- [3. Operating System Structure & Unix/Linux](structure.html){.reference .internal}
+- [4. Operating System Abstractions](#){.current .reference .internal}
+- [5. What you should know](tools.html){.reference .internal}
+  []{.toctree-toggle role="presentation"}
+  - [5.1. The C Programming Language](tools-c.html){.reference .internal}
+  - [5.2. Shell](tools-shell.html){.reference .internal}
+  - [5.3. Editors](tools-editors.html){.reference .internal}
+  - [5.4. Make](tools-make.html){.reference .internal}
+  - [5.5. Testing](tools-testing.html){.reference .internal}
+  - [5.6. Git Basics](tools-git.html){.reference .internal}
+  - [5.7. GDB](tools-gdb.html){.reference .internal}
 
 [Virtual Processor]{.caption-text}
 
--   [6. Introduction](../scheduling/intro.html){.reference .internal}
--   [7. The Process: A virtual Computer](../scheduling/process.html){.reference .internal}
--   [8. Virtualizing the CPU](../scheduling/virtual.html){.reference .internal}
--   [9. The Thread: A Virtual CPU](../scheduling/threads.html){.reference .internal}
--   [10. Scheduling](../scheduling/scheduling.html){.reference .internal}
-    []{.toctree-toggle role="presentation"}
-    -   [10.1. Scheduling Goals](../scheduling/sch-goals.html){.reference .internal}
-    -   [10.2. Simple Examples of Scheduling Policies](../scheduling/sch-simple.html){.reference .internal}
-    -   [10.3. Scheduling with Priorities](../scheduling/sch-prio.html){.reference .internal}
-    -   [10.4. Scheduling in the real world](../scheduling/sch-real.html){.reference .internal}
--   [11. Review Questions](../scheduling/review.html){.reference .internal}
+- [6. Introduction](../scheduling/intro.html){.reference .internal}
+- [7. The Process: A virtual Computer](../scheduling/process.html){.reference .internal}
+- [8. Virtualizing the CPU](../scheduling/virtual.html){.reference .internal}
+- [9. The Thread: A Virtual CPU](../scheduling/threads.html){.reference .internal}
+- [10. Scheduling](../scheduling/scheduling.html){.reference .internal}
+  []{.toctree-toggle role="presentation"}
+  - [10.1. Scheduling Goals](../scheduling/sch-goals.html){.reference .internal}
+  - [10.2. Simple Examples of Scheduling Policies](../scheduling/sch-simple.html){.reference .internal}
+  - [10.3. Scheduling with Priorities](../scheduling/sch-prio.html){.reference .internal}
+  - [10.4. Scheduling in the real world](../scheduling/sch-real.html){.reference .internal}
+- [11. Review Questions](../scheduling/review.html){.reference .internal}
 
 [Virtual Memory]{.caption-text}
 
--   [12. Introduction](../mm/intro.html){.reference .internal}
--   [13. Memory management before paged virtual memory](../mm/phys-and-seg.html){.reference .internal}
--   [14. Paged Virtual memory](../mm/pagvm.html){.reference .internal}
-    []{.toctree-toggle role="presentation"}
-    -   [14.1. Abstracting a useful interface for memory management.](../mm/vmabs.html){.reference .internal}
-    -   [14.2. Paging](../mm/virt-paging.html){.reference .internal}
-    -   [14.3. Page Tables](../mm/page-tables.html){.reference .internal}
-    -   [14.4. Memory reclaiming algorithms.](../mm/reclamation.html){.reference .internal}
-    -   [14.5. Page Sizes](../mm/page-size.html){.reference .internal}
-    -   [14.6. Memory Management Page Faults](../mm/pagefaults.html){.reference .internal}
--   [15. Buffer Cache](../mm/buffer-cache.html){.reference .internal}
--   [16. Memory management in the real world](../mm/realworld.html){.reference .internal}
--   [17. Conclusion](../mm/concl.html){.reference .internal}
--   [18. Review](../mm/review.html){.reference .internal}
+- [12. Introduction](../mm/intro.html){.reference .internal}
+- [13. Memory management before paged virtual memory](../mm/phys-and-seg.html){.reference .internal}
+- [14. Paged Virtual memory](../mm/pagvm.html){.reference .internal}
+  []{.toctree-toggle role="presentation"}
+  - [14.1. Abstracting a useful interface for memory management.](../mm/vmabs.html){.reference .internal}
+  - [14.2. Paging](../mm/virt-paging.html){.reference .internal}
+  - [14.3. Page Tables](../mm/page-tables.html){.reference .internal}
+  - [14.4. Memory reclaiming algorithms.](../mm/reclamation.html){.reference .internal}
+  - [14.5. Page Sizes](../mm/page-size.html){.reference .internal}
+  - [14.6. Memory Management Page Faults](../mm/pagefaults.html){.reference .internal}
+- [15. Buffer Cache](../mm/buffer-cache.html){.reference .internal}
+- [16. Memory management in the real world](../mm/realworld.html){.reference .internal}
+- [17. Conclusion](../mm/concl.html){.reference .internal}
+- [18. Review](../mm/review.html){.reference .internal}
 
 [File Systems]{.caption-text}
 
--   [19. Introduction](../fs/intro.html){.reference .internal}
--   [20. File System Abstraction](../fs/interface.html){.reference .internal}
--   [21. A bit about Disks](../fs/diskhw.html){.reference .internal}
--   [22. Implementation](../fs/impl.html){.reference .internal}
-    []{.toctree-toggle role="presentation"}
-    -   [22.1. File System Layout](../fs/disklayout.html){.reference .internal}
-    -   [22.2. Disk Layout:Tracking Used Space](../fs/dl_track_used.html){.reference .internal}
-    -   [22.3. Disk Layout:Tracking Free Space](../fs/dl_track_free.html){.reference .internal}
-    -   [22.4. Disk Layout:Implementing Name Space](../fs/dl_name.html){.reference .internal}
-    -   [22.5. Disk Layout:Dealing with Failures](../fs/dl_failures.html){.reference .internal}
-    -   [22.6. Disk Layout:Examples of Real World File Systems](../fs/dl_ex_exx.html){.reference .internal}
-    -   [22.7. Kernel implementation](../fs/kernelimp.html){.reference .internal}
--   [23. Review](../fs/review.html){.reference .internal}
+- [19. Introduction](../fs/intro.html){.reference .internal}
+- [20. File System Abstraction](../fs/interface.html){.reference .internal}
+- [21. A bit about Disks](../fs/diskhw.html){.reference .internal}
+- [22. Implementation](../fs/impl.html){.reference .internal}
+  []{.toctree-toggle role="presentation"}
+  - [22.1. File System Layout](../fs/disklayout.html){.reference .internal}
+  - [22.2. Disk Layout:Tracking Used Space](../fs/dl_track_used.html){.reference .internal}
+  - [22.3. Disk Layout:Tracking Free Space](../fs/dl_track_free.html){.reference .internal}
+  - [22.4. Disk Layout:Implementing Name Space](../fs/dl_name.html){.reference .internal}
+  - [22.5. Disk Layout:Dealing with Failures](../fs/dl_failures.html){.reference .internal}
+  - [22.6. Disk Layout:Examples of Real World File Systems](../fs/dl_ex_exx.html){.reference .internal}
+  - [22.7. Kernel implementation](../fs/kernelimp.html){.reference .internal}
+- [23. Review](../fs/review.html){.reference .internal}
 
 [Concurrency]{.caption-text}
 
--   [24. Introduction](../sync/sync.html){.reference .internal}
--   [25. Basic Synchronization](../sync/basic.html){.reference .internal}
-    []{.toctree-toggle role="presentation"}
-    -   [25.1. Cooperating Processes and Inter-process Communication](../sync/sharing.html){.reference .internal}
-    -   [25.2. The Critical Section Problem](../sync/criticalsection.html){.reference .internal}
-    -   [25.3. Implementing Locks](../sync/locks.html){.reference .internal}
-    -   [25.4. Ordering Thread Events](../sync/ordering.html){.reference .internal}
--   [26. Common Concurrency Bugs](../sync/concurrency_bugs.html){.reference .internal}
--   [27. Advanced Synchronization](../sync/advanced.html){.reference .internal}
-    []{.toctree-toggle role="presentation"}
-    -   [27.1. Read-Dominated Workloads](../sync/readmostly.html){.reference .internal}
-    -   [27.2. Challenges of Modern Hardware](../sync/hardware_challenges.html){.reference .internal}
-    -   [27.3. Locking in the Linux Kernel](../sync/linux_locking.html){.reference .internal}
--   [28. Review](../sync/review.html){.reference .internal}
+- [24. Introduction](../sync/sync.html){.reference .internal}
+- [25. Basic Synchronization](../sync/basic.html){.reference .internal}
+  []{.toctree-toggle role="presentation"}
+  - [25.1. Cooperating Processes and Inter-process Communication](../sync/sharing.html){.reference .internal}
+  - [25.2. The Critical Section Problem](../sync/criticalsection.html){.reference .internal}
+  - [25.3. Implementing Locks](../sync/locks.html){.reference .internal}
+  - [25.4. Ordering Thread Events](../sync/ordering.html){.reference .internal}
+- [26. Common Concurrency Bugs](../sync/concurrency_bugs.html){.reference .internal}
+- [27. Advanced Synchronization](../sync/advanced.html){.reference .internal}
+  []{.toctree-toggle role="presentation"}
+  - [27.1. Read-Dominated Workloads](../sync/readmostly.html){.reference .internal}
+  - [27.2. Challenges of Modern Hardware](../sync/hardware_challenges.html){.reference .internal}
+  - [27.3. Locking in the Linux Kernel](../sync/linux_locking.html){.reference .internal}
+- [28. Review](../sync/review.html){.reference .internal}
 
 [Other Topics]{.caption-text}
 
--   [29. Input and Output](../devices/devices.html){.reference .internal}
--   [30. More on Disks](../devices/disk2.html){.reference .internal}
--   [31. Virtualization](../virt/virt.html){.reference .internal}
--   [32. Security](../sec/sec.html){.reference .internal}
+- [29. Input and Output](../devices/devices.html){.reference .internal}
+- [30. More on Disks](../devices/disk2.html){.reference .internal}
+- [31. Virtualization](../virt/virt.html){.reference .internal}
+- [32. Security](../sec/sec.html){.reference .internal}
 
 [Appendices]{.caption-text}
 
--   [33. How to read this book](../misc/howto.html){.reference .internal}
--   [34. Contributing](../contributing/intro.html){.reference .internal}
-    []{.toctree-toggle role="presentation"}
-    -   [34.1. Examples](../contributing/examples.html){.reference .internal}
-    -   [34.2. Contributors](../contributing/credit.html){.reference .internal}
-    -   [34.3. Contributing](../contributing/Contributing.html){.reference .internal}
-    -   [34.6. Resources to look at](../contributing/resources.html){.reference .internal}
-    -   [34.7. Out of date](../contributing/fix.html){.reference .internal}
--   [35. Bibliography](../misc/bib.html){.reference .internal}
-:::
-:::
-:::
+- [33. How to read this book](../misc/howto.html){.reference .internal}
+- [34. Contributing](../contributing/intro.html){.reference .internal}
+  []{.toctree-toggle role="presentation"}
+  - [34.1. Examples](../contributing/examples.html){.reference .internal}
+  - [34.2. Contributors](../contributing/credit.html){.reference .internal}
+  - [34.3. Contributing](../contributing/Contributing.html){.reference .internal}
+  - [34.6. Resources to look at](../contributing/resources.html){.reference .internal}
+  - [34.7. Out of date](../contributing/fix.html){.reference .internal}
+- [35. Bibliography](../misc/bib.html){.reference .internal}
+  :::
+  :::
+  :::
 
 ::: {.sidebar-primary-items__end .sidebar-primary__section}
 :::
@@ -178,21 +178,22 @@ Back to top
 ::: article-header-buttons
 ::: {.dropdown .dropdown-launch-buttons}
 
--   [[ ![JupyterHub logo](../_static/images/logo_jupyterhub.svg) ]{.btn__icon-container} [JupyterHub]{.btn__text-container}](https://jupyterhub-opf-jupyterhub.apps.smaug.na.operate-first.cloud/hub/user-redirect/git-pull?repo=https%3A//github.com/OpenOSOrg/openos&urlpath=lab/tree/openos/content/intro/abstractions.ipynb&branch=main "Launch on JupyterHub"){.btn .btn-sm .dropdown-item target="_blank" bs-placement="left" bs-toggle="tooltip"}
-:::
+- [[ ![JupyterHub logo](../_static/images/logo_jupyterhub.svg) ]{.btn__icon-container} [JupyterHub]{.btn__text-container}](https://jupyterhub-opf-jupyterhub.apps.smaug.na.operate-first.cloud/hub/user-redirect/git-pull?repo=https%3A//github.com/OpenOSOrg/openos&urlpath=lab/tree/openos/content/intro/abstractions.ipynb&branch=main "Launch on JupyterHub"){.btn .btn-sm .dropdown-item target="_blank" bs-placement="left" bs-toggle="tooltip"}
+  :::
 
 ::: {.dropdown .dropdown-source-buttons}
 
--   [[ ]{.btn__icon-container} [Repository]{.btn__text-container}](https://github.com/OpenOSOrg/openos "Source repository"){.btn .btn-sm .btn-source-repository-button .dropdown-item target="_blank" bs-placement="left" bs-toggle="tooltip"}
--   [[ ]{.btn__icon-container} [Suggest edit]{.btn__text-container}](https://github.com/OpenOSOrg/openos/edit/main/content/intro/abstractions.ipynb "Suggest edit"){.btn .btn-sm .btn-source-edit-button .dropdown-item target="_blank" bs-placement="left" bs-toggle="tooltip"}
--   [[ ]{.btn__icon-container} [Open issue]{.btn__text-container}](https://github.com/OpenOSOrg/openos/issues/new?title=Issue%20on%20page%20%2Fintro/abstractions.html&body=Your%20issue%20content%20here. "Open an issue"){.btn .btn-sm .btn-source-issues-button .dropdown-item target="_blank" bs-placement="left" bs-toggle="tooltip"}
-:::
+- [[ ]{.btn__icon-container} [Repository]{.btn__text-container}](https://github.com/OpenOSOrg/openos "Source repository"){.btn .btn-sm .btn-source-repository-button .dropdown-item target="_blank" bs-placement="left" bs-toggle="tooltip"}
+- [[ ]{.btn__icon-container} [Suggest edit]{.btn__text-container}](https://github.com/OpenOSOrg/openos/edit/main/content/intro/abstractions.ipynb "Suggest edit"){.btn .btn-sm .btn-source-edit-button .dropdown-item target="_blank" bs-placement="left" bs-toggle="tooltip"}
+- [[ ]{.btn__icon-container} [Open issue]{.btn__text-container}](https://github.com/OpenOSOrg/openos/issues/new?title=Issue%20on%20page%20%2Fintro/abstractions.html&body=Your%20issue%20content%20here. "Open an issue"){.btn .btn-sm .btn-source-issues-button .dropdown-item target="_blank" bs-placement="left" bs-toggle="tooltip"}
+  :::
 
 ::: {.dropdown .dropdown-download-buttons}
 
--   [[ ]{.btn__icon-container} [.ipynb]{.btn__text-container}](../_sources/intro/abstractions.ipynb "Download source file"){.btn .btn-sm .btn-download-source-button .dropdown-item target="_blank" bs-placement="left" bs-toggle="tooltip"}
--   [ ]{.btn__icon-container} [.pdf]{.btn__text-container}
-:::
+- [[ ]{.btn__icon-container} [.ipynb]{.btn__text-container}](../_sources/intro/abstractions.ipynb "Download source file"){.btn .btn-sm .btn-download-source-button .dropdown-item target="_blank" bs-placement="left" bs-toggle="tooltip"}
+
+-  [ ]{.btn__icon-container} [.pdf]{.btn__text-container}
+  :::
 
 [ ]{.btn__icon-container}
 
@@ -204,30 +205,32 @@ Back to top
 :::
 
 ::: {#jb-print-docs-body .onlyprint}
+
 # Operating System Abstractions
 
 ::: {#print-main-content}
 ::: {#jb-print-toc}
+
 <div>
 
 ## Contents
 
 </div>
 
--   [4.1. Everything is a file](#everything-is-a-file){.reference .internal .nav-link}
--   [4.2. Process management](#process-management){.reference .internal .nav-link}
-    -   [4.2.1. State](#state){.reference .internal .nav-link}
-    -   [4.2.2. System calls](#system-calls){.reference .internal .nav-link}
-    -   [4.2.3. Examples](#examples){.reference .internal .nav-link}
-    -   [4.2.4. Summary](#summary){.reference .internal .nav-link}
--   [4.3. File system](#file-system){.reference .internal .nav-link}
--   [4.4. Changing stdin and stdout](#changing-stdin-and-stdout){.reference .internal .nav-link}
--   [4.5. Pipes](#pipes){.reference .internal .nav-link}
--   [4.6. Signals protecting against dreaded zombies](#signals-protecting-against-dreaded-zombies){.reference .internal .nav-link}
--   [4.7. Conclusion](#conclusion){.reference .internal .nav-link}
-:::
-:::
-:::
+- [4.1. Everything is a file](#everything-is-a-file){.reference .internal .nav-link}
+- [4.2. Process management](#process-management){.reference .internal .nav-link}
+  - [4.2.1. State](#state){.reference .internal .nav-link}
+  - [4.2.2. System calls](#system-calls){.reference .internal .nav-link}
+  - [4.2.3. Examples](#examples){.reference .internal .nav-link}
+  - [4.2.4. Summary](#summary){.reference .internal .nav-link}
+- [4.3. File system](#file-system){.reference .internal .nav-link}
+- [4.4. Changing stdin and stdout](#changing-stdin-and-stdout){.reference .internal .nav-link}
+- [4.5. Pipes](#pipes){.reference .internal .nav-link}
+- [4.6. Signals protecting against dreaded zombies](#signals-protecting-against-dreaded-zombies){.reference .internal .nav-link}
+- [4.7. Conclusion](#conclusion){.reference .internal .nav-link}
+  :::
+  :::
+  :::
 
 ::: {#searchbox}
 :::
@@ -238,7 +241,7 @@ Back to top
 ::: {#operating-system-abstractions .section .tex2jax_ignore .mathjax_ignore}
 []{#cont-gs-abstractions}
 
-# [4. ]{.section-number}Operating System Abstractions[\#](#operating-system-abstractions "Link to this heading"){.headerlink}
+# [4. ] {.section-number}Operating System Abstractions[\#](#operating-system-abstractions "Link to this heading") {.headerlink}
 
 UNIX has instilled in generations of engineers a basic aesthetic for how to design and structure complicated collections of software. In particular one learns that the designers of UNIX tried to structure the system around a small core set of ideas, "abstractions", that once understood allows a programmer to understand the rest of the system and how to get things done.
 
@@ -247,13 +250,12 @@ We first describe the fundamental abstraction of [[files]{.std .std-ref}](#cont-
 ::: {#everything-is-a-file .section}
 []{#cont-gs-abstractions-file}
 
-## [4.1. ]{.section-number}Everything is a file[\#](#everything-is-a-file "Link to this heading"){.headerlink}
+## [4.1. ] {.section-number}Everything is a file[\#](#everything-is-a-file "Link to this heading") {.headerlink}
 
 A core idea of Unix is that everything is a file, where a file is a stream of bytes. As shown in [[Fig. 4.1]{.std .std-numref}](#file-desc){.reference .internal}, the kernel maintains for each process a *file descriptor table*, where a file descriptor is an index into that table that can be used to read or write to a particular file. The system calls that work on all files are:
 
--   `n = write(desc, buffer, len)`{.docutils .literal .notranslate}: Write `len`{.docutils .literal .notranslate} bytes (or fewer if no more space is available) from `buffer`{.docutils .literal .notranslate} into a stream identified by `desc`{.docutils .literal .notranslate} and return the actual number of bytes written, `n`{.docutils .literal .notranslate}.
-
--   `n = read(desc, buffer, max)`{.docutils .literal .notranslate}: Read `max`{.docutils .literal .notranslate} bytes (or fewer if no more data is available) from stream identified by `desc`{.docutils .literal .notranslate} into `buffer`{.docutils .literal .notranslate} and return the actual number of bytes read, `n`{.docutils .literal .notranslate}.
+- `n = write(desc, buffer, len)`{.docutils .literal .notranslate}: Write `len`{.docutils .literal .notranslate} bytes (or fewer if no more space is available) from `buffer`{.docutils .literal .notranslate} into a stream identified by `desc`{.docutils .literal .notranslate} and return the actual number of bytes written, `n`{.docutils .literal .notranslate}.
+- `n = read(desc, buffer, max)`{.docutils .literal .notranslate}: Read `max`{.docutils .literal .notranslate} bytes (or fewer if no more data is available) from stream identified by `desc`{.docutils .literal .notranslate} into `buffer`{.docutils .literal .notranslate} and return the actual number of bytes read, `n`{.docutils .literal .notranslate}.
 
 To understand how to use these operations, you really need to read the manual. In Linux you can find out about everything using the **man** program. For example, `man 2 write`{.docutils .literal .notranslate} tells you everything about the `write`{.docutils .literal .notranslate} system call:
 
@@ -351,12 +353,13 @@ The remainder of this chapter introduces the core abstractions of Unix, and the 
 ::: {#process-management .section}
 []{#cont-gs-abstractions-process}
 
-## [4.2. ]{.section-number}Process management[\#](#process-management "Link to this heading"){.headerlink}
+## [4.2. ] {.section-number}Process management[\#](#process-management "Link to this heading") {.headerlink}
 
 As discussed [[previously]{.std .std-ref}](structure.html#cont-gs-structure-struc){.reference .internal}, a process is a virtual computer, and the kernel provides each process with: 1) an abstraction of an isolated CPU (while multiplexing the physical CPU between different processes), 2) a *virtual memory* abstraction of massive contiguous memory that starts at address `0x0`{.docutils .literal .notranslate}, and 3) a set of file abstractions that allow the process to persist data and communicate with other processes. After discussing the state maintained by the kernel, we discuss the interfaces the shell (or any application) can use to manipulate processes.
 
 ::: {#state .section}
-### [4.2.1. ]{.section-number}State[\#](#state "Link to this heading"){.headerlink}
+
+### [4.2.1. ] {.section-number}State[\#](#state "Link to this heading") {.headerlink}
 
 As shown in [[Fig. 4.2]{.std .std-numref}](#img-intro-proc){.reference .internal}, the kernel maintains a table of all processes, indexed by the *process id*, or `PID`{.docutils .literal .notranslate}, to keep track of all the information about each process. This includes a pointer to the file descriptor table (discussed [[earlier]{.std .std-ref}](#file-desc){.reference .internal}), as well as data structures to maintain CPU and memory management state. For CPU state, this includes all the registers that need to be loaded when the process runs.
 
@@ -370,17 +373,14 @@ In today's computers, the address space, or *virtual memory*, of a process is a 
 ::: {#system-calls .section}
 []{#cont-gs-abstractions-process-syscalls}
 
-### [4.2.2. ]{.section-number}System calls[\#](#system-calls "Link to this heading"){.headerlink}
+### [4.2.2. ] {.section-number}System calls[\#](#system-calls "Link to this heading") {.headerlink}
 
 Key system calls in traditional Unix related to processes are:
 
--   `pid = fork(void)`{.docutils .literal .notranslate}: Create a child process that is a duplicate of the parent; return 0 in child, and `PID`{.docutils .literal .notranslate} of child in parent.
-
--   `exit(status)`{.docutils .literal .notranslate}: Terminate the calling process and record the status passed in for others.
-
--   `pid = waitpid(cpid, *status...)`{.docutils .literal .notranslate}: Wait for specified child process `cpid`{.docutils .literal .notranslate} to complete (or change state), fill `*status`{.docutils .literal .notranslate} with the status passed on child's exit, and garbage collect any kernel resources; return the `PID`{.docutils .literal .notranslate} of the child process that exited (or changed state).
-
--   `err = execve(program, arguments, environment)`{.docutils .literal .notranslate}: executing the file `program`{.docutils .literal .notranslate} with specified arguments and environment information
+- `pid = fork(void)`{.docutils .literal .notranslate}: Create a child process that is a duplicate of the parent; return 0 in child, and `PID`{.docutils .literal .notranslate} of child in parent.
+- `exit(status)`{.docutils .literal .notranslate}: Terminate the calling process and record the status passed in for others.
+- `pid = waitpid(cpid, *status...)`{.docutils .literal .notranslate}: Wait for specified child process `cpid`{.docutils .literal .notranslate} to complete (or change state), fill `*status`{.docutils .literal .notranslate} with the status passed on child's exit, and garbage collect any kernel resources; return the `PID`{.docutils .literal .notranslate} of the child process that exited (or changed state).
+- `err = execve(program, arguments, environment)`{.docutils .literal .notranslate}: executing the file `program`{.docutils .literal .notranslate} with specified arguments and environment information
 
 The `fork`{.docutils .literal .notranslate} system call duplicates the calling process (referred to as the *parent*) into a new *child* process, where the only difference that enables the parent and child to distinguish themself is the return value. You can think of this logically as creating a copy of all the process memory, copying the CPU state, and copying the file descriptor table (while incrementing reference counts on all the files pointed to by the file descriptor table).
 
@@ -399,7 +399,7 @@ The `execve`{.docutils .literal .notranslate} system call executes a new program
 ::: {#examples .section}
 []{#cont-gs-abstractions-process-example}
 
-### [4.2.3. ]{.section-number}Examples[\#](#examples "Link to this heading"){.headerlink}
+### [4.2.3. ] {.section-number}Examples[\#](#examples "Link to this heading") {.headerlink}
 
 Okay let's look at some code to better understand how these process-related system calls are used, starting with `fork()`{.docutils .literal .notranslate}.
 
@@ -410,31 +410,31 @@ Okay let's look at some code to better understand how these process-related syst
 
 ::: {.highlight-c .notranslate}
 ::: highlight
-     1#include <sys/types.h>
-     2#include <unistd.h>
-     3#include <stdio.h>
-     4#include <stdlib.h>
-     5
-     6int
-     7main(int argc, char* argv[]) 
-     8{
-     9  pid_t mypid, cpid, ppid;
-    10  cpid = fork();
-    11  ppid = getppid();
-    12  mypid = getpid();
-    13
-    14  if (cpid > 0) {
-    15    /* Parent code */ 
-    16    printf("hello, from parent with pid %d, pid of child is %d\n", mypid, cpid);
-    17  } else if (cpid == 0) {
-    18    /* Child code */
-    19    printf("hello, I am child with pid %d, my parent is %d\n", mypid, ppid);
-    20  } else {
-    21    perror("fork failed\n");
-    22    exit(-1);
-    23  }
-    24  return 0;
-    25} 
+1#include <sys/types.h>
+2#include <unistd.h>
+3#include <stdio.h>
+4#include <stdlib.h>
+5
+6int
+7main(int argc, char* argv[])
+8{
+9  pid_t mypid, cpid, ppid;
+10  cpid = fork();
+11  ppid = getppid();
+12  mypid = getpid();
+13
+14  if (cpid > 0) {
+15    /* Parent code */
+16    printf("hello, from parent with pid %d, pid of child is %d\n", mypid, cpid);
+17  } else if (cpid == 0) {
+18    /* Child code */
+19    printf("hello, I am child with pid %d, my parent is %d\n", mypid, ppid);
+20  } else {
+21    perror("fork failed\n");
+22    exit(-1);
+23  }
+24  return 0;
+25}
 :::
 :::
 :::
@@ -457,41 +457,42 @@ To see how one can use the combination of `fork`{.docutils .literal .notranslate
 
 ::: {.highlight-default .notranslate}
 ::: highlight
-     1#include <sys/types.h>
-     2#include <unistd.h>
-     3#include <stdio.h>
-     4#include <stdlib.h>
-     5#include <sys/wait.h>
-     6#include "doforke.h"
-     7
-     8
-     9int
-    10do_fork_exec(char *prog, char *const argv[])
-    11{
-    12  pid_t cpid;
-    13  int status=0;
-    14  cpid = fork();
-    15  if (cpid < 0) {
-    16    perror("fork failed\n");
-    17    exit(-1);
-    18  }
-    19
-    20  if (cpid != 0) {
-    21    // parent code, we need to wait for child
-    22    waitpid(cpid,&status,0);
-    23  } else {
-    24    execve(prog, argv, 0);
-    25    perror("should never get here\n");
-    26  }
-    27  return status;
-    28} 
+1#include <sys/types.h>
+2#include <unistd.h>
+3#include <stdio.h>
+4#include <stdlib.h>
+5#include <sys/wait.h>
+6#include "doforke.h"
+7
+8
+9int
+10do_fork_exec(char *prog, char *const argv[])
+11{
+12  pid_t cpid;
+13  int status=0;
+14  cpid = fork();
+15  if (cpid < 0) {
+16    perror("fork failed\n");
+17    exit(-1);
+18  }
+19
+20  if (cpid != 0) {
+21    // parent code, we need to wait for child
+22    waitpid(cpid,&status,0);
+23  } else {
+24    execve(prog, argv, 0);
+25    perror("should never get here\n");
+26  }
+27  return status;
+28}
 :::
 :::
 :::
 :::
 
 ::: {#summary .section}
-### [4.2.4. ]{.section-number}Summary[\#](#summary "Link to this heading"){.headerlink}
+
+### [4.2.4. ] {.section-number}Summary[\#](#summary "Link to this heading") {.headerlink}
 
 So, you should now understand the abstraction of a process as a virtual computer, with CPU state and virtual memory. A process (parent) can create another process (child) by calling `fork`{.docutils .literal .notranslate} which causes the kernel to create a child with a duplicate of the CPU state and virtual memory of the parent. The child, like children everywhere, can decide to be different from its parent by `exec`{.docutils .literal .notranslate} of a different program. In that case the kernel looks at the program, and creates a new virtual address space by loading (potentially lazily as we will see) the text, initialized, and uninitialized data segments of the program into memory. You can now see how to implement the core part of any shell, reading from `stdin`{.docutils .literal .notranslate} the names of programs to execute, and creating new processes to execute those programs.
 :::
@@ -500,7 +501,7 @@ So, you should now understand the abstraction of a process as a virtual computer
 ::: {#file-system .section}
 []{#cont-gs-abstractions-fs}
 
-## [4.3. ]{.section-number}File system[\#](#file-system "Link to this heading"){.headerlink}
+## [4.3. ] {.section-number}File system[\#](#file-system "Link to this heading") {.headerlink}
 
 Normally, the programs to be executed come out of a file system, and we are often using redirection (e.g., `>`{.docutils .literal .notranslate}) to set the input or output of the program into some file in a file system. We will discuss [[later]{.std .std-ref}](../fs/interface.html#cont-fs-interface){.reference .internal} in much more detail the abstractions of a file system, but for now we briefly introduce the key information you need to know. First, it is important to realize that all Unix file systems organize information in a hierarchy as shown in [[Fig. 4.4]{.std .std-numref}](#fs-tree-logical-abs){.reference .internal}.
 
@@ -524,11 +525,9 @@ Notice that the path to `cat`{.docutils .literal .notranslate} appears in the `P
 
 Some of the system calls specific to file systems are:
 
--   `int desc = open(pathname, O_READ)`{.docutils .literal .notranslate}: Verify that file `name`{.docutils .literal .notranslate} exists and may be read, and then return a *descriptor* which may be used to refer to that file when reading it.
-
--   `int desc = open(pathname, O_WRITE | flags, mode)`{.docutils .literal .notranslate}: Verify permissions and open `name`{.docutils .literal .notranslate} for writing, creating it (or erasing existing contents) if necessary as specified in `flags`{.docutils .literal .notranslate}. Returns a descriptor which may be used for writing to that file.
-
--   `close(desc)`{.docutils .literal .notranslate}: stop using this descriptor, decrement reference count in the file, and, if the reference count is zero, free any resources allocated for it.
+- `int desc = open(pathname, O_READ)`{.docutils .literal .notranslate}: Verify that file `name`{.docutils .literal .notranslate} exists and may be read, and then return a *descriptor* which may be used to refer to that file when reading it.
+- `int desc = open(pathname, O_WRITE | flags, mode)`{.docutils .literal .notranslate}: Verify permissions and open `name`{.docutils .literal .notranslate} for writing, creating it (or erasing existing contents) if necessary as specified in `flags`{.docutils .literal .notranslate}. Returns a descriptor which may be used for writing to that file.
+- `close(desc)`{.docutils .literal .notranslate}: stop using this descriptor, decrement reference count in the file, and, if the reference count is zero, free any resources allocated for it.
 
 Every process has associated with it a *current working directory* . If the `pathname`{.docutils .literal .notranslate} argument to `open`{.docutils .literal .notranslate} starts with a `/`{.docutils .literal .notranslate}, then it is an absolute path from the top of the file tree. If it doesn't, then it is interpreted relative to the current working directory. This is convenient, since often you are doing all your work in your own directory, and you don't need to figure out where that is in the whole file system.
 
@@ -543,7 +542,8 @@ A `close`{.docutils .literal .notranslate} call tells the kernel you are not usi
 :::
 
 ::: {#changing-stdin-and-stdout .section}
-## [4.4. ]{.section-number}Changing stdin and stdout[\#](#changing-stdin-and-stdout "Link to this heading"){.headerlink}
+
+## [4.4. ] {.section-number}Changing stdin and stdout[\#](#changing-stdin-and-stdout "Link to this heading") {.headerlink}
 
 So far, we have seen how a shell can start another process (via `fork`{.docutils .literal .notranslate}) and how this child process can start running a different program (via `exec`{.docutils .literal .notranslate}), as well as how to open a file in the file system. Recall that the shell process has file descriptors 0, 1 and 2 (`stdin`{.docutils .literal .notranslate}, `stdout`{.docutils .literal .notranslate} and `stderr`{.docutils .literal .notranslate}) pointing to a character special file that represents a terminal, meaning that its input comes from a user typing characters in the terminal, and its output is displayed in the terminal. Recall also that the open file table is copied to the child process on a `fork`{.docutils .literal .notranslate} and is unchanged by an `exec`{.docutils .literal .notranslate}, so the child process running the new program will also receive its input from, and send its output to, the same terminal.
 
@@ -551,9 +551,8 @@ Now we will see how to support the `<`{.docutils .literal .notranslate} and `>`{
 
 Whenever we need the kernel to do something on behalf of a process, we need a system call, and for this purpose we use the `dup`{.docutils .literal .notranslate} system calls:
 
--   `err = dup(oldfd)`{.docutils .literal .notranslate} : creates a copy of the file descriptor `oldfd`{.docutils .literal .notranslate}, using the lowest-numbered unused file descriptor for the new descriptor.
-
--   `err = dup2(oldfd, newfd)`{.docutils .literal .notranslate} : creates a copy of the file descriptor `oldfd`{.docutils .literal .notranslate}, to `newfd`{.docutils .literal .notranslate}; closing `newfd`{.docutils .literal .notranslate} if there is already an entry there.
+- `err = dup(oldfd)`{.docutils .literal .notranslate} : creates a copy of the file descriptor `oldfd`{.docutils .literal .notranslate}, using the lowest-numbered unused file descriptor for the new descriptor.
+- `err = dup2(oldfd, newfd)`{.docutils .literal .notranslate} : creates a copy of the file descriptor `oldfd`{.docutils .literal .notranslate}, to `newfd`{.docutils .literal .notranslate}; closing `newfd`{.docutils .literal .notranslate} if there is already an entry there.
 
 So, imagine we have the following shell script:
 
@@ -561,15 +560,12 @@ So, imagine we have the following shell script:
 
 The shell would:
 
-1.  `fork`{.docutils .literal .notranslate} a child process to execute the program `foo`{.docutils .literal .notranslate}
+1. `fork`{.docutils .literal .notranslate} a child process to execute the program `foo`{.docutils .literal .notranslate}
+2. In the child process:
 
-2.  In the child process:
-
-    1.  `open`{.docutils .literal .notranslate} a file called `bar`{.docutils .literal .notranslate} in the directory `/tmp`{.docutils .literal .notranslate}
-
-    2.  use `dup2`{.docutils .literal .notranslate} to modify its `stdout`{.docutils .literal .notranslate} to use the file descriptor returned by the open
-
-    3.  `exec`{.docutils .literal .notranslate} the program `foo`{.docutils .literal .notranslate}
+   1. `open`{.docutils .literal .notranslate} a file called `bar`{.docutils .literal .notranslate} in the directory `/tmp`{.docutils .literal .notranslate}
+   2. use `dup2`{.docutils .literal .notranslate} to modify its `stdout`{.docutils .literal .notranslate} to use the file descriptor returned by the open
+   3. `exec`{.docutils .literal .notranslate} the program `foo`{.docutils .literal .notranslate}
 
 Great, now we know how to write a shell that can start a process that writes data into a file or reads data from a file specified by the user. How do we get programs to talk to each other without staging it through a file?
 :::
@@ -577,13 +573,13 @@ Great, now we know how to write a shell that can start a process that writes dat
 ::: {#pipes .section}
 []{#cont-gs-abstractions-pipes}
 
-## [4.5. ]{.section-number}Pipes[\#](#pipes "Link to this heading"){.headerlink}
+## [4.5. ] {.section-number}Pipes[\#](#pipes "Link to this heading") {.headerlink}
 
 A *pipe* is a Unix kernel abstraction to allow communication between processes. A `read`{.docutils .literal .notranslate} of the pipe will return data previously written to it in a first-in-first-out (FIFO) fashion. Pipes are unidirectional communication channels represented by a pair of file descriptors -- data can only be written into one end of the pipe, and read out of the other end. A programmer can create a pipe, and then use operations that change the entries in the file descriptor table to tie the output of one program to the input of another.
 
 A pipe is created with the following system call:
 
--   `err = pipe(&fdpair[0])`{.docutils .literal .notranslate}: creates a pipe where `fdpair`{.docutils .literal .notranslate} is an array of two file descriptors returned by the kernel.
+- `err = pipe(&fdpair[0])`{.docutils .literal .notranslate}: creates a pipe where `fdpair`{.docutils .literal .notranslate} is an array of two file descriptors returned by the kernel.
 
 After this call, `fdpair[0]`{.docutils .literal .notranslate} will have the descriptor for the entry in the file descriptor table for the read end of the pipe, and `fdpair[1]`{.docutils .literal .notranslate} will refer to the write end of the pipe. Data written to the write end of the pipe is buffered by the kernel until it is read from the read end of the pipe. A read from an empty pipe will block until there is some data in it, and will then return the max of the buffered data and the request size of the read.
 
@@ -596,54 +592,54 @@ To see how this is used, look at the following code (stolen from the Linux `man`
 
 ::: {.highlight-default .notranslate}
 ::: highlight
-     1#include <sys/types.h>
-     2#include <sys/wait.h>
-     3#include <stdio.h>
-     4#include <stdlib.h>
-     5#include <unistd.h>
-     6#include <string.h>
-     7
-     8int
-     9main(int argc, char *argv[])
-    10{
-    11  int pipefd[2];
-    12  pid_t cpid;
-    13  char buf;
-    14  
-    15  if (argc < 2) {
-    16    fprintf(stderr, "Usage: %s <string>\n", argv[0]);
-    17    exit(EXIT_FAILURE);
-    18  }
-    19  
-    20  if (pipe(pipefd) == -1) {
-    21    perror("pipe");
-    22    exit(EXIT_FAILURE);
-    23  }
-    24  
-    25  cpid = fork();
-    26  if (cpid == -1) {
-    27    perror("fork");
-    28    exit(EXIT_FAILURE);
-    29  }
-    30  
-    31  if (cpid == 0) {    /* Child reads from pipe */
-    32    // close(pipefd[1]);          /* Close unused write end */
-    33    
-    34    while (read(pipefd[0], &buf, 1) > 0)
-    35      write(STDOUT_FILENO, &buf, 1);
-    36    
-    37    write(STDOUT_FILENO, "\n", 1);
-    38    close(pipefd[0]);
-    39    _exit(EXIT_SUCCESS);
-    40    
-    41  } else {            /* Parent writes argv[1] to pipe */
-    42    close(pipefd[0]);          /* Close unused read end */
-    43    write(pipefd[1], argv[1], strlen(argv[1]));
-    44    close(pipefd[1]);          /* Reader will see EOF */
-    45    wait(NULL);                /* Wait for child */
-    46    exit(EXIT_SUCCESS);
-    47  }
-    48}
+1#include <sys/types.h>
+2#include <sys/wait.h>
+3#include <stdio.h>
+4#include <stdlib.h>
+5#include <unistd.h>
+6#include <string.h>
+7
+8int
+9main(int argc, char *argv[])
+10{
+11  int pipefd[2];
+12  pid_t cpid;
+13  char buf;
+14
+15  if (argc < 2) {
+16    fprintf(stderr, "Usage: %s <string>\n", argv[0]);
+17    exit(EXIT_FAILURE);
+18  }
+19
+20  if (pipe(pipefd) == -1) {
+21    perror("pipe");
+22    exit(EXIT_FAILURE);
+23  }
+24
+25  cpid = fork();
+26  if (cpid == -1) {
+27    perror("fork");
+28    exit(EXIT_FAILURE);
+29  }
+30
+31  if (cpid == 0) {    /* Child reads from pipe */
+32    // close(pipefd[1]);          /* Close unused write end */
+33
+34    while (read(pipefd[0], &buf, 1) > 0)
+35      write(STDOUT_FILENO, &buf, 1);
+36
+37    write(STDOUT_FILENO, "\n", 1);
+38    close(pipefd[0]);
+39    _exit(EXIT_SUCCESS);
+40
+41  } else {            /* Parent writes argv[1] to pipe */
+42    close(pipefd[0]);          /* Close unused read end */
+43    write(pipefd[1], argv[1], strlen(argv[1]));
+44    close(pipefd[1]);          /* Reader will see EOF */
+45    wait(NULL);                /* Wait for child */
+46    exit(EXIT_SUCCESS);
+47  }
+48}
 :::
 :::
 :::
@@ -658,11 +654,9 @@ So, imagine we have the following shell script:
 
 The shell would:
 
-1.  create a pipe
-
-2.  fork a process to execute foo, but before doing the `exec`{.docutils .literal .notranslate} the process should use `dup2`{.docutils .literal .notranslate} to modify its `stdout`{.docutils .literal .notranslate} to be the write side of the pipe
-
-3.  fork a process to execute bar, and that child should use `dup2`{.docutils .literal .notranslate} to modify its `stdin`{.docutils .literal .notranslate} to the read side of the pipe before doing the `exec`{.docutils .literal .notranslate}.
+1. create a pipe
+2. fork a process to execute foo, but before doing the `exec`{.docutils .literal .notranslate} the process should use `dup2`{.docutils .literal .notranslate} to modify its `stdout`{.docutils .literal .notranslate} to be the write side of the pipe
+3. fork a process to execute bar, and that child should use `dup2`{.docutils .literal .notranslate} to modify its `stdin`{.docutils .literal .notranslate} to the read side of the pipe before doing the `exec`{.docutils .literal .notranslate}.
 
 Now we can start two processes, executing different programs, that talk directly to each other through a pipe. These programs don't care that they are talking to each other, they work exactly the same way if they are talking to a terminal, a file or a pipe. Now we have all the pieces to write a shell that can compose different programs to, for example, tell me how many programs in `/usr/bin`{.docutils .literal .notranslate} have something to do with `perl`{.docutils .literal .notranslate}:
 
@@ -675,7 +669,7 @@ Now we can start two processes, executing different programs, that talk directly
 ::: {#signals-protecting-against-dreaded-zombies .section}
 []{#cont-gs-abstractions-signals}
 
-## [4.6. ]{.section-number}Signals protecting against dreaded zombies[\#](#signals-protecting-against-dreaded-zombies "Link to this heading"){.headerlink}
+## [4.6. ] {.section-number}Signals protecting against dreaded zombies[\#](#signals-protecting-against-dreaded-zombies "Link to this heading") {.headerlink}
 
 When we talked about processes, we wrote a well-behaved shell that started another process using `fork`{.docutils .literal .notranslate} and then waited for it to finish. What would happen if we didn't wait? Both the shell and the program it started would run at the same time, or at least as we will talk about [[later]{.std .std-ref}](../scheduling/intro.html#cont-vp){.reference .internal}, the kernel causes the hardware to take turns running one and then the other. This is exactly what the symbol `&`{.docutils .literal .notranslate} does, i.e., tells the shell to let the program run in parallel. As an example, if I am building something complicated, I will often do it in parallel while continuing to work on my shell, e.g., the following command runs make, redirecting all its output into the file RES, and then returns control to the user. You can every so often look at RES to see if the make is done.
 
@@ -690,13 +684,14 @@ The way Unix deals with this is by sending a signal to a parent process when a c
 
 There are a large number of signals the system can tell you about, and you can find out more about all of them with `man 7 signal`{.docutils .literal .notranslate}. In this case, the shell should register a signal handler for the `SIGCHLD`{.docutils .literal .notranslate} signal using the `sigaction`{.docutils .literal .notranslate} system call.
 
--   sigaction(signum, act, &oldact);
+- sigaction(signum, act, &oldact);
 
 The `act`{.docutils .literal .notranslate} points to a data structure `struct sigaction`{.docutils .literal .notranslate} that describes how the caller wants to handle the signal, including a pointer to a function that will be called when the signal `signum`{.docutils .literal .notranslate} is delivered to the process. If there was previously a handler registered, the `oldact`{.docutils .literal .notranslate} tells the caller what the old action was. This allows the shell to `wait`{.docutils .literal .notranslate} for zombie children in the signal handler function when it receives notification that a child process has exited.
 :::
 
 ::: {#conclusion .section}
-## [4.7. ]{.section-number}Conclusion[\#](#conclusion "Link to this heading"){.headerlink}
+
+## [4.7. ] {.section-number}Conclusion[\#](#conclusion "Link to this heading") {.headerlink}
 
 This chapter has given you a whirlwind tour of some of the key abstractions of Unix. A process is a virtual computer, with its own virtual CPU and virtual memory. You should know how to create a new process, and tell it to execute a program.
 
@@ -730,21 +725,21 @@ next
 Contents
 :::
 
--   [4.1. Everything is a file](#everything-is-a-file){.reference .internal .nav-link}
--   [4.2. Process management](#process-management){.reference .internal .nav-link}
-    -   [4.2.1. State](#state){.reference .internal .nav-link}
-    -   [4.2.2. System calls](#system-calls){.reference .internal .nav-link}
-    -   [4.2.3. Examples](#examples){.reference .internal .nav-link}
-    -   [4.2.4. Summary](#summary){.reference .internal .nav-link}
--   [4.3. File system](#file-system){.reference .internal .nav-link}
--   [4.4. Changing stdin and stdout](#changing-stdin-and-stdout){.reference .internal .nav-link}
--   [4.5. Pipes](#pipes){.reference .internal .nav-link}
--   [4.6. Signals protecting against dreaded zombies](#signals-protecting-against-dreaded-zombies){.reference .internal .nav-link}
--   [4.7. Conclusion](#conclusion){.reference .internal .nav-link}
-:::
-:::
-:::
-:::
+- [4.1. Everything is a file](#everything-is-a-file){.reference .internal .nav-link}
+- [4.2. Process management](#process-management){.reference .internal .nav-link}
+  - [4.2.1. State](#state){.reference .internal .nav-link}
+  - [4.2.2. System calls](#system-calls){.reference .internal .nav-link}
+  - [4.2.3. Examples](#examples){.reference .internal .nav-link}
+  - [4.2.4. Summary](#summary){.reference .internal .nav-link}
+- [4.3. File system](#file-system){.reference .internal .nav-link}
+- [4.4. Changing stdin and stdout](#changing-stdin-and-stdout){.reference .internal .nav-link}
+- [4.5. Pipes](#pipes){.reference .internal .nav-link}
+- [4.6. Signals protecting against dreaded zombies](#signals-protecting-against-dreaded-zombies){.reference .internal .nav-link}
+- [4.7. Conclusion](#conclusion){.reference .internal .nav-link}
+  :::
+  :::
+  :::
+  :::
 
 ::: {.bd-footer-content__inner .container}
 ::: footer-item
@@ -752,7 +747,7 @@ By (see contributing chapter book)
 :::
 
 ::: footer-item
-© Copyright 2022.\
+© Copyright 2022.
 :::
 
 ::: footer-item
