@@ -1,0 +1,794 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>10.3. Scheduling with Priorities &#8212; Introduction to Operating Systems</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+
+  
+  <link href="../_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=a3416100" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=87e54e7c" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+    <script src="../_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="../_static/doctools.js?v=888ff710"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../_static/copybutton.js?v=f281be69"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js?v=4a39c7ea"></script>
+    <script async="async" kind="hypothesis" src="https://hypothes.is/embed.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/design-tabs.js?v=f930bc37"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'scheduling/sch-prio';</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="10.4. Scheduling in the real world" href="sch-real.html" />
+    <link rel="prev" title="10.2. Simple Examples of Scheduling Policies" href="sch-simple.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../intro/pref.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/logo.png" class="logo__image only-light" alt="Introduction to Operating Systems - Home"/>
+    <script>document.write(`<img src="../_static/logo.png" class="logo__image only-dark" alt="Introduction to Operating Systems - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../intro/pref.html">
+                    Preface
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Getting started</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../intro/intro.html">1. Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../intro/purpose.html">2. Purpose of operating systems</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../intro/structure.html">3. Operating System Structure &amp; Unix/Linux</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../intro/abstractions.html">4. Operating System Abstractions</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../intro/tools.html">5. What you should know</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../intro/tools-c.html">5.1. The C Programming Language</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../intro/tools-shell.html">5.2. Shell</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../intro/tools-editors.html">5.3. Editors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../intro/tools-make.html">5.4. Make</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../intro/tools-testing.html">5.5. Testing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../intro/tools-git.html">5.6. Git Basics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../intro/tools-gdb.html">5.7. GDB</a></li>
+</ul>
+</details></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Virtual Processor</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="intro.html">6. Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="process.html">7. The Process: A virtual Computer</a></li>
+<li class="toctree-l1"><a class="reference internal" href="virtual.html">8. Virtualizing the CPU</a></li>
+<li class="toctree-l1"><a class="reference internal" href="threads.html">9. The Thread: A Virtual CPU</a></li>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="scheduling.html">10. Scheduling</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="sch-goals.html">10.1. Scheduling Goals</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sch-simple.html">10.2. Simple Examples of Scheduling Policies</a></li>
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">10.3. Scheduling with Priorities</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sch-real.html">10.4. Scheduling in the real world</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1"><a class="reference internal" href="review.html">11. Review Questions</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Virtual Memory</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../mm/intro.html">12. Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mm/phys-and-seg.html">13. Memory management before paged virtual memory</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../mm/pagvm.html">14. Paged Virtual memory</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../mm/vmabs.html">14.1. Abstracting a useful interface for memory management.</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../mm/virt-paging.html">14.2. Paging</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../mm/page-tables.html">14.3. Page Tables</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../mm/reclamation.html">14.4. Memory reclaiming algorithms.</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../mm/page-size.html">14.5. Page Sizes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../mm/pagefaults.html">14.6. Memory Management Page Faults</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1"><a class="reference internal" href="../mm/buffer-cache.html">15. Buffer Cache</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mm/realworld.html">16. Memory management in the real world</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mm/concl.html">17. Conclusion</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mm/review.html">18. Review</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">File Systems</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../fs/intro.html">19. Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../fs/interface.html">20. File System Abstraction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../fs/diskhw.html">21. A bit about Disks</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../fs/impl.html">22. Implementation</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../fs/disklayout.html">22.1. File System Layout</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../fs/dl_track_used.html">22.2. Disk Layout:Tracking Used Space</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../fs/dl_track_free.html">22.3. Disk Layout:Tracking Free Space</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../fs/dl_name.html">22.4. Disk Layout:Implementing Name Space</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../fs/dl_failures.html">22.5. Disk Layout:Dealing with Failures</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../fs/dl_ex_exx.html">22.6. Disk Layout:Examples of Real World File Systems</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../fs/kernelimp.html">22.7. Kernel implementation</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1"><a class="reference internal" href="../fs/review.html">23. Review</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Concurrency</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../sync/sync.html">24. Introduction</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../sync/basic.html">25. Basic Synchronization</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../sync/sharing.html">25.1. Cooperating Processes and Inter-process Communication</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../sync/criticalsection.html">25.2. The Critical Section Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../sync/locks.html">25.3. Implementing Locks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../sync/ordering.html">25.4. Ordering Thread Events</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1"><a class="reference internal" href="../sync/concurrency_bugs.html">26. Common Concurrency Bugs</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../sync/advanced.html">27. Advanced Synchronization</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../sync/readmostly.html">27.1. Read-Dominated Workloads</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../sync/hardware_challenges.html">27.2. Challenges of Modern Hardware</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../sync/linux_locking.html">27.3. Locking in the Linux Kernel</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1"><a class="reference internal" href="../sync/review.html">28. Review</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Other Topics</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../devices/devices.html">29. Input and Output</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../devices/disk2.html">30. More on Disks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../virt/virt.html">31. Virtualization</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sec/sec.html">32. Security</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Appendices</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../misc/howto.html">33. How to read this book</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../contributing/intro.html">34. Contributing</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../contributing/examples.html">34.1. Examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../contributing/credit.html">34.2. Contributors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../contributing/Contributing.html">34.3. Contributing</a></li>
+
+
+<li class="toctree-l2"><a class="reference internal" href="../contributing/resources.html">34.6. Resources to look at</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../contributing/fix.html">34.7. Out of date</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1"><a class="reference internal" href="../misc/bib.html">35. Bibliography</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-launch-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Launch interactive content">
+    <i class="fas fa-rocket"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://jupyterhub-opf-jupyterhub.apps.smaug.na.operate-first.cloud/hub/user-redirect/git-pull?repo=https%3A//github.com/OpenOSOrg/openos&urlpath=lab/tree/openos/content/scheduling/sch-prio.ipynb&branch=main" target="_blank"
+   class="btn btn-sm dropdown-item"
+   title="Launch on JupyterHub"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  
+    <img alt="JupyterHub logo" src="../_static/images/logo_jupyterhub.svg">
+  </span>
+<span class="btn__text-container">JupyterHub</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/OpenOSOrg/openos" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/OpenOSOrg/openos/edit/main/content/scheduling/sch-prio.ipynb" target="_blank"
+   class="btn btn-sm btn-source-edit-button dropdown-item"
+   title="Suggest edit"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-pencil-alt"></i>
+  </span>
+<span class="btn__text-container">Suggest edit</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/OpenOSOrg/openos/issues/new?title=Issue%20on%20page%20%2Fscheduling/sch-prio.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../_sources/scheduling/sch-prio.ipynb" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.ipynb</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Scheduling with Priorities</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#fixed-priority">10.3.1. Fixed Priority</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#tradeoffs">10.3.1.1. Tradeoffs</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#variable-priority-or-multilevel-feedback">10.3.2. Variable Priority or Multilevel feedback</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">10.3.2.1. Tradeoffs</a></li>
+</ul>
+</li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="scheduling-with-priorities">
+<h1><span class="section-number">10.3. </span>Scheduling with Priorities<a class="headerlink" href="#scheduling-with-priorities" title="Link to this heading">#</a></h1>
+<p>We first discuss scheduling with fixed priorites for real time, and then how priorities can be used dynamically to support an interactive system.</p>
+<section id="fixed-priority">
+<h2><span class="section-number">10.3.1. </span>Fixed Priority<a class="headerlink" href="#fixed-priority" title="Link to this heading">#</a></h2>
+<p>The core idea behind priority scheduling is that some processes may be more important than others and should be given access to the CPU first.   For example, one reasonable assumption might be that tasks of students should only run if there are no tasks from professors.  To implement this policy, the OS maintains two or more priority queues which hold tasks assigned to the corresponding priority. Runnable processes in a lower priority queue are only run if there are none in a higher priority queues.  Figure <a class="reference internal" href="#priority-sched"><span class="std std-numref">Fig. 10.8</span></a> shows a simple example of a system with 4 priority queues. In this snapshot, the next process to be given CPU time will be the first process in the priority 4 queue. Assuming no additions, the processes in queue 3 will not run until all of the ones in 4 have completed.</p>
+<figure class="align-default" id="priority-sched">
+<img alt="../_images/Priority.png" src="../_images/Priority.png" />
+<figcaption>
+<p><span class="caption-number">Fig. 10.8 </span><span class="caption-text">A simple example of a system with 5 priority queues and runnable processes in several of the queues.</span><a class="headerlink" href="#priority-sched" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<p>Let us consider a situation with three tasks shown in the table below:</p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head text-center"><p>Task</p></th>
+<th class="head text-center"><p>Start</p></th>
+<th class="head text-center"><p>Runtime</p></th>
+<th class="head text-center"><p>Priority</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-center"><p>A</p></td>
+<td class="text-center"><p>0</p></td>
+<td class="text-center"><p>6</p></td>
+<td class="text-center"><p>1</p></td>
+</tr>
+<tr class="row-odd"><td class="text-center"><p>B</p></td>
+<td class="text-center"><p>1</p></td>
+<td class="text-center"><p>2</p></td>
+<td class="text-center"><p>3</p></td>
+</tr>
+<tr class="row-even"><td class="text-center"><p>C</p></td>
+<td class="text-center"><p>2</p></td>
+<td class="text-center"><p>2</p></td>
+<td class="text-center"><p>3</p></td>
+</tr>
+<tr class="row-odd"><td class="text-center"><p>D</p></td>
+<td class="text-center"><p>3</p></td>
+<td class="text-center"><p>1</p></td>
+<td class="text-center"><p>5</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>In that case, a priority scheduler will run tasks as shown in <a class="reference internal" href="#vp-sched-pr"><span class="std std-numref">Fig. 10.9</span></a> below:</p>
+<figure class="align-default" id="vp-sched-pr">
+<img alt="../_images/Priority-tl.png" src="../_images/Priority-tl.png" />
+<figcaption>
+<p><span class="caption-number">Fig. 10.9 </span><span class="caption-text">Priority scheduling, where every task executes for a quantum of time.</span><a class="headerlink" href="#vp-sched-pr" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<p>A runs by itself until B becomes ready to run.  We then preempt A after it has accumulated one second of run time, and context switch to B since it is higher priority.  When C starts running, it is the same priority as B, so they share the CPU (i.e., we switch back and forth between them every quantum). At time 3, D enters with the highest priority, and we stop running B and C to just run it.  At that point, B has accumulated 1.5 sec of runtime, and C has accumulated .5 seconds.  Once D is done, we again share the CPU using round robin between B and C, until B has accumulated its full 2 seconds of runtime, after which we can use the CPU just for running C.  Finally, at second 6, all the other tasks are done and A, the lowest priority task, can be run until it completes.  The average turnaround time here is <span class="math notranslate nohighlight">\(((4-3) + (5-1) + (6-2) + 11)/4 = 5\)</span> seconds.</p>
+<p>Note, one challenge with a fixed priority scheme is that low priority work can starve if there is always higher priority work entering the system.</p>
+<section id="tradeoffs">
+<h3><span class="section-number">10.3.1.1. </span>Tradeoffs<a class="headerlink" href="#tradeoffs" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p><strong>Requirements:</strong></p>
+<ul>
+<li><p>User must specify priority of high priority work</p></li>
+</ul>
+</li>
+<li><p><strong>The Good:</strong></p>
+<ul>
+<li><p>Supports real time for high priority</p></li>
+</ul>
+</li>
+<li><p><strong>The Bad:</strong></p>
+<ul>
+<li><p>Bad for tasks that alternate between I/O and CPU</p></li>
+<li><p>Doesn’t do anything to maintain high utilization of non-CPU resources</p></li>
+<li><p>Poor turnaround time</p></li>
+<li><p>Wouldn’t use for batch</p></li>
+<li><p>Can result in Starvation</p></li>
+</ul>
+</li>
+</ul>
+</section>
+</section>
+<section id="variable-priority-or-multilevel-feedback">
+<span id="cont-scheduling-scheduling-policies-mlf"></span><h2><span class="section-number">10.3.2. </span>Variable Priority or Multilevel feedback<a class="headerlink" href="#variable-priority-or-multilevel-feedback" title="Link to this heading">#</a></h2>
+<p>While round robin does a better job than run to completion it doesn’t do a good job for I/O bound tasks.  If there are many CPU intensive tasks.  Consider the case of 100 CPU intensive tasks that each consume their full quantum of, say, 10msec. If the I/O intensive task only runs for a few usec, and then does some quick I/O, it might have to wait for <span class="math notranslate nohighlight">\(10msec * 100 = 1 sec\)</span> before it gets to run again.  What we really want to do is to prioritize I/O intensive tasks.   Unfortunately, we don’t know which tasks are CPU or I/O intensive a-priori, and further a task may go back and forth between being CPU and I/O intensive.</p>
+<p>A very popular scheduling algorithm for this is called <strong>Multilevel</strong> feedback.  It assumes the same kind of data structure shown in <a class="reference internal" href="#vp-sched-pr"><span class="std std-numref">Fig. 10.9</span></a>.  One simple varient of the algorithm is:</p>
+<ul class="simple">
+<li><p>When a task first starts running, we assume it is I/O intensive, and add it to the highest priority queue.</p></li>
+<li><p>if a task consumes an entire quantum, we assume it is more CPU intensive, and decrease its priority by one before adding it to the runqueue.</p></li>
+<li><p>If a task performs I/O before its quantum expires, when it becomes runnable we increase its priority (up to the highest level) before adding it to the runqueue.</p></li>
+<li><p>To avoid starvation, we periodically move all the tasks to the highest priority queue.</p></li>
+</ul>
+<p>Note, a system can support both fixed priorities, e.g., for real time tasks, and a range of priorities for dealing with general purpose tasks.</p>
+<section id="id1">
+<h3><span class="section-number">10.3.2.1. </span>Tradeoffs<a class="headerlink" href="#id1" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p><strong>Requirements:</strong></p>
+<ul>
+<li><p>requires no knowledge of task run time</p></li>
+</ul>
+</li>
+<li><p><strong>The Good:</strong></p>
+<ul>
+<li><p>Good for interactive tasks and maintaining high utilization of non-cpu resources</p></li>
+</ul>
+</li>
+<li><p><strong>The Bad:</strong></p>
+<ul>
+<li><p>Bad for real time and batch</p></li>
+<li><p>While it can deal with starvation by periodically moving tasks to high priority queue, this is a bit of a hack rather than an intrinsic part of the algorithm.</p></li>
+</ul>
+</li>
+</ul>
+</section>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./scheduling"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="sch-simple.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title"><span class="section-number">10.2. </span>Simple Examples of Scheduling Policies</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="sch-real.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title"><span class="section-number">10.4. </span>Scheduling in the real world</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#fixed-priority">10.3.1. Fixed Priority</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#tradeoffs">10.3.1.1. Tradeoffs</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#variable-priority-or-multilevel-feedback">10.3.2. Variable Priority or Multilevel feedback</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">10.3.2.1. Tradeoffs</a></li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By (see contributing chapter book)
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2022.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
